@@ -1,0 +1,16 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {american}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Understanding Gradable Adjectives}{6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}A Fucntional Perspective on Comprison Class Inference}{7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Experiments}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}A Bayesian Reference-Predication Model}{9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Discussion}{10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Appendix}{12}%
