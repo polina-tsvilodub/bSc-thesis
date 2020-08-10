@@ -1,0 +1,665 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Aparicio2015}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7adaf7898845a21ee55ce5ce94483b72}{%
+           family={Aparicio},
+           familyi={A\bibinitperiod},
+           given={Helena},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=986ad88e4b50a16bf5d6fa859fd7b6b3}{%
+           family={Xiang},
+           familyi={X\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc94f2390d66eb60cfb8b4250e6abf85}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {CLC Publications}%
+      }
+      \strng{namehash}{17e2d7c4a990680dedb3c6a0aec4fa0d}
+      \strng{fullhash}{17e2d7c4a990680dedb3c6a0aec4fa0d}
+      \strng{bibnamehash}{17e2d7c4a990680dedb3c6a0aec4fa0d}
+      \strng{authorbibnamehash}{17e2d7c4a990680dedb3c6a0aec4fa0d}
+      \strng{authornamehash}{17e2d7c4a990680dedb3c6a0aec4fa0d}
+      \strng{authorfullhash}{17e2d7c4a990680dedb3c6a0aec4fa0d}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Semantics and Linguistic Theory (SALT) XXV}
+      \field{title}{Processing gradable adjectives in context: A visual world study}
+      \field{year}{2015}
+    \endentry
+    \entry{Bale2011}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f47e1a6b7f514616d50d44366af5769d}{%
+           family={Bale},
+           familyi={B\bibinitperiod},
+           given={Alan\bibnamedelima Clinton},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f47e1a6b7f514616d50d44366af5769d}
+      \strng{fullhash}{f47e1a6b7f514616d50d44366af5769d}
+      \strng{bibnamehash}{f47e1a6b7f514616d50d44366af5769d}
+      \strng{authorbibnamehash}{f47e1a6b7f514616d50d44366af5769d}
+      \strng{authornamehash}{f47e1a6b7f514616d50d44366af5769d}
+      \strng{authorfullhash}{f47e1a6b7f514616d50d44366af5769d}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper evaluates three accounts of comparison classes -- sets that rel-ativize the interpretation of gradable adjectives, often specified with for -clauses as in John is smart for a linguist. The first proposes that such classes serve as an argument to a function that determines a standard of comparison. The second maintains that these classes restrict the domain of a measure function used to map entities to degrees. The third proposes that these classes limit the kind of individuals that participate in a binary relation. This relation is then used in the construction of a scale and a measure function. It is this third account that is most consistent with the empirical data. It can explain how comparison classes fix a standard of comparison, induce presuppositions concerning the comparative subjects, and induce incommensurability in comparative constructions. This empirical result for comparison classes is significant since it sug-gests that scales in the semantic system are built from and dependent on more basic relations between individuals.}
+      \field{journaltitle}{Natural Language Semantics}
+      \field{title}{{Scales and comparison classes}}
+      \field{volume}{19}
+      \field{year}{2011}
+      \field{pages}{169\bibrangedash 190}
+      \range{pages}{22}
+    \endentry
+    \entry{bartsch1973}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6c7f0d1d976a0ac6116e15d562c943d4}{%
+           family={Bartsch},
+           familyi={B\bibinitperiod},
+           given={Renate},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fc6e9ba37c6a8359837c3992090a46f}{%
+           family={Vennemann},
+           familyi={V\bibinitperiod},
+           given={Theo},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Athenaeum Verlag}%
+      }
+      \strng{namehash}{c91ca982eeff911d590d23051060b462}
+      \strng{fullhash}{c91ca982eeff911d590d23051060b462}
+      \strng{bibnamehash}{c91ca982eeff911d590d23051060b462}
+      \strng{authorbibnamehash}{c91ca982eeff911d590d23051060b462}
+      \strng{authornamehash}{c91ca982eeff911d590d23051060b462}
+      \strng{authorfullhash}{c91ca982eeff911d590d23051060b462}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Semantic structures: A study in the relation between syntax and semantics}
+      \field{year}{1973}
+    \endentry
+    \entry{Bierwisch1989}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ba980b6b27a3899d5c38b4a3227b6f3a}{%
+           family={Bierwisch},
+           familyi={B\bibinitperiod},
+           given={Manfred},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ba980b6b27a3899d5c38b4a3227b6f3a}
+      \strng{fullhash}{ba980b6b27a3899d5c38b4a3227b6f3a}
+      \strng{bibnamehash}{ba980b6b27a3899d5c38b4a3227b6f3a}
+      \strng{authorbibnamehash}{ba980b6b27a3899d5c38b4a3227b6f3a}
+      \strng{authornamehash}{ba980b6b27a3899d5c38b4a3227b6f3a}
+      \strng{authorfullhash}{ba980b6b27a3899d5c38b4a3227b6f3a}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dimensional adjectives}
+      \field{number}{261}
+      \field{title}{The semantics of gradation}
+      \field{volume}{71}
+      \field{year}{1989}
+      \field{pages}{35}
+      \range{pages}{1}
+    \endentry
+    \entry{Cresswell1976}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9825815b15f34ea80bcd10628b15f439}{%
+           family={Cresswell},
+           familyi={C\bibinitperiod},
+           given={Max\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{9825815b15f34ea80bcd10628b15f439}
+      \strng{fullhash}{9825815b15f34ea80bcd10628b15f439}
+      \strng{bibnamehash}{9825815b15f34ea80bcd10628b15f439}
+      \strng{authorbibnamehash}{9825815b15f34ea80bcd10628b15f439}
+      \strng{authornamehash}{9825815b15f34ea80bcd10628b15f439}
+      \strng{authorfullhash}{9825815b15f34ea80bcd10628b15f439}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Montague grammar}
+      \field{title}{The semantics of degree}
+      \field{year}{1976}
+      \field{pages}{261\bibrangedash 292}
+      \range{pages}{32}
+    \endentry
+    \entry{ebeling1994children}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=15d44460e05729ef8ce8988b90a180aa}{%
+           family={Ebeling},
+           familyi={E\bibinitperiod},
+           given={Karen\bibnamedelima S},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a33ad58d3bae1d3c5315d285a20b7154}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={Susan\bibnamedelima A},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{17e40a1ef72d95a1b82118acecebd727}
+      \strng{fullhash}{17e40a1ef72d95a1b82118acecebd727}
+      \strng{bibnamehash}{17e40a1ef72d95a1b82118acecebd727}
+      \strng{authorbibnamehash}{17e40a1ef72d95a1b82118acecebd727}
+      \strng{authornamehash}{17e40a1ef72d95a1b82118acecebd727}
+      \strng{authorfullhash}{17e40a1ef72d95a1b82118acecebd727}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Child Development}
+      \field{number}{4}
+      \field{title}{Children's use of context in interpreting “big” and “little”}
+      \field{volume}{65}
+      \field{year}{1994}
+      \field{pages}{1178\bibrangedash 1192}
+      \range{pages}{15}
+    \endentry
+    \entry{Heim2000}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af07c40a1e2a7097f65e88894232630c}{%
+           family={Heim},
+           familyi={H\bibinitperiod},
+           given={Irene},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {CLC Publications}%
+      }
+      \strng{namehash}{af07c40a1e2a7097f65e88894232630c}
+      \strng{fullhash}{af07c40a1e2a7097f65e88894232630c}
+      \strng{bibnamehash}{af07c40a1e2a7097f65e88894232630c}
+      \strng{authorbibnamehash}{af07c40a1e2a7097f65e88894232630c}
+      \strng{authornamehash}{af07c40a1e2a7097f65e88894232630c}
+      \strng{authorfullhash}{af07c40a1e2a7097f65e88894232630c}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Semantics and Linguistic Theory (SALT) X}
+      \field{title}{Degree operators and scope}
+      \field{year}{2000}
+    \endentry
+    \entry{hofherr2010adjectives}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d508920f89f1b7f122eaac902f521d68}{%
+           family={Hofherr},
+           familyi={H\bibinitperiod},
+           given={P.C.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be08e157a8b18d5210adca344d9d62ca}{%
+           family={Matushansky},
+           familyi={M\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Benjamins Publishing Company}%
+      }
+      \strng{namehash}{9d9801bfcf91248819e4a306b1df2b86}
+      \strng{fullhash}{9d9801bfcf91248819e4a306b1df2b86}
+      \strng{bibnamehash}{9d9801bfcf91248819e4a306b1df2b86}
+      \strng{authorbibnamehash}{9d9801bfcf91248819e4a306b1df2b86}
+      \strng{authornamehash}{9d9801bfcf91248819e4a306b1df2b86}
+      \strng{authorfullhash}{9d9801bfcf91248819e4a306b1df2b86}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9789027288349}
+      \field{series}{Linguistik Aktuell/Linguistics Today}
+      \field{title}{Adjectives: Formal analyses in syntax and semantics}
+      \field{year}{2010}
+    \endentry
+    \entry{Kamp1975}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a05686f1bb72d8065dfd839ff46e1564}{%
+           family={Kamp},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi A.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=2b7801bff8161ad7db3bf2452f903d91}{%
+           family={Keenan},
+           familyi={K\bibinitperiod},
+           given={E.\bibnamedelimi L.},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press, Cambridge, England}%
+      }
+      \strng{namehash}{a05686f1bb72d8065dfd839ff46e1564}
+      \strng{fullhash}{a05686f1bb72d8065dfd839ff46e1564}
+      \strng{bibnamehash}{a05686f1bb72d8065dfd839ff46e1564}
+      \strng{authorbibnamehash}{a05686f1bb72d8065dfd839ff46e1564}
+      \strng{authornamehash}{a05686f1bb72d8065dfd839ff46e1564}
+      \strng{authorfullhash}{a05686f1bb72d8065dfd839ff46e1564}
+      \strng{editorbibnamehash}{2b7801bff8161ad7db3bf2452f903d91}
+      \strng{editornamehash}{2b7801bff8161ad7db3bf2452f903d91}
+      \strng{editorfullhash}{2b7801bff8161ad7db3bf2452f903d91}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Formal Semantics of Natural Language}
+      \field{title}{Two Theories about Adjectives}
+      \field{year}{1975}
+    \endentry
+    \entry{Kennedy2007}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bc94f2390d66eb60cfb8b4250e6abf85}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{bc94f2390d66eb60cfb8b4250e6abf85}
+      \strng{fullhash}{bc94f2390d66eb60cfb8b4250e6abf85}
+      \strng{bibnamehash}{bc94f2390d66eb60cfb8b4250e6abf85}
+      \strng{authorbibnamehash}{bc94f2390d66eb60cfb8b4250e6abf85}
+      \strng{authornamehash}{bc94f2390d66eb60cfb8b4250e6abf85}
+      \strng{authorfullhash}{bc94f2390d66eb60cfb8b4250e6abf85}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Linguistics and philosophy}
+      \field{number}{1}
+      \field{title}{Vagueness and grammar: The semantics of relative and absolute gradable adjectives}
+      \field{volume}{30}
+      \field{year}{2007}
+      \field{pages}{1\bibrangedash 45}
+      \range{pages}{45}
+    \endentry
+    \entry{kennedy2012}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bc94f2390d66eb60cfb8b4250e6abf85}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=881981b11c39606aa5da5eb72ba583de}{%
+           family={Fara},
+           familyi={F\bibinitperiod},
+           given={D.G.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3630f11c6a3b7c50a173f0f54f95c41f}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{bc94f2390d66eb60cfb8b4250e6abf85}
+      \strng{fullhash}{bc94f2390d66eb60cfb8b4250e6abf85}
+      \strng{bibnamehash}{bc94f2390d66eb60cfb8b4250e6abf85}
+      \strng{authorbibnamehash}{bc94f2390d66eb60cfb8b4250e6abf85}
+      \strng{authornamehash}{bc94f2390d66eb60cfb8b4250e6abf85}
+      \strng{authorfullhash}{bc94f2390d66eb60cfb8b4250e6abf85}
+      \strng{editorbibnamehash}{278783f1c15583c03a5f0d730cb6cd52}
+      \strng{editornamehash}{278783f1c15583c03a5f0d730cb6cd52}
+      \strng{editorfullhash}{278783f1c15583c03a5f0d730cb6cd52}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Routledge Companion to Philosophy of Language}
+      \field{isbn}{9780415993104}
+      \field{series}{Routledge philosophy companions}
+      \field{title}{Adjectives}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://books.google.de/books?id=cV9LvekiKKAC
+      \endverb
+      \verb{url}
+      \verb https://books.google.de/books?id=cV9LvekiKKAC
+      \endverb
+    \endentry
+    \entry{Klein1980}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=95e002ca584c2d8d701c96f08c6d589f}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Ewan},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{95e002ca584c2d8d701c96f08c6d589f}
+      \strng{fullhash}{95e002ca584c2d8d701c96f08c6d589f}
+      \strng{bibnamehash}{95e002ca584c2d8d701c96f08c6d589f}
+      \strng{authorbibnamehash}{95e002ca584c2d8d701c96f08c6d589f}
+      \strng{authornamehash}{95e002ca584c2d8d701c96f08c6d589f}
+      \strng{authorfullhash}{95e002ca584c2d8d701c96f08c6d589f}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Linguistics and Philosophy}
+      \field{number}{1}
+      \field{title}{A semantics for positive and comparative delition}
+      \field{volume}{4}
+      \field{year}{1980}
+      \field{pages}{1\bibrangedash 46}
+      \range{pages}{46}
+    \endentry
+    \entry{mcnally2008}{book}{}
+      \name{editor}{2}{}{%
+        {{un=0,uniquepart=base,hash=13b46c5c51e2c5187d53b88fd3dd6cb1}{%
+           family={McNally},
+           familyi={M\bibinitperiod},
+           given={Louise},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc94f2390d66eb60cfb8b4250e6abf85}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{4266f3c7ee90e06816255cad4e165c1d}
+      \strng{fullhash}{4266f3c7ee90e06816255cad4e165c1d}
+      \strng{bibnamehash}{4266f3c7ee90e06816255cad4e165c1d}
+      \strng{editorbibnamehash}{4266f3c7ee90e06816255cad4e165c1d}
+      \strng{editornamehash}{4266f3c7ee90e06816255cad4e165c1d}
+      \strng{editorfullhash}{4266f3c7ee90e06816255cad4e165c1d}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Adjectives and adverbs: Syntax, semantics, and discourse.}
+      \field{year}{2008}
+    \endentry
+    \entry{sedivy1999}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=ae6d928de1aefbb45c446398ce604708}{%
+           family={Sedivy},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0d9a6bd173fd3c17c6afeef62ec834c}{%
+           family={Tanenhaus},
+           familyi={T\bibinitperiod},
+           given={M.\bibnamedelimi K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a12a1e42bc36c1cadf665624043dd9d}{%
+           family={Chambers},
+           familyi={C\bibinitperiod},
+           given={C.\bibnamedelimi G.},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b4b795a3e042a5868f1929cc667b474}{%
+           family={Carlson},
+           familyi={C\bibinitperiod},
+           given={G.\bibnamedelimi N.},
+           giveni={G\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{49328427b993dd99ed519e70ab144d03}
+      \strng{fullhash}{45fb7f2962224704f840268dfb9b3d6e}
+      \strng{bibnamehash}{49328427b993dd99ed519e70ab144d03}
+      \strng{authorbibnamehash}{49328427b993dd99ed519e70ab144d03}
+      \strng{authornamehash}{49328427b993dd99ed519e70ab144d03}
+      \strng{authorfullhash}{45fb7f2962224704f840268dfb9b3d6e}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognition}
+      \field{number}{2}
+      \field{title}{Achieving incremental semantic interpretation through contextual representation.}
+      \field{volume}{71}
+      \field{year}{1999}
+      \field{pages}{109\bibrangedash 147}
+      \range{pages}{39}
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/s0010-0277(99)00025-6
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/s0010-0277(99)00025-6
+      \endverb
+    \endentry
+    \entry{sera1987}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bd4d7b0518d17e2fd41e4cdb3cb81a4f}{%
+           family={Sera},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=916d7744c0a1a3cd8e7365e1902d7b94}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={L.\bibnamedelimi B.},
+           giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{873324af4d47eeb9e0482745f84b3260}
+      \strng{fullhash}{873324af4d47eeb9e0482745f84b3260}
+      \strng{bibnamehash}{873324af4d47eeb9e0482745f84b3260}
+      \strng{authorbibnamehash}{873324af4d47eeb9e0482745f84b3260}
+      \strng{authornamehash}{873324af4d47eeb9e0482745f84b3260}
+      \strng{authorfullhash}{873324af4d47eeb9e0482745f84b3260}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognitive Development}
+      \field{title}{Big and little: "nomial" and relative uses.}
+      \field{year}{1987}
+    \endentry
+    \entry{Solt2009}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1b260e872ff199521e6b83ec84fcd6a5}{%
+           family={Solt},
+           familyi={S\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1b260e872ff199521e6b83ec84fcd6a5}
+      \strng{fullhash}{1b260e872ff199521e6b83ec84fcd6a5}
+      \strng{bibnamehash}{1b260e872ff199521e6b83ec84fcd6a5}
+      \strng{authorbibnamehash}{1b260e872ff199521e6b83ec84fcd6a5}
+      \strng{authornamehash}{1b260e872ff199521e6b83ec84fcd6a5}
+      \strng{authorfullhash}{1b260e872ff199521e6b83ec84fcd6a5}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper investigates the role of comparison classes in the semantics of gradable adjectives in the positive form, focusing on the case where the comparison class is expressed overtly via a for -phrase (e.g. John is tall for a jockey). Two central questions are addressed: what in-formation does the comparison class provide, and how is this information integrated compositionally? It is shown that the standard of comparison invoked by the positive form can be analyzed as a range of values whose width is based on the degree of dispersion in the comparison class. Com-positionally, the comparison class can be analyzed as an argument of a null positive morpheme (contra Kennedy [13]), in parallel to recent pro-posals for the superlative (e.g. Heim [9]). The implications of the analysis for the choice between degree-and delineation-based analyses of gradable adjectives are discussed.}
+      \field{booktitle}{International Workshop on Vagueness in Communication}
+      \field{title}{{Notes on the Comparison Class}}
+      \field{year}{2009}
+    \endentry
+    \entry{vonStechow1984}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=853f91cce9892762652b7aca892dc2fb}{%
+           family={Stechow},
+           familyi={S\bibinitperiod},
+           given={Arnim\bibnamedelima von},
+           giveni={A\bibinitperiod\bibinitdelim v\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{853f91cce9892762652b7aca892dc2fb}
+      \strng{fullhash}{853f91cce9892762652b7aca892dc2fb}
+      \strng{bibnamehash}{853f91cce9892762652b7aca892dc2fb}
+      \strng{authorbibnamehash}{853f91cce9892762652b7aca892dc2fb}
+      \strng{authornamehash}{853f91cce9892762652b7aca892dc2fb}
+      \strng{authorfullhash}{853f91cce9892762652b7aca892dc2fb}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0167-5133}
+      \field{journaltitle}{Journal of Semantics}
+      \field{month}{04}
+      \field{number}{1-2}
+      \field{title}{{Comparing semantic theories of comparison}}
+      \field{volume}{3}
+      \field{year}{1984}
+      \field{pages}{1\bibrangedash 77}
+      \range{pages}{77}
+      \verb{doi}
+      \verb 10.1093/jos/3.1-2.1
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/jos/article-pdf/3/1-2/1/9835673/1.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/jos/3.1-2.1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/jos/3.1-2.1
+      \endverb
+    \endentry
+    \entry{tessler2017warm}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d38fb2182140bfd8126c669e5cada5b8}{%
+           family={Tessler},
+           familyi={T\bibinitperiod},
+           given={Michael\bibnamedelima Henry},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92d6aa6dde03d1c00ff829ad611b00f2}{%
+           family={Lopez-Brau},
+           familyi={L\bibinithyphendelim B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17c6b9edbad988db7d426fba005cecff}{%
+           family={Goodman},
+           familyi={G\bibinitperiod},
+           given={Noah\bibnamedelima D},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{249e5dbea3792279be437d1ab631ff5f}
+      \strng{fullhash}{249e5dbea3792279be437d1ab631ff5f}
+      \strng{bibnamehash}{249e5dbea3792279be437d1ab631ff5f}
+      \strng{authorbibnamehash}{249e5dbea3792279be437d1ab631ff5f}
+      \strng{authornamehash}{249e5dbea3792279be437d1ab631ff5f}
+      \strng{authorfullhash}{249e5dbea3792279be437d1ab631ff5f}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{39th Annual Meeting of the Cognitive Science Society}
+      \field{title}{Warm (for winter): Comparison class understanding in vague language}
+      \field{year}{2017}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

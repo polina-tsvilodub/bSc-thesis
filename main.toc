@@ -1,16 +1,24 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {american}{}
+\babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{5}%
+\contentsline {chapter}{\numberline {1}Introduction}{7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Understanding Gradable Adjectives}{6}%
+\contentsline {chapter}{\numberline {2}Understanding Gradable Adjectives}{8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}A Fucntional Perspective on Comprison Class Inference}{7}%
+\contentsline {section}{\numberline {2.1}Representation of gradable adjectives}{9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Experiments}{8}%
+\contentsline {section}{\numberline {2.2}Understanding Comparison Classes}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}A Bayesian Reference-Predication Model}{9}%
+\contentsline {section}{\numberline {2.3}Compositional Accounts of Gradable Adjective Interpretation}{13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Discussion}{10}%
+\contentsline {section}{\numberline {2.4}Pragmatic Accounts of Gradable Adjective Interpretation}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{12}%
+\contentsline {chapter}{\numberline {3}A Fucntional Perspective on Comprison Class Inference}{17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Experiments}{18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}A Bayesian Reference-Predication Model}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Discussion}{20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Appendix}{22}%

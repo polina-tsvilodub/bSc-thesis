@@ -1,29 +1,26 @@
-\documentclass[11pt, twoside]{report}
+\documentclass[12pt, twoside]{report}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage[a4paper,width=150mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
 %\usepackage{biblatex}
-\usepackage[american]{babel} 
-\usepackage[style=apa]{biblatex}
+\usepackage{setspace}
+\usepackage[english]{babel} 
+%\usepackage{natbib}
+\usepackage{csquotes}
+\usepackage[style=authoryear, backend=biber]{biblatex}
+%\DeclareLanguageMapping{american}{american-apa}
 %\usepackage{apacite}
-%\addbibresource{references.bib}
-%\bibliographystyle{apacite}
-\bibliography{references}
+\addbibresource{references.bib}
+%\bibliographystyle{plainnat}
+%\setcitestyle{authoryear,open={(},close={)}}
 
 \graphicspath{ {images/} }
 
-\title{
-	{Thesis Title}\\
-	{\large Institution Name}\\
-%	{\includegraphics{university.jpg}}
-}
-\author{Author Name}
-\date{Day Month Year}
-
+\linespread{1.25}
 
 
 \begin{document}
-\maketitle
+\input{title.tex}
 
 \chapter*{Abstract}
 Understanding gradable adjectives like “big” requires making reference to a so-called comparison class - a set of objects the referent is implicitly compared to. For example, the utterance ‘“That Great Dane is big” could mean “That Great Dane is big compared to dogs in general” or “That Great Dane is big compared to other Great Danes”; yet the comparison class is rarely stated explicitly. So how do listeners establish the comparison class, given multiple a priori reasonable options?
@@ -36,6 +33,8 @@ Converging evidence from four behavioural experiments supporting this proposal i
 I want to thank...
 
 \tableofcontents
+\listoffigures
+\listoftables
 
 \chapter{Introduction}
 \input{chapter01}
@@ -63,5 +62,5 @@ I declare that..
 \input{appendix}
 
 \printbibliography
-
+%\bibliography{references}
 \end{document}
