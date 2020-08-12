@@ -2854,19 +2854,23 @@
     <bcf:citekey order="49">cinque2010</bcf:citekey>
     <bcf:citekey order="50">Cresswell1976</bcf:citekey>
     <bcf:citekey order="51">Kamp1975</bcf:citekey>
-    <bcf:citekey order="52">tessler2020</bcf:citekey>
-    <bcf:citekey order="53">kennedy2012</bcf:citekey>
-    <bcf:citekey order="53">hofherr2010adjectives</bcf:citekey>
-    <bcf:citekey order="54">kennedy2012</bcf:citekey>
+    <bcf:citekey order="52">goldberg2017one</bcf:citekey>
+    <bcf:citekey order="53">tessler2020</bcf:citekey>
+    <bcf:citekey order="54">tessler2017warm</bcf:citekey>
     <bcf:citekey order="55">kennedy2012</bcf:citekey>
-    <bcf:citekey order="56">hofherr2010adjectives</bcf:citekey>
-    <bcf:citekey order="57">sedivy1999</bcf:citekey>
-    <bcf:citekey order="57">Aparicio2016</bcf:citekey>
-    <bcf:citekey order="58">Aparicio2016</bcf:citekey>
-    <bcf:citekey order="59">Aparicio2016</bcf:citekey>
-    <bcf:citekey order="60">tessler2017warm</bcf:citekey>
-    <bcf:citekey order="61">tessler2017warm</bcf:citekey>
-    <bcf:citekey order="62">tessler2017warm</bcf:citekey>
+    <bcf:citekey order="55">hofherr2010adjectives</bcf:citekey>
+    <bcf:citekey order="56">kennedy2012</bcf:citekey>
+    <bcf:citekey order="57">kennedy2012</bcf:citekey>
+    <bcf:citekey order="58">hofherr2010adjectives</bcf:citekey>
+    <bcf:citekey order="59">tessler2017warm</bcf:citekey>
+    <bcf:citekey order="59">Kennedy2007</bcf:citekey>
+    <bcf:citekey order="60">sedivy1999</bcf:citekey>
+    <bcf:citekey order="60">Aparicio2016</bcf:citekey>
+    <bcf:citekey order="61">Aparicio2016</bcf:citekey>
+    <bcf:citekey order="62">Aparicio2016</bcf:citekey>
+    <bcf:citekey order="63">tessler2017warm</bcf:citekey>
+    <bcf:citekey order="64">tessler2017warm</bcf:citekey>
+    <bcf:citekey order="65">tessler2017warm</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

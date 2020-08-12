@@ -291,6 +291,44 @@
       \field{pages}{1178\bibrangedash 1192}
       \range{pages}{15}
     \endentry
+    \entry{goldberg2017one}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0772cecb57bc92107c7012fed0d13382}{%
+           family={Goldberg},
+           familyi={G\bibinitperiod},
+           given={Adele\bibnamedelima E},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=068b911b1af6f30b48ee408e615089f1}{%
+           family={Michaelis},
+           familyi={M\bibinitperiod},
+           given={Laura\bibnamedelima A},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{a5516c4e274053bc26447c4cb7e8fc6a}
+      \strng{fullhash}{a5516c4e274053bc26447c4cb7e8fc6a}
+      \strng{bibnamehash}{a5516c4e274053bc26447c4cb7e8fc6a}
+      \strng{authorbibnamehash}{a5516c4e274053bc26447c4cb7e8fc6a}
+      \strng{authornamehash}{a5516c4e274053bc26447c4cb7e8fc6a}
+      \strng{authorfullhash}{a5516c4e274053bc26447c4cb7e8fc6a}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognitive Science}
+      \field{title}{One among many: Anaphoric one and its relationship with numeral one}
+      \field{volume}{41}
+      \field{year}{2017}
+      \field{pages}{233\bibrangedash 258}
+      \range{pages}{26}
+    \endentry
     \entry{goodman2016}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=17c6b9edbad988db7d426fba005cecff}{%
