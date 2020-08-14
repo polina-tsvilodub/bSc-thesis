@@ -5,7 +5,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Understanding Gradable Adjectives}{8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Semantic Representation of Gradable Adjectives}{9}%
+\contentsline {section}{\numberline {2.1}Semantic Representation of Gradable Adjectives}{10}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Understanding Comparison Classes}{11}%
 \defcounter {refsection}{0}\relax 

@@ -2878,14 +2878,12 @@
     <bcf:citekey order="66">sedivy1999</bcf:citekey>
     <bcf:citekey order="67">sedivy1999</bcf:citekey>
     <bcf:citekey order="68">sedivy1999</bcf:citekey>
-    <bcf:citekey order="69">sedivy1999</bcf:citekey>
     <bcf:citekey order="69">Aparicio2016</bcf:citekey>
-    <bcf:citekey order="70">Aparicio2016</bcf:citekey>
-    <bcf:citekey order="71">Aparicio2016</bcf:citekey>
-    <bcf:citekey order="72">degen2020redundancy</bcf:citekey>
+    <bcf:citekey order="70">sedivy1999</bcf:citekey>
+    <bcf:citekey order="71">degen2020redundancy</bcf:citekey>
+    <bcf:citekey order="72">tessler2017warm</bcf:citekey>
     <bcf:citekey order="73">tessler2017warm</bcf:citekey>
     <bcf:citekey order="74">tessler2017warm</bcf:citekey>
-    <bcf:citekey order="75">tessler2017warm</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
