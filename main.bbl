@@ -790,6 +790,45 @@
       \field{pages}{23\bibrangedash 41}
       \range{pages}{19}
     \endentry
+    \entry{Reboul2001}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=07322aaec4132ecfd2ed2392de8a83c3}{%
+           family={Reboul},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=60fcc0411134985aae93c76f4b72284b}{%
+           family={Haspelmath},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Walter de Gruyter}%
+      }
+      \strng{namehash}{07322aaec4132ecfd2ed2392de8a83c3}
+      \strng{fullhash}{07322aaec4132ecfd2ed2392de8a83c3}
+      \strng{bibnamehash}{07322aaec4132ecfd2ed2392de8a83c3}
+      \strng{authorbibnamehash}{07322aaec4132ecfd2ed2392de8a83c3}
+      \strng{authornamehash}{07322aaec4132ecfd2ed2392de8a83c3}
+      \strng{authorfullhash}{07322aaec4132ecfd2ed2392de8a83c3}
+      \strng{editorbibnamehash}{60fcc0411134985aae93c76f4b72284b}
+      \strng{editornamehash}{60fcc0411134985aae93c76f4b72284b}
+      \strng{editorfullhash}{60fcc0411134985aae93c76f4b72284b}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Language typology and language universals. An international handbook, vol.1}
+      \field{title}{Foundations of reference and predication}
+      \field{year}{2001}
+    \endentry
     \entry{rosch1976}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=91984feeb55417ab480ff86cba84506e}{%
