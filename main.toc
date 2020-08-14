@@ -1,52 +1,52 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{7}%
+\contentsline {chapter}{\numberline {1}Introduction}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Understanding Gradable Adjectives}{9}%
+\contentsline {chapter}{\numberline {2}Understanding Gradable Adjectives}{8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Semantic Representation of Gradable Adjectives}{10}%
+\contentsline {section}{\numberline {2.1}Semantic Representation of Gradable Adjectives}{9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Understanding Comparison Classes}{12}%
+\contentsline {section}{\numberline {2.2}Understanding Comparison Classes}{11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Semantic and Syntactic Aspects of Gradable Adjective Interpretation}{15}%
+\contentsline {section}{\numberline {2.3}Semantic and Syntactic Aspects of Gradable Adjective Interpretation}{14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Pragmatic Aspects of Gradable Adjective Interpretation}{18}%
+\contentsline {section}{\numberline {2.4}Pragmatic Aspects of Gradable Adjective Interpretation}{17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}A Fucntional Perspective on Comprison Class Inference}{20}%
+\contentsline {chapter}{\numberline {3}A Fucntional Perspective on Comprison Class Inference}{21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Understanding Reference and Predication}{21}%
+\contentsline {section}{\numberline {3.1}Understanding Reference and Predication}{22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Experimental Operationalization}{22}%
+\contentsline {section}{\numberline {3.2}Experimental Operationalization}{23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Experiments}{24}%
+\contentsline {chapter}{\numberline {4}Experiments}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Experiment 1: Sentence Rating Experiment}{26}%
+\contentsline {section}{\numberline {4.1}Experiment 1: Sentence Rating Experiment}{27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Participants:}{27}%
+\contentsline {subsection}{\numberline {4.1.1}Participants:}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Results:}{27}%
+\contentsline {subsection}{\numberline {4.1.2}Results:}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Experiment 2: Noun Production Experiment}{27}%
+\contentsline {section}{\numberline {4.2}Experiment 2: Noun Production Experiment}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Participants:}{28}%
+\contentsline {subsection}{\numberline {4.2.1}Participants:}{29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Results:}{29}%
+\contentsline {subsection}{\numberline {4.2.2}Results:}{30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Experiment 3: Comparison Class Inference Experiment}{29}%
+\contentsline {section}{\numberline {4.3}Experiment 3: Comparison Class Inference Experiment}{30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Participants:}{31}%
+\contentsline {subsection}{\numberline {4.3.1}Participants:}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Results:}{31}%
+\contentsline {subsection}{\numberline {4.3.2}Results:}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Experiment 4: Direct Modification Experiment}{32}%
+\contentsline {section}{\numberline {4.4}Experiment 4: Direct Modification Experiment}{33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Participants:}{33}%
+\contentsline {subsection}{\numberline {4.4.1}Participants:}{34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Results:}{33}%
+\contentsline {subsection}{\numberline {4.4.2}Results:}{34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}A Bayesian Reference-Predication Model}{34}%
+\contentsline {chapter}{\numberline {5}A Bayesian Reference-Predication Model}{35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Discussion}{35}%
+\contentsline {chapter}{\numberline {6}Discussion}{36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{37}%
+\contentsline {chapter}{\numberline {A}Appendix}{38}%

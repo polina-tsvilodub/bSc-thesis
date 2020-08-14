@@ -221,6 +221,45 @@
       \field{volume}{57}
       \field{year}{2010}
     \endentry
+    \entry{clifton1989ambiguity}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=eaad281008cc87ea731e0787d70954b4}{%
+           family={Clifton\bibnamedelima Jr},
+           familyi={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24e2373b0e5e7de89e4abd7e91dd8d49}{%
+           family={Ferreira},
+           familyi={F\bibinitperiod},
+           given={Fernanda},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{a88afcd1612ce70066ff4dae576e9673}
+      \strng{fullhash}{a88afcd1612ce70066ff4dae576e9673}
+      \strng{bibnamehash}{a88afcd1612ce70066ff4dae576e9673}
+      \strng{authorbibnamehash}{a88afcd1612ce70066ff4dae576e9673}
+      \strng{authornamehash}{a88afcd1612ce70066ff4dae576e9673}
+      \strng{authorfullhash}{a88afcd1612ce70066ff4dae576e9673}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Language and cognitive processes}
+      \field{number}{3-4}
+      \field{title}{Ambiguity in context}
+      \field{volume}{4}
+      \field{year}{1989}
+      \field{pages}{SI77\bibrangedash SI103}
+      \range{pages}{-1}
+    \endentry
     \entry{Cresswell1976}{inbook}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9825815b15f34ea80bcd10628b15f439}{%
@@ -251,6 +290,59 @@
       \field{year}{1976}
       \field{pages}{261\bibrangedash 292}
       \range{pages}{32}
+    \endentry
+    \entry{degen2020redundancy}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=dd2ab438d2870d0a198b4047b2d880a4}{%
+           family={Degen},
+           familyi={D\bibinitperiod},
+           given={Judith},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c097e0d237c9bc55d8e87ced4e65d01}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Robert\bibnamedelima D},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b275ac210f1c7c8956106bfd6633df03}{%
+           family={Graf},
+           familyi={G\bibinitperiod},
+           given={Caroline},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46d603979ba79593dad623bebe771f80}{%
+           family={Kreiss},
+           familyi={K\bibinitperiod},
+           given={Elisa},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17c6b9edbad988db7d426fba005cecff}{%
+           family={Goodman},
+           familyi={G\bibinitperiod},
+           given={Noah\bibnamedelima D},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{29c690fc1fcfc2f0326de21ec77265fa}
+      \strng{fullhash}{a38fe6b6447a1d757bff60d59c1a33b4}
+      \strng{bibnamehash}{a38fe6b6447a1d757bff60d59c1a33b4}
+      \strng{authorbibnamehash}{a38fe6b6447a1d757bff60d59c1a33b4}
+      \strng{authornamehash}{29c690fc1fcfc2f0326de21ec77265fa}
+      \strng{authorfullhash}{a38fe6b6447a1d757bff60d59c1a33b4}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Review}
+      \field{title}{When redundancy is useful: A Bayesian approach to “overinformative” referring expressions.}
+      \field{year}{2020}
     \endentry
     \entry{ebeling1994children}{article}{}
       \name{author}{2}{}{%
@@ -948,6 +1040,45 @@
       \verb{url}
       \verb https://doi.org/10.1093/jos/3.1-2.1
       \endverb
+    \endentry
+    \entry{steedman1989ambiguity}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7a7bed50026b5265428aca5961b9ad14}{%
+           family={Steedman},
+           familyi={S\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd7bbdaacf21ad9ce539acfc66ac48ae}{%
+           family={Altmann},
+           familyi={A\bibinitperiod},
+           given={Gerry},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{a00528c7289d882dd5f589781d5442e6}
+      \strng{fullhash}{a00528c7289d882dd5f589781d5442e6}
+      \strng{bibnamehash}{a00528c7289d882dd5f589781d5442e6}
+      \strng{authorbibnamehash}{a00528c7289d882dd5f589781d5442e6}
+      \strng{authornamehash}{a00528c7289d882dd5f589781d5442e6}
+      \strng{authorfullhash}{a00528c7289d882dd5f589781d5442e6}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Language and cognitive processes}
+      \field{number}{3-4}
+      \field{title}{Ambiguity in context: A reply}
+      \field{volume}{4}
+      \field{year}{1989}
+      \field{pages}{SI105\bibrangedash SI122}
+      \range{pages}{-1}
     \endentry
     \entry{tessler2017warm}{inproceedings}{}
       \name{author}{3}{}{%
