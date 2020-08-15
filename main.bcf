@@ -2923,6 +2923,10 @@
     <bcf:citekey order="99">kaiser2020</bcf:citekey>
     <bcf:citekey order="100">scontras2017subjectivity</bcf:citekey>
     <bcf:citekey order="101">tessler2020</bcf:citekey>
+    <bcf:citekey order="102">rosch1976</bcf:citekey>
+    <bcf:citekey order="103">tessler2017warm</bcf:citekey>
+    <bcf:citekey order="104">tessler2017warm</bcf:citekey>
+    <bcf:citekey order="105">magpie</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
