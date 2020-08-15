@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.19)  15 AUG 2020 20:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.19)  15 AUG 2020 20:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1074,9 +1074,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 8
 4.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
-(./title.tex [1
+(./title.tex
+<images/unilogo.jpg, id=4, 602.25pt x 180.675pt>
+File: images/unilogo.jpg Graphic file (type jpg)
+<use images/unilogo.jpg>
+Package pdftex.def Info: images/unilogo.jpg  used on input line 28.
+(pdftex.def)             Requested size: 256.0774pt x 76.82582pt.
+ [1
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) [1
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
+s/unilogo.jpg>]) [1
 
 ] [2
 
@@ -1138,7 +1145,7 @@ Chapter 3.
 (./chapter03.tex [22
 
 ]
-<images/ref-pred-cartoon-w-subscripts2.pdf, id=91, 1317.02635pt x 474.40338pt>
+<images/ref-pred-cartoon-w-subscripts2.pdf, id=92, 1317.02635pt x 474.40338pt>
 File: images/ref-pred-cartoon-w-subscripts2.pdf Graphic file (type pdf)
 <use images/ref-pred-cartoon-w-subscripts2.pdf>
 Package pdftex.def Info: images/ref-pred-cartoon-w-subscripts2.pdf  used on inp
@@ -1150,26 +1157,26 @@ Chapter 4.
 (./chapter04.tex [28
 
 ]
-<images/captcha.png, id=184, 361.35pt x 382.93062pt>
+<images/captcha.png, id=185, 361.35pt x 382.93062pt>
 File: images/captcha.png Graphic file (type png)
 <use images/captcha.png>
 Package pdftex.def Info: images/captcha.png  used on input line 37.
 (pdftex.def)             Requested size: 213.39566pt x 226.1433pt.
  [29]
-<images/warmup_basketball.png, id=189, 1122.1925pt x 597.23125pt>
+<images/warmup_basketball.png, id=190, 1122.1925pt x 597.23125pt>
 File: images/warmup_basketball.png Graphic file (type png)
 <use images/warmup_basketball.png>
 Package pdftex.def Info: images/warmup_basketball.png  used on input line 61.
 (pdftex.def)             Requested size: 298.75262pt x 158.99457pt.
  [30 <./images/captcha.png>]
-<images/main_rating_subN_big.png, id=197, 893.3375pt x 690.58pt>
+<images/main_rating_subN_big.png, id=198, 893.3375pt x 690.58pt>
 File: images/main_rating_subN_big.png Graphic file (type png)
 <use images/main_rating_subN_big.png>
 Package pdftex.def Info: images/main_rating_subN_big.png  used on input line 70
 .
 (pdftex.def)             Requested size: 298.75262pt x 230.94794pt.
  [31 <./images/warmup_basketball.png>] [32 <./images/main_rating_subN_big.png>]
-<images/expt-syntax-rating-prereg-bars-revised.pdf, id=206, 361.35pt x 252.945p
+<images/expt-syntax-rating-prereg-bars-revised.pdf, id=207, 361.35pt x 252.945p
 t>
 File: images/expt-syntax-rating-prereg-bars-revised.pdf Graphic file (type pdf)
 
@@ -1178,19 +1185,19 @@ Package pdftex.def Info: images/expt-syntax-rating-prereg-bars-revised.pdf  use
 d on input line 91.
 (pdftex.def)             Requested size: 298.75262pt x 209.12991pt.
  [33 <./images/expt-syntax-rating-prereg-bars-revised.pdf>]
-<images/warmup_dogs.png, id=221, 434.12187pt x 523.9575pt>
+<images/warmup_dogs.png, id=222, 434.12187pt x 523.9575pt>
 File: images/warmup_dogs.png Graphic file (type png)
 <use images/warmup_dogs.png>
 Package pdftex.def Info: images/warmup_dogs.png  used on input line 112.
 (pdftex.def)             Requested size: 213.39566pt x 257.5569pt.
-<images/main_prod_predN_big.png, id=222, 736.25063pt x 726.715pt>
+<images/main_prod_predN_big.png, id=223, 736.25063pt x 726.715pt>
 File: images/main_prod_predN_big.png Graphic file (type png)
 <use images/main_prod_predN_big.png>
 Package pdftex.def Info: images/main_prod_predN_big.png  used on input line 121
 .
 (pdftex.def)             Requested size: 298.75262pt x 294.89458pt.
  [34]
-<images/expt-np-prod-prereg-bars-revised.pdf, id=226, 252.945pt x 252.945pt>
+<images/expt-np-prod-prereg-bars-revised.pdf, id=227, 252.945pt x 252.945pt>
 File: images/expt-np-prod-prereg-bars-revised.pdf Graphic file (type pdf)
 <use images/expt-np-prod-prereg-bars-revised.pdf>
 Package pdftex.def Info: images/expt-np-prod-prereg-bars-revised.pdf  used on i
@@ -1199,7 +1206,7 @@ nput line 137.
  [35 <./images/warmup_dogs.png>]
 [36 <./images/main_prod_predN_big.png>] [37 <./images/expt-np-prod-prereg-bars-
 revised.pdf>]
-<images/main_cci_basicContext_predSubN_big.png, id=244, 657.45625pt x 677.02937
+<images/main_cci_basicContext_predSubN_big.png, id=245, 657.45625pt x 677.02937
 pt>
 File: images/main_cci_basicContext_predSubN_big.png Graphic file (type png)
 <use images/main_cci_basicContext_predSubN_big.png>
@@ -1207,7 +1214,7 @@ Package pdftex.def Info: images/main_cci_basicContext_predSubN_big.png  used on
  input line 161.
 (pdftex.def)             Requested size: 298.75262pt x 307.64595pt.
  [38 <./images/main_cci_basicContext_predSubN_big.png>]
-<images/expt3-cc-inference-revised.pdf, id=249, 361.35pt x 252.945pt>
+<images/expt3-cc-inference-revised.pdf, id=250, 361.35pt x 252.945pt>
 File: images/expt3-cc-inference-revised.pdf Graphic file (type pdf)
 <use images/expt3-cc-inference-revised.pdf>
 Package pdftex.def Info: images/expt3-cc-inference-revised.pdf  used on input l
@@ -1219,7 +1226,47 @@ Overfull \hbox (10.97319pt too wide) in paragraph at lines 189--192
 di-tion (subject-N vs. predicate-
  []
 
-[39] [40 <./images/expt3-cc-inference-revised.pdf>] [41]) [42] [43]
+[39] [40 <./images/expt3-cc-inference-revised.pdf>]
+Underfull \hbox (badness 7221) in paragraph at lines 219--219
+[]|\OT1/cmr/m/n/10 You and your
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 219--219
+\OT1/cmr/m/n/10 friend are at a
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 219--219
+[]|\OT1/cmr/m/n/10 ... are at an
+ []
+
+
+Underfull \hbox (badness 4913) in paragraph at lines 219--219
+\OT1/cmr/m/n/10 an-i-mal train-ing
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 219--219
+[]|\OT1/cmr/m/n/10 You visit your
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+\OT1/cmr/m/n/10 friend who
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+\OT1/cmr/m/n/10 works at an
+ []
+
+
+Underfull \hbox (badness 7685) in paragraph at lines 219--219
+[]|\OT1/cmr/m/n/10 ... walk to
+ []
+
+[41] [42]) [43]
 Chapter 5.
 (./chapter05.tex) [44
 
@@ -1234,7 +1281,7 @@ Appendix A.
 (./appendix.tex) [47
 
 ]
-Overfull \hbox (30.13545pt too wide) in paragraph at lines 135--135
+Overfull \hbox (30.13545pt too wide) in paragraph at lines 136--136
 \OT1/cmr/m/n/12 guage, 68(3), 10.1016/j.jml.2012.11.001. https://doi.org/10.101
 6/j.jml.2012.11.001.
  []
@@ -1242,13 +1289,13 @@ Overfull \hbox (30.13545pt too wide) in paragraph at lines 135--135
 [48
 
 ] [49]
-Overfull \hbox (34.31743pt too wide) in paragraph at lines 135--135
+Overfull \hbox (34.31743pt too wide) in paragraph at lines 136--136
 \OT1/cmr/m/it/12 man-tics\OT1/cmr/m/n/12 , \OT1/cmr/m/it/12 3\OT1/cmr/m/n/12 (1
 -2), https://academic.oup.com/jos/article-pdf/3/1-2/1/9835673/1.pdf,
  []
 
 
-Overfull \hbox (4.6486pt too wide) in paragraph at lines 135--135
+Overfull \hbox (4.6486pt too wide) in paragraph at lines 136--136
 \OT1/cmr/m/it/12 2019 edi-tion)\OT1/cmr/m/n/12 . $https : / / plato . stanford 
 . edu / archives / spr2019 / entries / reference/$ 
  []
@@ -1262,10 +1309,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35724 strings out of 480608
- 879664 string characters out of 5903630
- 1694161 words of memory out of 5000000
- 51050 multiletter control sequences out of 15000+600000
+ 35732 strings out of 480608
+ 879791 string characters out of 5903630
+ 1693172 words of memory out of 5000000
+ 51056 multiletter control sequences out of 15000+600000
  542573 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,11n,102p,2501b,4720s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1285,10 +1332,10 @@ e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
 /2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/
 2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/20
 20/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb>
-Output written on main.pdf (51 pages, 2335589 bytes).
+Output written on main.pdf (51 pages, 2375950 bytes).
 PDF statistics:
- 348 PDF objects out of 1000 (max. 8388607)
+ 349 PDF objects out of 1000 (max. 8388607)
  223 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
