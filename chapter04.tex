@@ -86,7 +86,15 @@ The reference-predication trade-off hypothesis predicts that sentences with a ba
 A Bayesian linear mixed-effects regression model was fit, predicting the sentence rating from the syntactic condition of the sentence (subject~vs.~predicate N), the noun type (basic-level~vs.~subordinate target label), their interaction and by-participant and by-target random intercepts and random effects of syntax, noun type and their interaction. \footnote{Model in \texttt{brm}-style syntax: \texttt{rating $\sim$ syntax * NP + (1 + syntax*NP | subject) + (1 + syntax*NP | target)}} 
 An exploratory model including a main effect of syntactic condition order was also fit, revealing no effect of syntactic condition order, so the data was collapsed across the two conditions. Both predictors were deviation coded, coding both the subject-noun and the basic-level noun as 1 and the other levels as -1, respectively. 
 
-Consistent with predictions, participants substantially dispreferred sentences with a subordinate noun in the predicate compared to the subordinate position, but no effect of syntax was found for the basic-level nouns, as indicated by the syntax X noun-type interaction ($\beta = \rlgetnum{expt1_brm.csv}{Rowname}{syntax:NP}{Estimate}{2}  [\rlgetnum{expt1_brm.csv}{Rowname}{syntax:NP}{l.95..CI}{2}, \rlgetnum{expt1_brm.csv}{Rowname}{syntax:NP}{u.95..CI}{2}]$). \footnote{All results report the mean and 95-\% Bayesian credible interval} 
+\begin{figure*}[t]
+	\begin{center}
+		\includegraphics[width=0.7\linewidth]{expt-syntax-rating-prereg-bars-revised.pdf}
+	\end{center}
+ 	\vspace{-0.3cm}
+	\caption{Experiment 1 mean ratings for how well sentences which differed in the syntactic position of the noun (x-axis)  and the noun-label (color) described the referent, a typically-sized member of the subordinate category (e.g., a normal-sized Great Dane).  Points represent participant means within condition. Error-bars denote bootstrapped 95\% confidence intervals (bootstrapping independent of random-effects structure)}
+	\label{rating-results}
+\end{figure*}
+Consistent with predictions, participants substantially dispreferred sentences with a subordinate noun in the predicate compared to the subordinate position, but no effect of syntax was found for the basic-level nouns, as indicated by the syntax X noun-type interaction ($\beta = \rlgetnum{expt1_brm.csv}{Rowname}{syntax:NP}{Estimate}{2}  [\rlgetnum{expt1_brm.csv}{Rowname}{syntax:NP}{l.95..CI}{2}, \rlgetnum{expt1_brm.csv}{Rowname}{syntax:NP}{u.95..CI}{2}]$) (Fig. \ref{rating-results}). \footnote{All results report the mean and 95-\% Bayesian credible interval} 
 Additionally, an overall preference for basic-level nouns ($\beta = \rlgetnum{expt1_brm.csv}{Rowname}{NP}{Estimate}{2} [\rlgetnum{expt1_brm.csv}{Rowname}{NP}{l.95..CI}{2},\rlgetnum{expt1_brm.csv}{Rowname}{NP}{u.95..CI}{2}] $) and the subject-noun syntactic structure ($\beta = \rlgetnum{expt1_brm.csv}{Rowname}{syntax}{Estimate}{2} [\rlgetnum{expt1_brm.csv}{Rowname}{syntax}{l.95..CI}{2}, \rlgetnum{expt1_brm.csv}{Rowname}{syntax}{u.95..CI}{2}] $) was found. Furthermore, a relatively high by-target variance revealed that some items received overall lower ratings, probably due to differing namability of the different items (by-target intercept: $\beta = \rlgetnum{expt1_random_brm.csv}{Rowname}{sd(Intercept)}{item.Estimate}{2} [\rlgetnum{expt1_random_brm.csv}{Rowname}{sd(Intercept)}{item.l.95..CI}{2}, \rlgetnum{expt1_random_brm.csv}{Rowname}{sd(Intercept)}{item.u.95..CI}{2}]$).
 As expected, an exploratory analysis including a predictor of target size (small-subordinate vs. large-subordinate category) did not reveal any size-effects.
 
@@ -97,23 +105,48 @@ To sum up, the sentence rating experiment showed that participants are sensitive
 %classification of responses
 %results: main, by-participant / by-item, by-size  
 
-The goal of the noun production experiment is to investigate whether in a free-production setting participants produce nouns of different categories, given different syntactic frames.  The noun of the critical sentences in the main trials appeared either in the subject position (e.g. in “That N is {big,small}“) or in the predicate position (e.g. in “That’s a {big,small} N”), manipulated between-subjects. 
+The goal of the noun production experiment was to investigate whether in a free-production setting participants produce nouns of different categories, given different syntactic frames.  The noun of the critical sentences in the main trials appeared either in the subject position (e.g. in “That N is {big,small}“) or in the predicate position (e.g. in “That’s a {big,small} N”), manipulated between-subjects. 
 
-In this experiment, participants completed two blocks, each consisting of three warm-up trials and three main trials. In the warm-up trials participants familiarize themselves with the subordinate categories used in the main trials. They see pictures of a member from a large-subordinate and a small-subordinate category within one of the basic-level categories used in the main trials (e.g. a Great Dane and a pug). Participants are prompted to provide labels for these pictures. Below they are prompted to provide a common label for both pictures (i.e. dogs). They are provided feedback for the labels and can proceed upon adjusting their labels to correct responses. The number of attempts participants needed until they filled-in the correct labels is recorded. In this experiment, four additional subordinate categories were used, which can be found in Table 1 marked with *. For each participant, six out of ten possible contexts are sampled. Three of these contexts and their corresponding targets appear in the first experimental block, and the other three in the second. The trial order within the warm-up block and the main block is randomized. 
-On the main trials, participants read: “You see the following:” above a basic-level context picture, akin to the contexts used in experiment 1. Below, they read “You also see this one:” and see a picture of the target referent. Then they read: “You say to your friend:”, prompting them to fill-in the missing noun in the sentence: for the subject-noun condition, the template is “That\_\_ is {big, small}”, for the predicate-noun condition, the template to be completed is “That’s a {big, small} \_\_ “.  
-The size of the target referent was balanced within-participants: on three trials, participants see referents from a small-subordinate category, and on three, they see referents from a large-subordinate category. For each context, participants see only one of the possible targets (e.g. the large or the small subordinate target).
-Example trial view / example warm-up views
+\begin{figure*}[t]
+	\begin{center}
+		\includegraphics[width=0.5\linewidth]{warmup_dogs.png}
+	\end{center}
+	\caption{Example view of the noun production warm-up trial involving subordinate targets for the dogs-category.}
+	\label{warmup-production}
+\end{figure*}
+In this experiment, participants completed two blocks, each consisting of three warm-up trials and three main trials. In the warm-up trials participants familiarized themselves with the subordinate categories used in the main trials. They saw pictures of a member from a large-subordinate and a small-subordinate category within one of the basic-level categories used in the main trials (e.g., a Great Dane and a pug) (Fig. \ref{warmup-production}). Participants were prompted to provide labels for these pictures. Below they were prompted to provide a common label for both pictures (i.e., dogs). They were provided feedback for the labels and could proceed upon adjusting their labels to correct responses. The number of attempts participants needed until they filled-in the correct labels was recorded. In this experiment, four additional subordinate categories were used, which can be found in Table \ref{tab:stimuli} marked with *. For each participant, six out of ten possible contexts were sampled. Three of these contexts and their corresponding targets appeared in the first experimental block, and the other three in the second. The trial order within the warm-up block and the main block was randomized. 
+
+\begin{figure*}[t]
+	\begin{center}
+		\includegraphics[width=0.7\linewidth]{main_prod_predN_big.png}
+	\end{center}
+	\caption{Example view of the noun production main trial: Participants fill-in the noun in the predicate position of a sentence describing a large-subordinate target.}
+	\label{main-production}
+\end{figure*}
+On the main trials, participants read: “You see the following:” above a basic-level context picture, akin to the contexts used in experiment 1. Below, they read “You also see this one:” and see a picture of the target referent. Then they read: “You say to your friend:”, prompting them to fill-in the missing noun in the sentence: for the subject-noun condition, the template was “That\_\_ is {big, small}”, for the predicate-noun condition, the template to be completed was “That’s a {big, small} \_\_ “ (Fig. \ref{main-production}).  
+The size of the target referent was balanced within-participants: on three trials, participants saw referents from a small-subordinate category, and on three, they saw referents from a large-subordinate category. For each context, participants saw only one of the possible targets (e.g., the large or the small subordinate target).
+
 The reference-predication hypothesis predicts that participants should be less likely to produce subordinate target labels in the predicate compared to the subject position.
 
-\subsection{Participants:}
-242 participants were recruited, and 52 were recruited for indicating a native language other than English or for failing the warm-up trials. The exclusion criterion was taking more than four attempts on any warm-up trial to provide the correct label upon correction. The experiment took about 7 minutes and participants were compensated \$1.00. 
+\subsection{Participants}
+242 participants were recruited, and 52 were excluded for indicating a native language other than English or for failing the warm-up trials. The exclusion criterion was taking more than four attempts on any warm-up trial to provide the correct label upon correction. The experiment took about 7 minutes and participants were compensated \$1.00. 
  
-\subsection{Results:}
-The responses provided by participants were categorized manually into basic-level or subordinate-level labels of the targets. X \% were superordinate referent labels (i.e. more general labels like animals) and were collapsed with basic-level labels. 16 (1.4\%) uncategorizable responses were excluded from analysis. 
-A logistic generalized mixed-effects regression model was fit, regressing the response category (basic-level. vs subordinate target label) against the syntax of the sentence, random by-participant and by-referent intercepts and random by-referent slope effects of syntax. 
-Consistent with predictions, a strong effect of syntactic position of the noun was found, indicating that participants were appreciably more likely to use basic-level labels in the predicative position (2.25 [0.74, 4.01]). 
-Furthermore, different participants showed different sensitivity to the syntax, as indicated by… Additionally, by-referent variation was found, which could be attributed to differing namability of the targets. ….
-An exploratory model including a main effect of referent size (large-subordinate vs. small-subordinate category) revealed that... 
+\subsection{Results}
+\begin{figure*}[t]
+	\begin{center}
+		\includegraphics[width=0.5\linewidth]{expt-np-prod-prereg-bars-revised.pdf}
+	\end{center}
+	\vspace{-0.3cm}
+	\caption{Experiment 2: Proportions of freely-produced basic-level labels (e.g., \emph{dog}) in different syntactic frames (x-axis) when the referent was a typically-sized member of a subordinate category (e.g., a normal-sized Great Dane). Error-bars denote 95\% bootstrapped confidence intervals.}
+	\label{production-results}
+\end{figure*}
+The responses provided by participants were categorized manually into basic-level or subordinate-level labels of the targets. 5 responses were superordinate referent labels (i.e., more general labels like 'animals') and were collapsed with basic-level labels. 16 (1.4\%) uncategorizable responses were excluded from analysis. 
+A logistic generalized mixed-effects Bayesian regression model was fit, regressing the response category (basic-level~vs.~subordinate target label) against the syntax of the sentence (subject-N~vs.~predicate-N), random by-participant and by-referent intercepts and random by-referent slope effects of syntax. \footnote{In brm-style syntax: \texttt{response\_category $\sim$ syntax + (1 | subject) + (1 + syntax | target)}}
+
+Consistent with predictions, a strong effect of syntactic position of the noun was found, indicating that participants were more likely to use basic-level labels in the predicative position ($\beta = \rlgetnum{expt2_brm.csv}{Rowname}{syntax_contr}{Estimate}{2} [\rlgetnum{expt2_brm.csv}{Rowname}{syntax_contr}{l.95..CI}{2}, \rlgetnum{expt2_brm.csv}{Rowname}{syntax_contr}{u.95..CI}{2}]$) (Fig. \ref{production-results}). 
+As expected, an exploratory model including a main effect of referent size (large-subordinate vs. small-subordinate category) did not reveal any differences between target types.
+
+The noun production experiment showed that speakers are sensitive to the syntactic structure of the sentence and flexibly adjust their noun in order to communicate a felicitous comparison class, when presented with a free-production task.  
  
  
 \section{Experiment 3: Comparison Class Inference Experiment}

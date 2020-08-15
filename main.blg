@@ -1,48 +1,20 @@
-This is BibTeX, Version 0.99d (TeX Live 2020)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: main.aux
-I found no \citation commands---while reading file main.aux
-I found no \bibdata command---while reading file main.aux
-I found no \bibstyle command---while reading file main.aux
-You've used 0 entries,
-            0 wiz_defined-function locations,
-            83 strings with 482 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
-int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
-quote$ -- 0
-skip$ -- 0
-stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 0
-(There were 3 error messages)
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'main.blg'
+[72] biber-darwin:322> INFO - === Sat Aug 15, 2020, 19:40:16
+[87] Biber.pm:415> INFO - Reading 'main.bcf'
+[212] Biber.pm:943> INFO - Found 45 citekeys in bib section 0
+[226] Biber.pm:4256> INFO - Processing section 0
+[226] Utils.pm:75> INFO - Globbing data source 'references.bib'
+[226] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
+[236] Biber.pm:4455> INFO - Looking for bibtex format file 'references.bib' for section 0
+[238] bibtex.pm:1653> INFO - LaTeX decoding ...
+[295] bibtex.pm:1471> INFO - Found BibTeX data source 'references.bib'
+[520] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/rv/yg2lsl0x5wvbgrpcz2c919z80000gn/T/biber_tmp_ZqfH/references.bib_30069.utf8, line 151, warning: 1 characters of junk seen at toplevel
+[520] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/rv/yg2lsl0x5wvbgrpcz2c919z80000gn/T/biber_tmp_ZqfH/references.bib_30069.utf8, line 148, warning: undefined macro "Berlin"
+[588] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[588] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[588] Biber.pm:4084> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[588] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[631] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[656] bbl.pm:755> INFO - Output to main.bbl
+[656] Biber.pm:128> INFO - WARNINGS: 2
