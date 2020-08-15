@@ -160,6 +160,55 @@
       \field{pages}{594\bibrangedash 608}
       \range{pages}{15}
     \endentry
+    \entry{barr2013}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=753f43903878bb8de4a1be793bf5be58}{%
+           family={Barr},
+           familyi={B\bibinitperiod},
+           given={Dale\bibnamedelima J},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e20881923b91d44e8f1ba7e0f38f42c}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=630d5ab6be2422fc76366edb31934eed}{%
+           family={Scheepers},
+           familyi={S\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f7f1b3552a961a694045bcc0786ca4c}{%
+           family={Tily},
+           familyi={T\bibinitperiod},
+           given={Harry\bibnamedelima J},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{fbff7d6762c67d31ac00e78e1aafc3a5}
+      \strng{fullhash}{3de80d9ace3368f3798a77fe6e20f4a4}
+      \strng{bibnamehash}{3de80d9ace3368f3798a77fe6e20f4a4}
+      \strng{authorbibnamehash}{3de80d9ace3368f3798a77fe6e20f4a4}
+      \strng{authornamehash}{fbff7d6762c67d31ac00e78e1aafc3a5}
+      \strng{authorfullhash}{3de80d9ace3368f3798a77fe6e20f4a4}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Memory and Language}
+      \field{number}{3}
+      \field{title}{Random effects structure for confirmatory hypothesis testing: Keep it maximal. Journal of memory and language, 68(3), 10.1016/j.jml.2012.11.001. https://doi.org/10.1016/j.jml.2012.11.001}
+      \field{volume}{68}
+      \field{year}{2013}
+    \endentry
     \entry{bartsch1972}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6c7f0d1d976a0ac6116e15d562c943d4}{%
