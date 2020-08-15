@@ -90,6 +90,37 @@
       \field{pages}{169\bibrangedash 190}
       \range{pages}{22}
     \endentry
+    \entry{barker2002dynamics}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6424038bd0d1aee3dcd285e0686297d3}{%
+           family={Barker},
+           familyi={B\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{6424038bd0d1aee3dcd285e0686297d3}
+      \strng{fullhash}{6424038bd0d1aee3dcd285e0686297d3}
+      \strng{bibnamehash}{6424038bd0d1aee3dcd285e0686297d3}
+      \strng{authorbibnamehash}{6424038bd0d1aee3dcd285e0686297d3}
+      \strng{authornamehash}{6424038bd0d1aee3dcd285e0686297d3}
+      \strng{authorfullhash}{6424038bd0d1aee3dcd285e0686297d3}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Linguistics and philosophy}
+      \field{title}{The dynamics of vagueness}
+      \field{year}{2002}
+      \field{pages}{1\bibrangedash 36}
+      \range{pages}{36}
+    \endentry
     \entry{barner2008}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=4acfe2fa0b82c4d149915450ce917b5e}{%
@@ -162,6 +193,45 @@
       \field{volume}{9}
       \field{year}{1972}
     \endentry
+    \entry{bergey2020}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=bc207ef723061e4b757c319752b64484}{%
+           family={Bergey},
+           familyi={B\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc5e219a2a5bc0cc1f01e30ed24f0cd8}{%
+           family={Morris},
+           familyi={M\bibinitperiod},
+           given={Benjamin\bibnamedelima C.},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=275788987ec947a4a62db5463cf0f4e2}{%
+           family={Yurovsky},
+           familyi={Y\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f1766386e25465053e73441a18880c6b}
+      \strng{fullhash}{f77eb1dcbca4ad58f0edb5fd143df1a8}
+      \strng{bibnamehash}{f77eb1dcbca4ad58f0edb5fd143df1a8}
+      \strng{authorbibnamehash}{f77eb1dcbca4ad58f0edb5fd143df1a8}
+      \strng{authornamehash}{f1766386e25465053e73441a18880c6b}
+      \strng{authorfullhash}{f77eb1dcbca4ad58f0edb5fd143df1a8}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Annual Meeting of the Cognitive Science Society}
+      \field{title}{Children hear more about what is atypical than what is typical}
+      \field{volume}{42}
+      \field{year}{2020}
+    \endentry
     \entry{Bierwisch1989}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ba980b6b27a3899d5c38b4a3227b6f3a}{%
@@ -191,6 +261,35 @@
       \field{year}{1989}
       \field{pages}{35}
       \range{pages}{1}
+    \endentry
+    \entry{chafe1976givenness}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=db8605e74358c0b54648062204c5f777}{%
+           family={Chafe},
+           familyi={C\bibinitperiod},
+           given={Wallace},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{db8605e74358c0b54648062204c5f777}
+      \strng{fullhash}{db8605e74358c0b54648062204c5f777}
+      \strng{bibnamehash}{db8605e74358c0b54648062204c5f777}
+      \strng{authorbibnamehash}{db8605e74358c0b54648062204c5f777}
+      \strng{authornamehash}{db8605e74358c0b54648062204c5f777}
+      \strng{authorfullhash}{db8605e74358c0b54648062204c5f777}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Subject and topic}
+      \field{title}{Givenness, contrastiveness, definiteness, subjects, topics, and point of view}
+      \field{year}{1976}
     \endentry
     \entry{cinque2010}{book}{}
       \name{author}{1}{}{%
@@ -344,6 +443,37 @@
       \field{title}{When redundancy is useful: A Bayesian approach to “overinformative” referring expressions.}
       \field{year}{2020}
     \endentry
+    \entry{donnellan1966reference}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9f35aa4a9d638dc8e1b685dd65a2005d}{%
+           family={Donnellan},
+           familyi={D\bibinitperiod},
+           given={Keith\bibnamedelima S},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{9f35aa4a9d638dc8e1b685dd65a2005d}
+      \strng{fullhash}{9f35aa4a9d638dc8e1b685dd65a2005d}
+      \strng{bibnamehash}{9f35aa4a9d638dc8e1b685dd65a2005d}
+      \strng{authorbibnamehash}{9f35aa4a9d638dc8e1b685dd65a2005d}
+      \strng{authornamehash}{9f35aa4a9d638dc8e1b685dd65a2005d}
+      \strng{authorfullhash}{9f35aa4a9d638dc8e1b685dd65a2005d}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The philosophical review}
+      \field{title}{Reference and definite descriptions}
+      \field{year}{1966}
+      \field{pages}{281\bibrangedash 304}
+      \range{pages}{24}
+    \endentry
     \entry{ebeling1994children}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=15d44460e05729ef8ce8988b90a180aa}{%
@@ -460,6 +590,50 @@
       \field{pages}{818\bibrangedash 829}
       \range{pages}{12}
     \endentry
+    \entry{graf2016animal}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=b275ac210f1c7c8956106bfd6633df03}{%
+           family={Graf},
+           familyi={G\bibinitperiod},
+           given={Caroline},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd2ab438d2870d0a198b4047b2d880a4}{%
+           family={Degen},
+           familyi={D\bibinitperiod},
+           given={Judith},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65c77a473608b143fc89f4892247c6f1}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Robert\bibnamedelima XD},
+           giveni={R\bibinitperiod\bibinitdelim X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17c6b9edbad988db7d426fba005cecff}{%
+           family={Goodman},
+           familyi={G\bibinitperiod},
+           given={Noah\bibnamedelima D},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a48cc8843bcf1ca3d66787b281d0f75b}
+      \strng{fullhash}{8f644866b3ef74656f6ae393e7af26b9}
+      \strng{bibnamehash}{8f644866b3ef74656f6ae393e7af26b9}
+      \strng{authorbibnamehash}{8f644866b3ef74656f6ae393e7af26b9}
+      \strng{authornamehash}{a48cc8843bcf1ca3d66787b281d0f75b}
+      \strng{authorfullhash}{8f644866b3ef74656f6ae393e7af26b9}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{38th Annual Meeting of the Cognitive Science Society}
+      \field{title}{Animal, dog, or dalmatian? Level of abstraction in nominal referring expressions.}
+      \field{year}{2016}
+    \endentry
     \entry{Heim2000}{inproceedings}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=af07c40a1e2a7097f65e88894232630c}{%
@@ -524,6 +698,39 @@
       \field{series}{Linguistik Aktuell/Linguistics Today}
       \field{title}{Adjectives: Formal analyses in syntax and semantics}
       \field{year}{2010}
+    \endentry
+    \entry{kaiser2020}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d71bb49c64364ff1de94dceb70f16dff}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={Elsi},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f30b6289ce6793d4de1a35f7b6a1c0f8}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cebc013c58d358d17e5b97a5cf09eaa0}
+      \strng{fullhash}{cebc013c58d358d17e5b97a5cf09eaa0}
+      \strng{bibnamehash}{cebc013c58d358d17e5b97a5cf09eaa0}
+      \strng{authorbibnamehash}{cebc013c58d358d17e5b97a5cf09eaa0}
+      \strng{authornamehash}{cebc013c58d358d17e5b97a5cf09eaa0}
+      \strng{authorfullhash}{cebc013c58d358d17e5b97a5cf09eaa0}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Annual Meeting of the Cognitive Science Society}
+      \field{title}{Distinguishing Fact from Opinion: Effects of Linguistic Packaging}
+      \field{volume}{42}
+      \field{year}{2020}
     \endentry
     \entry{Kamp1975}{inbook}{}
       \name{author}{1}{}{%
@@ -681,6 +888,73 @@
       \field{year}{1980}
       \field{pages}{1\bibrangedash 46}
       \range{pages}{46}
+    \endentry
+    \entry{KreissDegen2020}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=46d603979ba79593dad623bebe771f80}{%
+           family={Kreiss},
+           familyi={K\bibinitperiod},
+           given={Elisa},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd2ab438d2870d0a198b4047b2d880a4}{%
+           family={Degen},
+           familyi={D\bibinitperiod},
+           given={Judith},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9a9f0f56f7b0f887e11d380bf96f0b97}
+      \strng{fullhash}{9a9f0f56f7b0f887e11d380bf96f0b97}
+      \strng{bibnamehash}{9a9f0f56f7b0f887e11d380bf96f0b97}
+      \strng{authorbibnamehash}{9a9f0f56f7b0f887e11d380bf96f0b97}
+      \strng{authornamehash}{9a9f0f56f7b0f887e11d380bf96f0b97}
+      \strng{authorfullhash}{9a9f0f56f7b0f887e11d380bf96f0b97}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Annual Meeting of the Cognitive Science Society}
+      \field{title}{Production Expectations Modulate Contrastive Inference}
+      \field{volume}{42}
+      \field{year}{2020}
+      \keyw{contrastive inference; RSA; typicality; incremental processing}
+    \endentry
+    \entry{krifka2008basic}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=168386282d37c19b9345de16f45fae39}{%
+           family={Krifka},
+           familyi={K\bibinitperiod},
+           given={Manfred},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Akad{é}miai Kiad{ó}}%
+      }
+      \strng{namehash}{168386282d37c19b9345de16f45fae39}
+      \strng{fullhash}{168386282d37c19b9345de16f45fae39}
+      \strng{bibnamehash}{168386282d37c19b9345de16f45fae39}
+      \strng{authorbibnamehash}{168386282d37c19b9345de16f45fae39}
+      \strng{authornamehash}{168386282d37c19b9345de16f45fae39}
+      \strng{authorfullhash}{168386282d37c19b9345de16f45fae39}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Linguistica Hungarica}
+      \field{number}{3-4}
+      \field{title}{Basic notions of information structure}
+      \field{volume}{55}
+      \field{year}{2008}
+      \field{pages}{243\bibrangedash 276}
+      \range{pages}{34}
     \endentry
     \entry{lassiter2017adjectival}{article}{}
       \name{author}{2}{}{%
@@ -885,6 +1159,80 @@
       \field{year}{1976}
       \field{pages}{382\bibrangedash 439}
       \range{pages}{58}
+    \endentry
+    \entry{scontras2017subjectivity}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=53c6ae7a8a209b1472299de4a1301a8d}{%
+           family={Scontras},
+           familyi={S\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd2ab438d2870d0a198b4047b2d880a4}{%
+           family={Degen},
+           familyi={D\bibinitperiod},
+           given={Judith},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17c6b9edbad988db7d426fba005cecff}{%
+           family={Goodman},
+           familyi={G\bibinitperiod},
+           given={Noah\bibnamedelima D},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{2e6565f68548ed73bebea644c0d954c5}
+      \strng{fullhash}{5948e5e8e33e869bb727015725c62670}
+      \strng{bibnamehash}{5948e5e8e33e869bb727015725c62670}
+      \strng{authorbibnamehash}{5948e5e8e33e869bb727015725c62670}
+      \strng{authornamehash}{2e6565f68548ed73bebea644c0d954c5}
+      \strng{authorfullhash}{5948e5e8e33e869bb727015725c62670}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Open Mind}
+      \field{number}{1}
+      \field{title}{Subjectivity predicts adjective ordering preferences}
+      \field{volume}{1}
+      \field{year}{2017}
+      \field{pages}{53\bibrangedash 66}
+      \range{pages}{14}
+    \endentry
+    \entry{searle1969speech}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d61b06513bda60b42e04382eb355b5e7}{%
+           family={Searle},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima Rogers},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge university press}%
+      }
+      \strng{namehash}{d61b06513bda60b42e04382eb355b5e7}
+      \strng{fullhash}{d61b06513bda60b42e04382eb355b5e7}
+      \strng{bibnamehash}{d61b06513bda60b42e04382eb355b5e7}
+      \strng{authorbibnamehash}{d61b06513bda60b42e04382eb355b5e7}
+      \strng{authornamehash}{d61b06513bda60b42e04382eb355b5e7}
+      \strng{authorfullhash}{d61b06513bda60b42e04382eb355b5e7}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Speech acts: An essay in the philosophy of language}
+      \field{volume}{626}
+      \field{year}{1969}
     \endentry
     \entry{sedivy1999}{article}{}
       \name{author}{4}{}{%
@@ -1119,6 +1467,51 @@
       \field{pages}{SI105\bibrangedash SI122}
       \range{pages}{-1}
     \endentry
+    \entry{syrett2010meaning}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b5eed779c6b7b90577e5198b92a48132}{%
+           family={Syrett},
+           familyi={S\bibinitperiod},
+           given={Kristen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc94f2390d66eb60cfb8b4250e6abf85}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8093eaea0c94e98097680f099582e7f}{%
+           family={Lidz},
+           familyi={L\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{b90604f85124433e7104c33ec3ab4db7}
+      \strng{fullhash}{5f972297ed7ebcac579915088eaabf3a}
+      \strng{bibnamehash}{5f972297ed7ebcac579915088eaabf3a}
+      \strng{authorbibnamehash}{5f972297ed7ebcac579915088eaabf3a}
+      \strng{authornamehash}{b90604f85124433e7104c33ec3ab4db7}
+      \strng{authorfullhash}{5f972297ed7ebcac579915088eaabf3a}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of semantics}
+      \field{number}{1}
+      \field{title}{Meaning and context in children's understanding of gradable adjectives}
+      \field{volume}{27}
+      \field{year}{2010}
+      \field{pages}{1\bibrangedash 35}
+      \range{pages}{35}
+    \endentry
     \entry{tessler2017warm}{inproceedings}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=d38fb2182140bfd8126c669e5cada5b8}{%
@@ -1200,6 +1593,70 @@
       \field{booktitle}{42th Annual Meeting of the Cognitive Science Society}
       \field{title}{Informational goals, sentence structure, and comparison class inference}
       \field{year}{2020}
+    \endentry
+    \entry{braun2017}{online}{}
+      \name{editor}{1}{}{%
+        {{un=0,uniquepart=base,hash=5ff1c29ff1cc8f6336533b0ffd842a79}{%
+           family={Zalta},
+           familyi={Z\bibinitperiod},
+           given={Edward\bibnamedelima N.},
+           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5ff1c29ff1cc8f6336533b0ffd842a79}
+      \strng{fullhash}{5ff1c29ff1cc8f6336533b0ffd842a79}
+      \strng{bibnamehash}{5ff1c29ff1cc8f6336533b0ffd842a79}
+      \strng{editorbibnamehash}{5ff1c29ff1cc8f6336533b0ffd842a79}
+      \strng{editornamehash}{5ff1c29ff1cc8f6336533b0ffd842a79}
+      \strng{editorfullhash}{5ff1c29ff1cc8f6336533b0ffd842a79}
+      \field{extraname}{1}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Indexicals. The Stanford Encyclopedia of Philosophy (Summer 2017 Edition)}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://plato.stanford.edu/archives/sum2017/entries/indexicals/
+      \endverb
+      \verb{url}
+      \verb https://plato.stanford.edu/archives/sum2017/entries/indexicals/
+      \endverb
+    \endentry
+    \entry{michaelson2019}{online}{}
+      \name{editor}{1}{}{%
+        {{un=0,uniquepart=base,hash=5ff1c29ff1cc8f6336533b0ffd842a79}{%
+           family={Zalta},
+           familyi={Z\bibinitperiod},
+           given={Edward\bibnamedelima N.},
+           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5ff1c29ff1cc8f6336533b0ffd842a79}
+      \strng{fullhash}{5ff1c29ff1cc8f6336533b0ffd842a79}
+      \strng{bibnamehash}{5ff1c29ff1cc8f6336533b0ffd842a79}
+      \strng{editorbibnamehash}{5ff1c29ff1cc8f6336533b0ffd842a79}
+      \strng{editornamehash}{5ff1c29ff1cc8f6336533b0ffd842a79}
+      \strng{editorfullhash}{5ff1c29ff1cc8f6336533b0ffd842a79}
+      \field{extraname}{2}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Reference. The Stanford Encyclopedia of Philosophy (Spring 2019 Edition)}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://plato.stanford.edu/archives/spr2019/entries/reference/
+      \endverb
+      \verb{url}
+      \verb https://plato.stanford.edu/archives/spr2019/entries/reference/
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

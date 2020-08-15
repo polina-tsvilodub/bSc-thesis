@@ -15,38 +15,38 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}A Fucntional Perspective on Comprison Class Inference}{21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Understanding Reference and Predication}{22}%
+\contentsline {section}{\numberline {3.1}Understanding Reference and Predication}{23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Experimental Operationalization}{23}%
+\contentsline {section}{\numberline {3.2}Experimental Operationalization}{24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Experiments}{25}%
+\contentsline {chapter}{\numberline {4}Experiments}{27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Experiment 1: Sentence Rating Experiment}{27}%
+\contentsline {section}{\numberline {4.1}Experiment 1: Sentence Rating Experiment}{29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Participants:}{28}%
+\contentsline {subsection}{\numberline {4.1.1}Participants:}{30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Results:}{28}%
+\contentsline {subsection}{\numberline {4.1.2}Results:}{30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Experiment 2: Noun Production Experiment}{28}%
+\contentsline {section}{\numberline {4.2}Experiment 2: Noun Production Experiment}{30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Participants:}{29}%
+\contentsline {subsection}{\numberline {4.2.1}Participants:}{31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Results:}{30}%
+\contentsline {subsection}{\numberline {4.2.2}Results:}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Experiment 3: Comparison Class Inference Experiment}{30}%
+\contentsline {section}{\numberline {4.3}Experiment 3: Comparison Class Inference Experiment}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Participants:}{32}%
+\contentsline {subsection}{\numberline {4.3.1}Participants:}{34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Results:}{32}%
+\contentsline {subsection}{\numberline {4.3.2}Results:}{34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Experiment 4: Direct Modification Experiment}{33}%
+\contentsline {section}{\numberline {4.4}Experiment 4: Direct Modification Experiment}{35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Participants:}{34}%
+\contentsline {subsection}{\numberline {4.4.1}Participants:}{36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Results:}{34}%
+\contentsline {subsection}{\numberline {4.4.2}Results:}{36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}A Bayesian Reference-Predication Model}{35}%
+\contentsline {chapter}{\numberline {5}A Bayesian Reference-Predication Model}{37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Discussion}{36}%
+\contentsline {chapter}{\numberline {6}Discussion}{38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{38}%
+\contentsline {chapter}{\numberline {A}Appendix}{40}%
