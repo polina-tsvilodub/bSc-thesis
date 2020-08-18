@@ -2927,8 +2927,11 @@
     <bcf:citekey order="103">tessler2017warm</bcf:citekey>
     <bcf:citekey order="104">tessler2017warm</bcf:citekey>
     <bcf:citekey order="105">magpie</bcf:citekey>
-    <bcf:citekey order="106">goldberg2017one</bcf:citekey>
-    <bcf:citekey order="107">barr2013</bcf:citekey>
+    <bcf:citekey order="106">barr2013</bcf:citekey>
+    <bcf:citekey order="107">Rteam2013</bcf:citekey>
+    <bcf:citekey order="107">burkner2017advanced</bcf:citekey>
+    <bcf:citekey order="108">goldberg2017one</bcf:citekey>
+    <bcf:citekey order="109">barr2013</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

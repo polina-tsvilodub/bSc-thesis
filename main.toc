@@ -1,27 +1,32 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {1}Introduction}{7}%
-\contentsline {chapter}{\numberline {2}Understanding Gradable Adjectives}{9}%
-\contentsline {section}{\numberline {2.1}Semantic Representation of Gradable Adjectives}{11}%
-\contentsline {section}{\numberline {2.2}Understanding Comparison Classes}{12}%
-\contentsline {section}{\numberline {2.3}Semantic and Syntactic Aspects of Gradable Adjective Interpretation}{15}%
-\contentsline {section}{\numberline {2.4}Pragmatic Aspects of Gradable Adjective Interpretation}{18}%
-\contentsline {chapter}{\numberline {3}A Fucntional Perspective on Comprison Class Inference}{22}%
-\contentsline {section}{\numberline {3.1}Understanding Reference and Predication}{24}%
-\contentsline {section}{\numberline {3.2}Experimental Operationalization}{26}%
-\contentsline {chapter}{\numberline {4}Experiments}{28}%
-\contentsline {section}{\numberline {4.1}Experiment 1: Sentence Rating Experiment}{30}%
-\contentsline {subsection}{\numberline {4.1.1}Participants}{33}%
-\contentsline {subsection}{\numberline {4.1.2}Results}{33}%
-\contentsline {section}{\numberline {4.2}Experiment 2: Noun Production Experiment}{34}%
-\contentsline {subsection}{\numberline {4.2.1}Participants}{35}%
-\contentsline {subsection}{\numberline {4.2.2}Results}{36}%
-\contentsline {section}{\numberline {4.3}Experiment 3: Comparison Class Inference Experiment}{37}%
-\contentsline {subsection}{\numberline {4.3.1}Participants}{39}%
-\contentsline {subsection}{\numberline {4.3.2}Results}{40}%
-\contentsline {section}{\numberline {4.4}Experiment 4: Direct Modification Experiment}{41}%
-\contentsline {subsection}{\numberline {4.4.1}Participants}{43}%
-\contentsline {subsection}{\numberline {4.4.2}Results}{43}%
-\contentsline {chapter}{\numberline {5}A Bayesian Reference-Predication Model}{44}%
-\contentsline {chapter}{\numberline {6}Discussion}{45}%
-\contentsline {chapter}{\numberline {A}Appendix}{47}%
+\contentsline {chapter}{\numberline {1}Introduction}{8}%
+\contentsline {chapter}{\numberline {2}Understanding Gradable Adjectives}{10}%
+\contentsline {section}{\numberline {2.1}Semantic Representation of Gradable Adjectives}{12}%
+\contentsline {section}{\numberline {2.2}Understanding Comparison Classes}{13}%
+\contentsline {section}{\numberline {2.3}Semantic and Syntactic Aspects of Gradable Adjective Interpretation}{16}%
+\contentsline {section}{\numberline {2.4}Pragmatic Aspects of Gradable Adjective Interpretation}{19}%
+\contentsline {chapter}{\numberline {3}A Fucntional Perspective on Comprison Class Inference}{23}%
+\contentsline {section}{\numberline {3.1}Understanding Reference and Predication}{25}%
+\contentsline {section}{\numberline {3.2}Experimental Operationalization}{27}%
+\contentsline {chapter}{\numberline {4}Experiments}{30}%
+\contentsline {section}{\numberline {4.1}Experiment 1: Sentence Rating Experiment}{32}%
+\contentsline {subsection}{\numberline {4.1.1}Participants}{35}%
+\contentsline {subsection}{\numberline {4.1.2}Results}{35}%
+\contentsline {section}{\numberline {4.2}Experiment 2: Noun Production Experiment}{36}%
+\contentsline {subsection}{\numberline {4.2.1}Participants}{37}%
+\contentsline {subsection}{\numberline {4.2.2}Results}{38}%
+\contentsline {section}{\numberline {4.3}Experiment 3: Comparison Class Inference Experiment}{39}%
+\contentsline {subsection}{\numberline {4.3.1}Participants}{41}%
+\contentsline {subsection}{\numberline {4.3.2}Results}{42}%
+\contentsline {section}{\numberline {4.4}Experiment 4: Direct Modification Experiment}{43}%
+\contentsline {subsection}{\numberline {4.4.1}Participants}{45}%
+\contentsline {subsection}{\numberline {4.4.2}Results}{45}%
+\contentsline {chapter}{\numberline {5}A Bayesian Reference-Predication Model}{46}%
+\contentsline {section}{\numberline {5.1}Understanding Rational Speech Act Models}{46}%
+\contentsline {section}{\numberline {5.2}Refpred-RSA}{46}%
+\contentsline {chapter}{\numberline {6}Discussion}{47}%
+\contentsline {chapter}{\numberline {A}Appendix}{49}%
+\contentsline {section}{\numberline {A.1}Experimental Materials}{49}%
+\contentsline {subsection}{\numberline {A.1.1}Bot-check Trial}{49}%
+\contentsline {subsection}{\numberline {A.1.2}E2 Exclusion Criteria}{49}%

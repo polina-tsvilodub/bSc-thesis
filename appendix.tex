@@ -1,0 +1,14 @@
+\section{Experimental Materials}
+\subsection{Bot-check Trial}
+The names used in the bot-check trials were: 
+\begin{itemize}
+\item Male names: James, John, Robert, Michael, William, David, Richard, Joseph, Thomas, Charles 
+\item Female names: Mary, Patricia, Jennifer, Linda, Elizabeth, Barbara, Susan, Jessica, Sarah, Margaret. 
+\end{itemize}
+This trial view was developed and provided by Elisa Kreiss. 
+\subsection{E2 Exclusion Criteria}
+In the Sentence Rating Experiment (E2), data from \rlgetvariable{myvars-rating.csv}{nExcludedTotal} participants was excluded. \rlgetvariable{myvars-rating.csv}{nNonEN} indicated a native language other than English. Data from \rlgetvariable{myvars-rating.csv}{nFailedWarmUp} was excluded due to failed warm-up trials. This means, participants provided a lower rating of the sentence “The chair is blue” than the sentence “The chair is yellow” on the chair warm-up trial; it was also counted as a fail if participants rated the sentence “The basketball is green” higher than the sentence “The basketball is orange”, or if the rating of the sentence “The basketball is orange” received a rating of less than 50 on the basketball trial.
+
+Furthermore, data from \rlgetvariable{myvars-rating.csv}{nFailedMains} participants were excluded who provided the same ratings within 5 points for one syntactic condition on every trial (one of the sentences on every trial), or those who provided the same ratings of the two sentences on every trial. 
+However, choosing exclusion criteria based on participants’ performance in the main trials might have been an overly restrictive or biasing criterion. So an exploratory analysis was conducted on the full dataset, where participants were only excluded based on their performance in the practice trials. 
+This exploratory analysis revealed results qualitatively and quantitatively very similar to results from the main preregistered analysis: participants dispreferred sentences with a subordinate predicate noun, compared to sentences with basic-level subordinate nouns, but did not show any preferences in the subject-noun condition (syntax-by-noun interaction: $\beta = \rlgetnum{expt1_brm_full_exploratory.csv}{Rowname}{syntax:NP}{Estimate}{2}  [\rlgetnum{expt1_brm_full_exploratory.csv}{Rowname}{syntax:NP}{l.95..CI}{2}, \rlgetnum{expt1_brm_full_exploratory.csv}{Rowname}{syntax:NP}{u.95..CI}{2}]$). They also overall preferred the subject-N syntax ($\beta = \rlgetnum{expt1_brm_full_exploratory.csv}{Rowname}{syntax}{Estimate}{2} [\rlgetnum{expt1_brm_full_exploratory.csv}{Rowname}{syntax}{l.95..CI}{2}, \rlgetnum{expt1_brm_full_exploratory.csv}{Rowname}{syntax}{u.95..CI}{2}] $), as well as basic-level nouns ($\beta = \rlgetnum{expt1_brm_full_exploratory.csv}{Rowname}{NP}{Estimate}{2} [\rlgetnum{expt1_brm_full_exploratory.csv}{Rowname}{NP}{l.95..CI}{2},\rlgetnum{expt1_brm_full_exploratory.csv}{Rowname}{NP}{u.95..CI}{2}] $). 
