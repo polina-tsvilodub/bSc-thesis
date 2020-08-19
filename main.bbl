@@ -242,6 +242,19 @@
       \field{volume}{9}
       \field{year}{1972}
     \endentry
+    \entry{powerKurz}{online}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{Bayesian power analysis: Part III.b. What about 0/1 data?}
+      \verb{urlraw}
+      \verb https://solomonkurz.netlify.app/post/bayesian-power-analysis-part-iii-b/
+      \endverb
+      \verb{url}
+      \verb https://solomonkurz.netlify.app/post/bayesian-power-analysis-part-iii-b/
+      \endverb
+    \endentry
     \entry{bergey2020}{inproceedings}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=bc207ef723061e4b757c319752b64484}{%
@@ -1030,6 +1043,34 @@
       \field{year}{2008}
       \field{pages}{243\bibrangedash 276}
       \range{pages}{34}
+    \endentry
+    \entry{kruschke2014doing}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8c9fdd177e85e0bb82c9faf29f51803d}{%
+           family={Kruschke},
+           familyi={K\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{8c9fdd177e85e0bb82c9faf29f51803d}
+      \strng{fullhash}{8c9fdd177e85e0bb82c9faf29f51803d}
+      \strng{bibnamehash}{8c9fdd177e85e0bb82c9faf29f51803d}
+      \strng{authorbibnamehash}{8c9fdd177e85e0bb82c9faf29f51803d}
+      \strng{authornamehash}{8c9fdd177e85e0bb82c9faf29f51803d}
+      \strng{authorfullhash}{8c9fdd177e85e0bb82c9faf29f51803d}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Doing Bayesian data analysis: A tutorial with R, JAGS, and Stan}
+      \field{year}{2014}
     \endentry
     \entry{lassiter2017adjectival}{article}{}
       \name{author}{2}{}{%

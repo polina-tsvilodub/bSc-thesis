@@ -6,9 +6,24 @@ The names used in the bot-check trials were:
 \item Female names: Mary, Patricia, Jennifer, Linda, Elizabeth, Barbara, Susan, Jessica, Sarah, Margaret. 
 \end{itemize}
 This trial view was developed and provided by Elisa Kreiss. 
-\subsection{E2 Exclusion Criteria}
+\subsection{E1 Exclusion Criteria}
 In the Sentence Rating Experiment (E2), data from \rlgetvariable{myvars-rating.csv}{nExcludedTotal} participants was excluded. \rlgetvariable{myvars-rating.csv}{nNonEN} indicated a native language other than English. Data from \rlgetvariable{myvars-rating.csv}{nFailedWarmUp} was excluded due to failed warm-up trials. This means, participants provided a lower rating of the sentence “The chair is blue” than the sentence “The chair is yellow” on the chair warm-up trial; it was also counted as a fail if participants rated the sentence “The basketball is green” higher than the sentence “The basketball is orange”, or if the rating of the sentence “The basketball is orange” received a rating of less than 50 on the basketball trial.
 
 Furthermore, data from \rlgetvariable{myvars-rating.csv}{nFailedMains} participants were excluded who provided the same ratings within 5 points for one syntactic condition on every trial (one of the sentences on every trial), or those who provided the same ratings of the two sentences on every trial. 
 However, choosing exclusion criteria based on participants’ performance in the main trials might have been an overly restrictive or biasing criterion. So an exploratory analysis was conducted on the full dataset, where participants were only excluded based on their performance in the practice trials. 
 This exploratory analysis revealed results qualitatively and quantitatively very similar to results from the main preregistered analysis: participants dispreferred sentences with a subordinate predicate noun, compared to sentences with basic-level subordinate nouns, but did not show any preferences in the subject-noun condition (syntax-by-noun interaction: $\beta = \rlgetnum{expt1_brm_full_exploratory.csv}{Rowname}{syntax:NP}{Estimate}{2}  [\rlgetnum{expt1_brm_full_exploratory.csv}{Rowname}{syntax:NP}{l.95..CI}{2}, \rlgetnum{expt1_brm_full_exploratory.csv}{Rowname}{syntax:NP}{u.95..CI}{2}]$). They also overall preferred the subject-N syntax ($\beta = \rlgetnum{expt1_brm_full_exploratory.csv}{Rowname}{syntax}{Estimate}{2} [\rlgetnum{expt1_brm_full_exploratory.csv}{Rowname}{syntax}{l.95..CI}{2}, \rlgetnum{expt1_brm_full_exploratory.csv}{Rowname}{syntax}{u.95..CI}{2}] $), as well as basic-level nouns ($\beta = \rlgetnum{expt1_brm_full_exploratory.csv}{Rowname}{NP}{Estimate}{2} [\rlgetnum{expt1_brm_full_exploratory.csv}{Rowname}{NP}{l.95..CI}{2},\rlgetnum{expt1_brm_full_exploratory.csv}{Rowname}{NP}{u.95..CI}{2}] $). 
+
+\subsection{E2, E3 Response Classification}
+The following free-production responses were excluded from analysis in Experiment 2 (Noun Production): "last", "oak", "finch", "duck", "lavender", "salmon", "goldfinch", "dahlia", "poetry", "one", "lablador", "geony".
+
+The following provided responses (corrected for misspellings, capitalization and number) were classified as subordinate: "goldfish", "hummingbird", "canary", "doberman", "sunflower", "swordfish", "sparrow", "tuna", "peony", "chihuahua", "daisy",  "clownfish", "Great Dane", "goose", "bonsai", "pug", "dandelion", "swan", "eagle", "redwood", "blue swordfish", "eagle that is landing", "red clownfish", "Dandelion with seeds", "sequoia", "redwood tree", "peony flower".
+
+The following provided responses (also corrected) were classified as basic-level: "birds", "dogs", "great dog", "fish", "fishes", "flowers", "trees", "animal", "plants", "weeds".
+
+The following free-production responses were excluded from analysis in Experiment 3 (Comparison Class Inference): "that man is big", "that's small boy", "that is big one", "that's a small doberman",
+"that bird compare small", "that boy is small", "me is big", "but some one small", "that pug small",
+"you are small", "beauty for fish", "yes", "aim", "growth", "honest", "medicine", "heathy", "dogs name", "trees name", "big", "tall", "small", "cute", "good", "bushes", "why it in land", "what is this flower", "fish nose", "labrador".
+
+The following provided responses (corrected for misspellings, capitalization and number) were classified as subordinate: "chihuahuas", "bonsai", "pugs", "great danes", "sunflowers", "dobermen", "swordfish", "dandelions", "goldfish", "eagles", "redwoods", "hummingbirds", "sequoias", "bonsai trees", "redwood trees", "other swordfish", "the other sunflowers".
+
+The following provided responses (also corrected corrected) were classified as basic-level: "birds", "dogs", "fish", "flowers", "birds in the sky", "big dogs", "things", "objects", "dogs", "dogs that we see", "fish that we see", "birds that we see", "flower", "trees", "animal", "the other birds", "the other dogs", "weeds", "small flowers", "dog", "large dogs", "giant trees", "breeds", "plant", "variety of dogs", "long trees".
