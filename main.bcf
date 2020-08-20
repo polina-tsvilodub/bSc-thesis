@@ -2936,9 +2936,16 @@
     <bcf:citekey order="110">goodman2016</bcf:citekey>
     <bcf:citekey order="110">lassiter2017adjectival</bcf:citekey>
     <bcf:citekey order="110">tessler2017warm</bcf:citekey>
-    <bcf:citekey order="111">lassiter2017adjectival</bcf:citekey>
-    <bcf:citekey order="112">goodman2016</bcf:citekey>
-    <bcf:citekey order="113">tenenbaum2011grow</bcf:citekey>
+    <bcf:citekey order="111">frank2012predicting</bcf:citekey>
+    <bcf:citekey order="112">tenenbaum2011grow</bcf:citekey>
+    <bcf:citekey order="112">problang</bcf:citekey>
+    <bcf:citekey order="113">frank2012predicting</bcf:citekey>
+    <bcf:citekey order="114">grice1975logic</bcf:citekey>
+    <bcf:citekey order="115">frank2012predicting</bcf:citekey>
+    <bcf:citekey order="116">degen2020redundancy</bcf:citekey>
+    <bcf:citekey order="117">goodman2016</bcf:citekey>
+    <bcf:citekey order="118">tenenbaum2011grow</bcf:citekey>
+    <bcf:citekey order="119">lassiter2017adjectival</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

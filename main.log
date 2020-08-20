@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.19)  20 AUG 2020 12:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.19)  20 AUG 2020 15:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1791,39 +1791,84 @@ LaTeX Warning: Citation 'tessler2017warm' on page 48 undefined on input line 1.
 
 
 
-LaTeX Warning: Citation 'lassiter2017adjectival' on page 48 undefined on input 
-line 4.
+LaTeX Warning: Citation 'frank2012predicting' on page 48 undefined on input lin
+e 1.
 
 
-Overfull \hbox (52.00778pt too wide) in paragraph at lines 4--5
-\OT1/cmr/m/n/12 threshold se-man-tics, where the thresh-old is prob-a-bilis-ti-
-cally in-ferred ([])
+LaTeX Warning: Citation 'tenenbaum2011grow' on page 48 undefined on input line 
+1.
+
+
+LaTeX Warning: Citation 'problang' on page 48 undefined on input line 1.
+
+
+Overfull \hbox (47.8379pt too wide) in paragraph at lines 1--2
+\OT1/cmr/m/n/12 theoretically ori-ented re-cur-sive mod-els of prag-matic lan-g
+uage un-der-stand-ing ([];
  []
 
 
-LaTeX Warning: Citation 'goodman2016' on page 48 undefined on input line 6.
+Overfull \hbox (12.76047pt too wide) in paragraph at lines 1--2
+[]\OT1/cmr/m/n/12 ; [])). In-tro-duced by [],
+ []
 
 
-Overfull \hbox (23.45224pt too wide) in paragraph at lines 6--7
+LaTeX Warning: Citation 'frank2012predicting' on page 48 undefined on input lin
+e 5.
+
+[48
+
+]
+
+LaTeX Warning: Citation 'grice1975logic' on page 49 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'frank2012predicting' on page 49 undefined on input lin
+e 10.
+
+
+LaTeX Warning: Citation 'degen2020redundancy' on page 49 undefined on input lin
+e 16.
+
+
+Overfull \hbox (44.27733pt too wide) in paragraph at lines 16--19
+\OT1/cmr/m/n/12 man-tics (1973), clas-si-cally as-sum-ing boolean truth-values 
+(but see []).
+ []
+
+
+LaTeX Warning: Citation 'goodman2016' on page 49 undefined on input line 23.
+
+
+Overfull \hbox (23.45224pt too wide) in paragraph at lines 23--24
 []\OT1/cmr/m/n/12 S and L co-or-di-nate in-tended mean-ing; three lev-els. sim-
 ple ex-am-ple: ([]) 
  []
 
 
-LaTeX Warning: Citation 'tenenbaum2011grow' on page 48 undefined on input line 
-11.
+LaTeX Warning: Citation 'tenenbaum2011grow' on page 49 undefined on input line 
+26.
 
-[48
+[49]
 
-] [49]) [50]
+LaTeX Warning: Citation 'lassiter2017adjectival' on page 50 undefined on input 
+line 32.
+
+
+Overfull \hbox (69.6326pt too wide) in paragraph at lines 32--33
+[]\OT1/cmr/m/n/12 threshold se-man-tics, where the thresh-old is prob-a-bilis-t
+i-cally in-ferred ([])
+ []
+
+[50]) [51]
 Chapter 6.
-(./chapter06.tex) [51
+(./chapter06.tex) [52
 
-] [52
+] [53
 
 ]
 Appendix A.
-(./appendix.tex [53
+(./appendix.tex [54
 
 ]
 Overfull \hbox (9.06386pt too wide) in paragraph at lines 19--20
@@ -1840,7 +1885,7 @@ Overfull \hbox (5.5389pt too wide) in paragraph at lines 29--138
 
 LaTeX Warning: Empty bibliography on input line 139.
 
-[54] [55] (./main.aux)
+[55] [56] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1854,10 +1899,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35498 strings out of 480608
- 874380 string characters out of 5903630
- 1689379 words of memory out of 5000000
- 50808 multiletter control sequences out of 15000+600000
+ 35497 strings out of 480608
+ 874364 string characters out of 5903630
+ 1689467 words of memory out of 5000000
+ 50807 multiletter control sequences out of 15000+600000
  542881 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,11n,102p,2521b,4720s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1878,10 +1923,10 @@ e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive
 2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2
 020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/202
 0/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb>
-Output written on main.pdf (56 pages, 2361728 bytes).
+Output written on main.pdf (57 pages, 2367520 bytes).
 PDF statistics:
- 374 PDF objects out of 1000 (max. 8388607)
- 242 compressed objects within 3 object streams
+ 377 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  68 words of extra memory for PDF output out of 10000 (max. 10000000)
 

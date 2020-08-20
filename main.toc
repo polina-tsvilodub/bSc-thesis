@@ -24,10 +24,10 @@
 \contentsline {subsection}{\numberline {4.4.2}Results}{47}%
 \contentsline {chapter}{\numberline {5}A Bayesian Reference-Predication Model}{48}%
 \contentsline {section}{\numberline {5.1}Understanding Rational Speech Act Models}{48}%
-\contentsline {section}{\numberline {5.2}Refpred-RSA}{50}%
-\contentsline {chapter}{\numberline {6}Discussion}{51}%
-\contentsline {chapter}{\numberline {A}Appendix}{53}%
-\contentsline {section}{\numberline {A.1}Experimental Materials}{53}%
-\contentsline {subsection}{\numberline {A.1.1}Bot-check Trial}{53}%
-\contentsline {subsection}{\numberline {A.1.2}E1 Exclusion Criteria}{53}%
-\contentsline {subsection}{\numberline {A.1.3}E2, E3 Response Classification}{54}%
+\contentsline {section}{\numberline {5.2}Refpred-RSA}{51}%
+\contentsline {chapter}{\numberline {6}Discussion}{52}%
+\contentsline {chapter}{\numberline {A}Appendix}{54}%
+\contentsline {section}{\numberline {A.1}Experimental Materials}{54}%
+\contentsline {subsection}{\numberline {A.1.1}Bot-check Trial}{54}%
+\contentsline {subsection}{\numberline {A.1.2}E1 Exclusion Criteria}{54}%
+\contentsline {subsection}{\numberline {A.1.3}E2, E3 Response Classification}{55}%
