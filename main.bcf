@@ -2933,6 +2933,12 @@
     <bcf:citekey order="108">goldberg2017one</bcf:citekey>
     <bcf:citekey order="109">kruschke2014doing</bcf:citekey>
     <bcf:citekey order="109">powerKurz</bcf:citekey>
+    <bcf:citekey order="110">goodman2016</bcf:citekey>
+    <bcf:citekey order="110">lassiter2017adjectival</bcf:citekey>
+    <bcf:citekey order="110">tessler2017warm</bcf:citekey>
+    <bcf:citekey order="111">lassiter2017adjectival</bcf:citekey>
+    <bcf:citekey order="112">goodman2016</bcf:citekey>
+    <bcf:citekey order="113">tenenbaum2011grow</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
