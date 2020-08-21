@@ -1,65 +1,95 @@
-The vague context-dependent nature of gradable adjectives has been promisingly formalized in models within the Rational Speech Act framework -  a suite of game-theoretically oriented recursive models of pragmatic language understanding \parencite{goodman2016, lassiter2017adjectival, tessler2017warm}). Introduced by \textcite{frank2012predicting}, the Rational Speech Act framework is well in line with recent insights in the increasingly influential Bayesian cognitive modelling tradition, showing a great deal of flexibility to account for various pragmatic phenomena like scalar implicature, hyperbolic language, generics among many other \parencite[e.g.,][]{tenenbaum2011grow, problang}. This chapter reviews the Rational Speech Act framework and prior models of gradable adjectives, to finally propose a minimal extension of existing models formalizing the reference-predication trade-off hypothesis, allowing to flexibly incorporate reasoning about context and role of the noun in comparison class inference. 
+The vague context-dependent nature of gradable adjectives has been promisingly formalized in models within the Rational Speech Act framework -  a suite of game-theoretically oriented recursive models of pragmatic language understanding \parencite[e.g.,][]{goodman2016, lassiter2017adjectival, tessler2017warm}). Introduced by \textcite{frank2012predicting}, the Rational Speech Act framework is well in line with recent insights in the increasingly influential Bayesian cognitive modelling tradition, showing a great deal of flexibility to account for various pragmatic phenomena like scalar implicature, hyperbolic language or generics, among many other \parencite[e.g.,][]{tenenbaum2011grow, problang}. This chapter reviews the Rational Speech Act framework and prior models of gradable adjectives, to finally propose a minimal extension of existing models formalizing the reference-predication trade-off hypothesis, allowing to flexibly incorporate reasoning about context and role of the noun in comparison class inference. 
   
 \section{Understanding Rational Speech Act Models}
 
-Language is fascinatingly flexible and efficient; this is largely due to fact that interlocutors do not have to encode all information explicitly in utterances they produce, but instead rely on each other's ability to infer many aspects of meaning from linguistic and situational context. Given these contextual constrains, speakers and listeners can efficiently reason about each other's intended meaning under one important assumption: speakers are approximatly \emph{rational} with respect to their intended goal \parencite{frank2012predicting}. The Rational Speech Act approach (henceforth: RSA) views communication as recursive reasoning between speaker and listener: in interpretation-oriented models, a pragmatic listener $L_1$ tries to infer a state of the world conveyed by an utterance he received, by using \emph{Bayesian inference} to reason about likely world states given the observed utterance, as produces by a pragmatic speaker $S_1$, knowing that $S_1$ chooses the utterance according to its most likely literal interpretation by a literal listener $L_0$.  
+Language is fascinatingly flexible and efficient; this is largely due to the fact that interlocutors do not have to encode all information explicitly in utterances they produce, but instead rely on each other's ability to infer many aspects of meaning from linguistic and situational context. In particular, pragmatic models of communication posit that given these contextual constrains, speakers and listeners can efficiently \emph{reason about each other's intended meaning} under one important assumption: speakers are approximatly \emph{rational} with respect to their intended goal \parencite{frank2012predicting}. The Rational Speech Act approach (henceforth: RSA) views communication as recursive reasoning between speaker and listener: in interpretation-oriented models, a pragmatic listener $L_1$ infers a state of the world intended to be conveyed by a speaker via the utterance he received, by using \emph{Bayesian inference} to reason about likely world states given the observed utterance, as produces by a pragmatic speaker $S_1$, knowing that $S_1$ chooses the utterance according to its most likely semantic interpretation by a literal listener $L_0$.  
 
-The idea of language as a form of rational action produced by cooperative interlocutors was formulated by \textcite{grice1975logic}: At the core of his proposal are four conversational maxims that speakers are thought to strive to achieve when producing utterances in order to convey particular messages: the \emph{maxim of relation} (), quantity, quality and manner. 
+The idea of language as a form of rational action produced by cooperative interlocutors was formulated by \textcite{grice1975logic}. At the core of his proposal are four conversational maxims that speakers are thought to strive to achieve when producing utterances in order to convey particular messages: the \emph{maxim of relation} (), quantity, quality and manner. 
 
-Grice’s ideas became particularly influential when a precise formalisation of such vague concepts like \emph{informativeness, cooperation} and \emph{relevance} was proposed in information-theoretic terms, informed by insights from game-theory.
-In particular, the notion of a cooperative speaker can be captured as an agent who chooses words informative in a particular context, in order to communicate a particular state of the world, where informativeness is quantified by their surprisal - a measure of how much uttering a particular word reduces uncertainty about the state of the world \parencite{frank2012predicting}. That is, a maximally informative utterance would unambiguously communicate the intended state of the world: 
+Grice’s ideas became particularly influential when precise information-theoretic formalisations of such vague concepts like \emph{informativeness, cooperation} and \emph{relevance} were proposed in, informed by insights from game-theory, giving rise to RSA \parencite{frank2012predicting}.
+In particular, coordination of intended meaning between interlocutors can be captured via iterative application of probabilistic mechanisms, and context-dependence of meaning can be captured as listener uncertainty about the message encoded in utterances by the speaker (i.e., the state of affairs in the world she wishes to communicate) - in Bayesian cognitive modelling spirit as \emph{subjective beliefs} of the listener - that is, as a \emph{probability distribution} over possible states of the world \parencite{tenenbaum2011grow}. The listener agent $L_1$ can then update her beliefs via Bayes' rule, upon learning a proposition - namely upon hearing an utterance $u$ produced by an informative speaker $S_1$ \parencite{frank2012predicting}.
 
-$$I_p(x) = - log(p(x))$$  
-$I_p(x)$ measures how much information is gained when hearing the utterance $x$, assuming a known distribution $p(x)$ over states of the world that are coveyed by the literal interpretation of $x$. Therefore, speaker utility is anti-proportional to surprisal: speakers strive to choose an utterance minimizing surprisal of a particular state of the world given that utterance. 
-This informativity is traded-off with cost of uttering the particular utterance over other available options. 
-
-Here, one crucial component of the models is already involved: the literal meaning of an utterance. In RSA, it is based on a form of Montague’s compositional semantics (1973), classically assuming boolean truth-values (but see \textcite{degen2020redundancy}). 
-This literal interpretation is usually captured as an agent interpreting utterance literally - the literal listener $L_0$. 
-Now the rational speaker striving to maximize the probability of conveying the intended state of the world $s$ acts according to Bayesian decision theory, choosing an utterance $u$ proportionally to its expected utility (i.e., informativeness, see above):
-
-$$P(u | s, C) \propto e^{\alpha U (u; s, C)}$$
-
-
-In particular, context-dependence of meaning and listener uncertainty about it can be captured in Bayesian cognitive modelling spirit as subjective belifs of the listener - that is, as a probability distribution over possible worlds consistent with the utterance. These beliefs can than be updated by the agent via Bayes' rule, upon learning a proposition - namely upon hearing an utterance $u$ produced by an informative speaker \parencite{frank2012predicting}: 
-$$P(s | u, C) = \frac{P(u | s, C) P(s)}{\sum_{s' \in C} P(u | s, C) P(s')}$$
-\pt{Usually, the context is assumed to be shared and knwon to both speaker and listener, so C will be dropped for simplicity}
-
-The workings of RSA are best illustrated by a simple example from a reference game, as described by \textcite{frank2012predicting}:
-Conseder a simple world consisting of a blue square, a blue circle and a green square (Fig. \ref{rsa-scene}).
+These mechanisms of RSA are best illustrated by a simple example from a reference game, as described by \textcite{frank2012predicting}:
+Consider a simple world consisting of a blue square, a blue circle and a green square (Fig. \ref{rsa-scene}).
 \begin{figure*}[t]
 	\begin{center}
 		\includegraphics[width=0.5\linewidth]{rsa_scene.png}
 	\end{center}
 	\vspace{-0.3cm}
-	\caption{RSA reference resolution example scenario \parencite{frank2012predicting}}
+	\caption{A simple reference resolution example scenario: the context $C$ consists of three possible referents \parencite{frank2012predicting}}
 	\label{rsa-scene}
 \end{figure*}
-In a reference game scenario, a speaker wants to communicate to a listener a particular referent $s$ in context, in this toy scenario - one of the items among $S = \{blue-sqare, blue-circle, green-square\}$. To do so, she has a finite set of utterances $U = \{blue, green, square, circle\}$. Standard RSA models consist of three layers: a pragmatic speaker $S_1$ who chooses an optimal utterance for signalling $s$ to a literal listener $L_0$, who infers all the referents consistent with the literal meaning of the utterance $u$. Finally, the top-level pragmatic listener $L_1$ reasons about this speaker behaviour, using Bayes' rule.  
+In such a reference game scenario, a speaker wants to communicate to a listener a particular referent $s$ in context $C$ (e.g., the blue square), in this toy scenario - one of the items among $C = \{blue-sqare, blue-circle, green-square\}$. To do so, she has a finite set of utterances $U = \{blue, green, square, circle\}$.  \footnote{The finite set of alternative utterances is a crucial assumption made in RSA. It is a highly relevant question for future research how human interlocutors actually determine the set of relevant alternatives.} A listener tries to recover the intended referent (i.e., the blue square) upon receiving an utterance (e.g., "blue"). 
+As briefly mentioned above, standard RSA models consist of three layers: a pragmatic speaker $S_1$ who chooses an optimal utterance for signalling $s$ to a literal listener $L_0$, who infers all the referents consistent with the literal meaning of the utterance $u$. Finally the top-level pragmatic listener $L_1$ reasons about this speaker behaviour given a particular utterance $u$ (e.g., 'blue'), using Bayes' rule: \footnote{This recursive depth of three levels has been argued to be cognitively plausible, because it implements first-order reasoning of an agent about other agent's intentions, and requires a reasonable amount of computational resources \parencite{frank2012predicting}. Yet this is just a practical approximation, and some models (e.g., production-oriented models ) employ additional levels.\pt{cite}} \footnote{Usually, the context $C$ is assumed to be shared and knwon to both speaker and listener, so $C$ will be dropped for simplicity in further explanations}
+ 
+$$P_{L_1}(s | u, C) = \frac{P_{S_1}(u | s, C) P(s)}{\sum_{s' \in C} P_{S_1}(u | s', C) P(s')}$$
 
-listener as updating beliefs -- example with L1 formula -- formal notion of S1 w example -- informativeness -- L0 
 
-S and L coordinate intended meaning; three levels. simple example: \parencite{goodman2016}
+That is, the probability of a particular state $s$ given the utterance $u$ is equal to the probability that the pragmatic speaker $S_1$ would choose $u$ in order to communicate about $s$, multiplied by the prior probability $P(s)$ of occurence of state $s$, normalised by a constant sum of probabilities of all possible speaker behaviors for all possible states $s'$. Since the denominator is a constant, it can be dropped, resulting in the probability of a particular $s$ given $u$ being \emph{proportional} to the speaker production probability $P(u | s)$ times the state prior $P(s)$:
 
-Whereas Grice’s idea of rationality is the basis for the rational speech act framework, it has been shown that speakers might pursue additional other goals which need to be traded-off with these maximes. For example, politeness, overmodification etc...  
-This formalisation is a part of a growing body of Bayesian cognitive modeling tradition \parencite{tenenbaum2011grow}, wherein the agent’s beliefs about the world are represented as a probability distribution over propositions representing the possible worlds, and these beliefs are updated to a posterior distribution by the agent via Bayes’ rule upon learning about specific propositions. 
+$$P_{L_1}(s | u) \propto P_{S_1}(u | s) P(s)$$ 
+The state prior $P(s)$ is an important hook for integrating any prior information like world knowledge into the model. For instance, in this simple example it might reflect perceptual salience of objects \parencite{frank2012predicting}. 
 
-The Rational Speech Act framework is based 
-Previous Gradable Adjective Models
-Lassiter and Goodman 2013
+Now $P_{S_1}(u | s)$ incorporates the notion of a cooperative speaker. Specifically, she can be captured as an agent who chooses an utterance $u$ informative in a particular context $C$, in order to communicate a particular state of the world $s$, where informativeness is quantified by the utterance's surprisal - a measure of how much uttering a particular $u$ reduces uncertainty about the state of the world \parencite{frank2012predicting}, given that $u$ is \emph{true of $s'$}: 
+$$I_{\~u (s')}(s') = - log(\~u (s'))$$  
+$I_{\~u (s')}(s') $ measures how much information is gained when hearing the utterance $u$, assuming a known distribution $\~u (s')$ over states of the world that are coveyed by the literal interpretation of $u$.
+Intuitively, the less states an utterance describes, the higher its informativity. For instance, in the context of Fig. \ref{rsa-scene}, the utterance 'circle' is highly informative, because there is only one object it applies to, while the utterance 'sqaure' is less informative because it applies to two objects. 
+Therefore, speaker utility is anti-proportional to surprisal: speakers strive to choose an utterance minimizing surprisal of a particular state of the world given that utterance. 
+This informativity is traded-off with non-negative cost $C(u)$ of uttering the particular utterance over other available options, resulting in the speaker-utility function $U_{S_1}(u; s)$: 
 
-threshold semantics, where the threshold is probabilistically inferred \parencite{lassiter2017adjectival} for a given comparison class.
+$$U_{S_1} (u;s) = log (\~u (s) )- C(u)$$
+Now the rational speaker striving to maximize the probability of conveying the intended state of the world $s$ acts according to Bayesian decision theory, choosing an utterance $u$ proportionally to its expected utility (see above):
 
-The most basic level of any RSA-model is L0, or the literal listener, who interprets an utterance according to its meaning by computing the probability of a state given the literal semantics of the utterance and the prior probability of the state.  The semantics of utterance are represented in truth-conditional Boolean semantics tradition, mapping utterances onto truth-values for specific states. Frank and Goodman (2012) define the informativeness of expressions in context as its surprisal, measuring how much it reduces surprisal about the referent. It can be derived that rational speakers choose words proportional to their specificity, as defined by the number of items the chosen word could apply to (Frank, Goodman 2012).   
+$$P_{S_1}(u | s) = \frac{e^{\alpha U_{S_1} (u; s)}}{\sum_{u' \in U s.t. u'(s) = true} e^{\alpha U_{S_1} (u'; s)}}$$
+
+One crucial component involved in the speaker utility function $U_{S_1}$ is the literal meaning of the chosen utterance $s$ $I_{\~u (s')}(s')$ is conditioned on. In RSA, literal semantics computation is based on a form of Montague’s compositional semantics \parencite{montague1973proper}, classically assuming a Boolean utterance-functions applied to particular states (but see \textcite[e.g.][]{degen2020redundancy} for an alternative approach to literal semantics.). So, for instance in context Fig. \ref{rsa-scene}, applying the utterance 'square' to the blue circle would return \texttt{false}:
+$$\llbracket square \rrbracket (blue-circle) = 0$$.
+   
+In social-reasoning terms of RSA, it is the literal listener agent $L_0$ that encorporates a naive agent $S_1$ reasons about when choosing an optimal utterance, computing a probability distribution over states consistent with the received utterance $u$:
+
+$$P_{L_0}(s | u) = \frac{\llbracket u \rrbracket (s) \times P(s)}{\sum_{s' \in C} \llbracket u \rrbracket (s') P(s')}}$$
+
+Since $L_0$ essentially implements the surprisal computation described above, for simplicity the speaker-utility model can be re-formulated in terms of optimizing the utterance as conveying the intended state $s$ to the literal  listener $L_0$: 
+$$U_{S_1} (u;s) = log L_0(s | u) - C(u)$$.
+
+\begin{figure*}[t]
+	\begin{center}
+		\includegraphics[width=0.5\linewidth]{vanilla-rsa.png}
+	\end{center}
+	\vspace{-0.3cm}
+	\caption{A schematic depiction of a vanilla RSA model \parencite{problang}}
+	\label{vanilla-rsa}
+\end{figure*}
+Putting all the elements together results in the vanilla version of an RSA-model (Fig. \ref{vanilla-rsa}).
+ 
+%listener as updating beliefs -- example with L1 formula -- formal notion of S1 w example -- informativeness -- L0 
+%note that these exist as part of L1's reasoning \parencite{lassiter2017adjectival}
+
 “Speech acts are actions; thus, the speaker is modeled as a rational (Bayesian) actor. He chooses an action (e.g., an utterance) according to its utility. The speaker simulates taking an action, evaluates its utility, and chooses actions based on their utility. Rationality of choice is often defined as choice of an action that maximizes the agent’s (expected) utility. Here we consider a generalization in which speakers use a softmax function to approximate the (classical) rational choice to a variable degree” (problang)
 The speaker chooses utterance u to communicate a state s to L0 , by trying to minimize effort for L0 to arrive from u at s, i.e., by minimizing surprisal of s given u, while trying to also keep utterance cost minimal. Having this utility function in mind, the S1 computes a probability distribution over utterances having an s in mind, in proportion to the speaker’s utility function Us (above), where alpha may control for speaker optimality  
 “To interpret the utterance, the pragmatic listener considers the process that generated the utterance, in the first place” in the form of the S1. 
 
-Lassiter \& Goodman (2013, 2017) first provided a model of gradable adjective interpretation within the RSA-framework, showing that a Bayesian approach can capture their vague meaning via inference over the latent threshold variable underlying the adjective semantics. Importantly, probabilistic reasoning provides tools to capture uncertainty over certain aspects of the message, in this particular case - the speaker’s intended meaning of the adjectival utterance.  
+
+threshold semantics, where the threshold is probabilistically inferred \parencite{lassiter2017adjectival} for a given comparison class.
+
+Lassiter \& Goodman (2013, 2017) first provided a model of gradable adjective interpretation within the RSA-framework, showing that a Bayesian approach can capture their vague meaning via inference over the latent threshold variable $\theta$ underlying the adjective semantics. Importantly, probabilistic reasoning provides tools to capture uncertainty over certain aspects of the message, in this particular case - the speaker’s intended meaning of the adjectival utterance.  
+In the proposed model, the listener jointly infers the value of the threshold along with the state of the world - i.e., the degree of the propoerty under discussion. The literal meaning of adjectives is therefore formalised in terms of degree-semantics, assuming that the lexical entry of the adjective specifies the underlying scale and its polarity. 
+The authors assume a standard RSA model with three levels, adding one crucial component - the threshold, entering the literal semantics of the adjective on the level of L0. 
+In order to allow specifying the compositional semantics of the utterance via the L0 which requires the computation of the truth of an utterance for a given world state, the authors propose L1 consider all possible assignments of values the latent variable, given a prior over that variable. The assumed values are then iteratively passed down through the model, such that it can be computed how likely it is that S1 would produce the observed utterance if the threshold took on a particular value:
+$$P_{L_0} (s | u, V) = P_{L_0}(s | \llbracket u \rrbracket ^V = 1 )$$
+
+$$P_{S_1} (u | s, V) \propto exp(\alpha \times ln (P_{L_0} (s | u, V) - C(u)) )$$
+
+Via Bayes' rule, L1 can then infer the joint posterior distribution over all possible combinations of states and values of the latent threshold:
+$$P_{L_1} (s, V | u) \propto P_{S_1} (u | s, V) \times P_{L_1} (s) \times P_{L_1}(V)$$
+
 In this work, the relevant comparison class was assumed to be implicitly supplied. 
+
+QUD stuff
 
 Tessler et al. 2017: 
 Listeners use their world knowledge to infer the comparison class about what worlds are plausible given a specific comparison class, what comparison classes are likely to be talked about, and how a rational speaker would bhave in a given world and given a comparison class. 
-→ To this end, the comparison class might still influence the referent prior for model 1.1. to the degree how likely the referent (i.e. it subordinate category) is to come from a given comparison class. Maybe one could formalize the prior over comparison classes (p(cc)) as some mixture of conceptual comparison classes with the context. This might shift the represented situation to more of a reasoning if the speaker was talking about a particular individual in the context, or some abstract individual from a certain comparison class. But for this model, it still boils down to just picking out a referent from different sets representing different classes (given our mainstream prior representation idea), irrespective of their properties (the original paper prior is not applicable to this model / question at hand, at all).
+
 
 \section{Refpred-RSA}
 \pt{tbd}

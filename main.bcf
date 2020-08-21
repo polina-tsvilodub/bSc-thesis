@@ -2942,13 +2942,18 @@
     <bcf:citekey order="114">frank2012predicting</bcf:citekey>
     <bcf:citekey order="115">grice1975logic</bcf:citekey>
     <bcf:citekey order="116">frank2012predicting</bcf:citekey>
-    <bcf:citekey order="117">degen2020redundancy</bcf:citekey>
+    <bcf:citekey order="117">tenenbaum2011grow</bcf:citekey>
     <bcf:citekey order="118">frank2012predicting</bcf:citekey>
     <bcf:citekey order="119">frank2012predicting</bcf:citekey>
     <bcf:citekey order="120">frank2012predicting</bcf:citekey>
-    <bcf:citekey order="121">goodman2016</bcf:citekey>
-    <bcf:citekey order="122">tenenbaum2011grow</bcf:citekey>
-    <bcf:citekey order="123">lassiter2017adjectival</bcf:citekey>
+    <bcf:citekey order="121">frank2012predicting</bcf:citekey>
+    <bcf:citekey order="122">frank2012predicting</bcf:citekey>
+    <bcf:citekey order="123">frank2012predicting</bcf:citekey>
+    <bcf:citekey order="124">frank2012predicting</bcf:citekey>
+    <bcf:citekey order="125">montague1973proper</bcf:citekey>
+    <bcf:citekey order="126">degen2020redundancy</bcf:citekey>
+    <bcf:citekey order="127">problang</bcf:citekey>
+    <bcf:citekey order="128">lassiter2017adjectival</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
