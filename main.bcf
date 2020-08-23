@@ -2941,20 +2941,25 @@
     <bcf:citekey order="114">problang</bcf:citekey>
     <bcf:citekey order="115">frank2012predicting</bcf:citekey>
     <bcf:citekey order="116">grice1975logic</bcf:citekey>
-    <bcf:citekey order="117">frank2012predicting</bcf:citekey>
-    <bcf:citekey order="118">tenenbaum2011grow</bcf:citekey>
-    <bcf:citekey order="119">frank2012predicting</bcf:citekey>
+    <bcf:citekey order="117">grice1975logic</bcf:citekey>
+    <bcf:citekey order="118">frank2012predicting</bcf:citekey>
+    <bcf:citekey order="119">tenenbaum2011grow</bcf:citekey>
     <bcf:citekey order="120">frank2012predicting</bcf:citekey>
     <bcf:citekey order="121">frank2012predicting</bcf:citekey>
     <bcf:citekey order="122">frank2012predicting</bcf:citekey>
     <bcf:citekey order="123">frank2012predicting</bcf:citekey>
-    <bcf:citekey order="124">problang</bcf:citekey>
-    <bcf:citekey order="125">frank2012predicting</bcf:citekey>
-    <bcf:citekey order="126">frank2012predicting</bcf:citekey>
-    <bcf:citekey order="127">montague1973proper</bcf:citekey>
-    <bcf:citekey order="128">degen2020redundancy</bcf:citekey>
-    <bcf:citekey order="129">problang</bcf:citekey>
-    <bcf:citekey order="130">lassiter2017adjectival</bcf:citekey>
+    <bcf:citekey order="124">frank2012predicting</bcf:citekey>
+    <bcf:citekey order="125">montague1973proper</bcf:citekey>
+    <bcf:citekey order="126">degen2020redundancy</bcf:citekey>
+    <bcf:citekey order="127">frank2012predicting</bcf:citekey>
+    <bcf:citekey order="128">problang</bcf:citekey>
+    <bcf:citekey order="128">lassiter2017adjectival</bcf:citekey>
+    <bcf:citekey order="129">frank2012predicting</bcf:citekey>
+    <bcf:citekey order="130">problang</bcf:citekey>
+    <bcf:citekey order="131">problang</bcf:citekey>
+    <bcf:citekey order="132">problang</bcf:citekey>
+    <bcf:citekey order="133">frank2012predicting</bcf:citekey>
+    <bcf:citekey order="134">lassiter2017adjectival</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
