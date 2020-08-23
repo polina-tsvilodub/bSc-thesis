@@ -2959,7 +2959,11 @@
     <bcf:citekey order="131">problang</bcf:citekey>
     <bcf:citekey order="132">problang</bcf:citekey>
     <bcf:citekey order="133">frank2012predicting</bcf:citekey>
-    <bcf:citekey order="134">lassiter2017adjectival</bcf:citekey>
+    <bcf:citekey order="133">problang</bcf:citekey>
+    <bcf:citekey order="134">lassiter2013context</bcf:citekey>
+    <bcf:citekey order="135">problang</bcf:citekey>
+    <bcf:citekey order="136">lassiter2013context</bcf:citekey>
+    <bcf:citekey order="137">tessler2017warm</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

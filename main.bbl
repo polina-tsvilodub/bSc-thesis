@@ -1205,6 +1205,41 @@
       \verb https://solomonkurz.netlify.app/post/bayesian-power-analysis-part-iii-b/
       \endverb
     \endentry
+    \entry{lassiter2013context}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f2107cb1d12ccc8e4e5e2c8bba6f24aa}{%
+           family={Lassiter},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17c6b9edbad988db7d426fba005cecff}{%
+           family={Goodman},
+           familyi={G\bibinitperiod},
+           given={Noah\bibnamedelima D},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f58d13d7a75a80c9854857ca99ef7e4b}
+      \strng{fullhash}{f58d13d7a75a80c9854857ca99ef7e4b}
+      \strng{bibnamehash}{f58d13d7a75a80c9854857ca99ef7e4b}
+      \strng{authorbibnamehash}{f58d13d7a75a80c9854857ca99ef7e4b}
+      \strng{authornamehash}{f58d13d7a75a80c9854857ca99ef7e4b}
+      \strng{authorfullhash}{f58d13d7a75a80c9854857ca99ef7e4b}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Semantics and linguistic theory}
+      \field{title}{Context, scale structure, and statistics in the interpretation of positive-form adjectives}
+      \field{volume}{23}
+      \field{year}{2013}
+      \field{pages}{587\bibrangedash 610}
+      \range{pages}{24}
+    \endentry
     \entry{lassiter2017adjectival}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=f2107cb1d12ccc8e4e5e2c8bba6f24aa}{%
@@ -1229,11 +1264,11 @@
       \strng{authorbibnamehash}{f58d13d7a75a80c9854857ca99ef7e4b}
       \strng{authornamehash}{f58d13d7a75a80c9854857ca99ef7e4b}
       \strng{authorfullhash}{f58d13d7a75a80c9854857ca99ef7e4b}
+      \field{extraname}{2}
       \field{sortinit}{L}
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Synthese}

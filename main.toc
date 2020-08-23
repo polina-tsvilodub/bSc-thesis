@@ -24,7 +24,8 @@
 \contentsline {subsection}{\numberline {4.4.2}Results}{48}%
 \contentsline {chapter}{\numberline {5}A Bayesian Reference-Predication Model}{49}%
 \contentsline {section}{\numberline {5.1}Understanding Rational Speech Act Models}{49}%
-\contentsline {section}{\numberline {5.2}Refpred-RSA}{56}%
+\contentsline {section}{\numberline {5.2}Previous RSA models of adjectives}{54}%
+\contentsline {section}{\numberline {5.3}Refpred-RSA}{56}%
 \contentsline {chapter}{\numberline {6}Discussion}{57}%
 \contentsline {chapter}{\numberline {A}Appendix}{59}%
 \contentsline {section}{\numberline {A.1}Experimental Materials}{59}%
