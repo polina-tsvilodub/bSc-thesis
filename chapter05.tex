@@ -111,10 +111,11 @@ Putting all the elements together results in the vanilla version of an RSA-model
 
 The crucial illustration of the RSA mechanism is the difference between the distributions inferred by $L_0$ and $L_1$ upon receiving the same utterance 'blue'. The social reasoning about an utterance-generating speaker-model incorporated in $L_1$, which differentiates it from $L_0$ who acts according to literal semantics only, is crucial for the pattern of interpretation we observe: $L_1$ infers that the speaker is more likely to mean the blue square because if she had meant the blue circle, she could have said 'circle', which would have been less ambiguous, and therefore more informative - that is, $L_1$ \emph{explains away} the other potential intended state (Table \ref{rsa-l1}). In contrast, $L_0$ infers equal probability of both the blue square and the blue circle (Table \ref{rsa-l0}). Crucially, this pattern predicted by the RSA-model is well in line with rational behaviour of humans gathered empirically in such reference game scenarios, showing that human interlocutors make use of more than just the literal semantics of their words when communicating \parencite{frank2012predicting, problang}.
 
+Having set the basic building blocks of RSA models, some more sophisticated extensions of RSA relevant for modelling adjectives are briefly reviewed. \pt{QUD}
 %listener as updating beliefs -- example with L1 formula -- formal notion of S1 w example -- informativeness -- L0 
 %note that these exist as part of L1's reasoning \parencite{lassiter2017adjectival}
 \section{Previous RSA models of gradable adjectives}
-Having set the basic building blocks of RSA models, more sophisticated extensions are reviewed in this section. In particular, models of gradable adjectives are discussed, showing that RSA is a flexible tool suitable to integrate pragmatic reasoning about multiple variables listeners might be uncertain about.
+In this section, previous models of gradable adjectives are discussed, showing that RSA is a flexible tool suitable to integrate pragmatic reasoning about multiple variables listeners might be uncertain about.
 %threshold semantics, where the threshold is probabilistically inferred \parencite{lassiter2017adjectival} for a given comparison class.
 
 \textcite{lassiter2013context} first provided a model of gradable adjective interpretation within the RSA-framework, showing that pragmatic reasoning can capture their meaning via inference over the latent standard of comparison variable $\theta$ underlying the vague semantics (s. Chapter \ref{chapter02}). %Importantly, probabilistic reasoning provides tools to capture uncertainty over certain aspects of the message, in this particular case - the speaker’s intended meaning of the adjectival utterance.  
@@ -133,12 +134,20 @@ $$P_{L_0} (s | u, V) = P_{L_0} (s | \llbracket u \rrbracket ^\theta = 1 ) \propt
 
 So putting all the layers together, $L_1$ can compute a joint posterior distribution over all possible combinations of states and values of the latent threshold $\theta$ via Bayes' rule. Notably, \textcite{lassiter2013context} assume the relevant comparison class to be supplied to the listener, such that she is only uncertain about the standard of comparison. Yet as discussed in chapter \ref{chapter03} and shown empirically in chapter \ref{chapter04}, listeners flexibly reason about the intended comparison class, given multiple a priori plausible options in absence of an explicit \emph{for}-phrase.
 
-\pt{QUD stuff, maybe at end of previous section?}
+\textcite{tessler2017warm} introduced an RSA-model of gradable adjectives accounting for flexible reasoning about the relevant comparison class via world knowledge. In particular, in the proposed model the listener is not only uncertain about the standard of comparison $\theta$, but also about the specificity of the relevant comparison class (superordinate or subordinate category of the referent?), given prior knowlledge about typical property distributions in each category. Similarly to the model proposed by \textcite{lassiter2013context}, the pragmatic listener 'simulates' the utterance-generating process assuming all possible value assignments of the lifted $\theta$ variable; however, $\theta$ now depends on the potential subordinate comparison class of a specific referent, and therefore on the prior knowledge about it. Then, the pragmatic listener jointly reasons about the property degree $s$, the threshold $\theta$ and the relevant comparison class $c$, given a simple adjectival utterance $u$ of the form "PRON is ADJ" said of referent, whose subordinate category is known to the listener:
 
-\textcite{tessler2017warm} introduced an RSA-model of gradable adjectives accounting for flexible reasoning about the relevant comparison class via world knowledge.
+$$P_{L_1}(s, \theta, c | u) \propto P_{S_1} ( u | s, \theta, c) \times P(s | c_{sub}) \times P(c) \times P(\theta)$$  
+That is, listeners reason about how a rational speaker $P_{S_1}$ would behave in order to communicate a specific property, given a comparison class and a threshold, together with their prior knowledge about what property degrees are plausible given a specific category $P(s | c _{sub})$, and their prior beliefs $P(c)$ about which comparison class categories are likely to be used and what properties are likely to be talked about ($P(\theta)$). Accordingly, the speaker-model $P_{S_1}( u | s, \theta, c)$ can be specified assuming particular values of a property, the comparison class and the threshold:
 
-Listeners use their world knowledge to infer the comparison class about what worlds are plausible given a specific comparison class, what comparison classes are likely to be talked about, and how a rational speaker would behave in a given world and given a comparison class. 
+$$P_{S_1}( u | s, \theta, c) \propto exp(\alpha \: log P_{L_0} (s | u, \theta, c))$$
 
+The $L_0$ again specifies a literal listener who interprets the adjective $u$ according to its literal semantics, assuming a particular comparison class $c$ and $\theta$:
+
+$$P_{L_0}(s | u, \theta, c) \propto \llbracket u \rrbracket_{\theta} (s) \times P( s | c)$$  
+\textcite{tessler2017warm} showed that the model captures human inferences discussed in chapter \ref{2.4.} very well, confirming the role of world knowledge for comparison class inference. 
+% potential spot to integrate Dan Yurovsky's work 
+
+However, this model only included the influence of world knowledge as a driver of comparison class inference;  in the following section, a further extension of previous RSA models allowing for flexible comparison class inference as driven by the context, the noun and its syntactic cues is proposed. 
 
 \section{Refpred-RSA}
 \pt{tbd}
