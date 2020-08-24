@@ -963,6 +963,57 @@
       \field{title}{Two Theories about Adjectives}
       \field{year}{1975}
     \endentry
+    \entry{kao2014nonliteral}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=b13a36416d2b5f3c5227141b239f1ffb}{%
+           family={Kao},
+           familyi={K\bibinitperiod},
+           given={Justine\bibnamedelima T},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=653742a0187486b1753d3bf3e17e7149}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Jean\bibnamedelima Y},
+           giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0e0db7acc4b50f232fc4beb8b49a41e}{%
+           family={Bergen},
+           familyi={B\bibinitperiod},
+           given={Leon},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17c6b9edbad988db7d426fba005cecff}{%
+           family={Goodman},
+           familyi={G\bibinitperiod},
+           given={Noah\bibnamedelima D},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {National Acad Sciences}%
+      }
+      \strng{namehash}{d41277a3aa4d71c40fb68005573f99aa}
+      \strng{fullhash}{84a69a35d60a471b51d2b4cf05d2275c}
+      \strng{bibnamehash}{84a69a35d60a471b51d2b4cf05d2275c}
+      \strng{authorbibnamehash}{84a69a35d60a471b51d2b4cf05d2275c}
+      \strng{authornamehash}{d41277a3aa4d71c40fb68005573f99aa}
+      \strng{authorfullhash}{84a69a35d60a471b51d2b4cf05d2275c}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{33}
+      \field{title}{Nonliteral understanding of number words}
+      \field{volume}{111}
+      \field{year}{2014}
+      \field{pages}{12002\bibrangedash 12007}
+      \range{pages}{6}
+    \endentry
     \entry{Kennedy2007}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=bc94f2390d66eb60cfb8b4250e6abf85}{%
@@ -1417,6 +1468,35 @@
       \field{booktitle}{Language typology and language universals. An international handbook, vol.1}
       \field{title}{Foundations of reference and predication}
       \field{year}{2001}
+    \endentry
+    \entry{roberts2012information}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=789648fb900c09779075655a0ed96fbb}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Craige},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{789648fb900c09779075655a0ed96fbb}
+      \strng{fullhash}{789648fb900c09779075655a0ed96fbb}
+      \strng{bibnamehash}{789648fb900c09779075655a0ed96fbb}
+      \strng{authorbibnamehash}{789648fb900c09779075655a0ed96fbb}
+      \strng{authornamehash}{789648fb900c09779075655a0ed96fbb}
+      \strng{authorfullhash}{789648fb900c09779075655a0ed96fbb}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Semantics and Pragmatics}
+      \field{title}{Information structure: Towards an integrated formal theory of pragmatics}
+      \field{volume}{5}
+      \field{year}{2012}
+      \field{pages}{6\bibrangedash 1}
+      \range{pages}{-4}
     \endentry
     \entry{rosch1976}{article}{}
       \name{author}{5}{}{%

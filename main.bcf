@@ -2963,14 +2963,20 @@
     <bcf:citekey order="135">problang</bcf:citekey>
     <bcf:citekey order="136">frank2012predicting</bcf:citekey>
     <bcf:citekey order="136">problang</bcf:citekey>
-    <bcf:citekey order="137">lassiter2017adjectival</bcf:citekey>
-    <bcf:citekey order="138">lassiter2013context</bcf:citekey>
-    <bcf:citekey order="139">problang</bcf:citekey>
-    <bcf:citekey order="140">lassiter2013context</bcf:citekey>
-    <bcf:citekey order="141">tessler2017warm</bcf:citekey>
-    <bcf:citekey order="142">lassiter2013context</bcf:citekey>
+    <bcf:citekey order="137">lassiter2013context</bcf:citekey>
+    <bcf:citekey order="138">problang</bcf:citekey>
+    <bcf:citekey order="139">lassiter2013context</bcf:citekey>
+    <bcf:citekey order="140">tessler2017warm</bcf:citekey>
+    <bcf:citekey order="141">lassiter2013context</bcf:citekey>
+    <bcf:citekey order="142">tessler2017warm</bcf:citekey>
     <bcf:citekey order="143">tessler2017warm</bcf:citekey>
-    <bcf:citekey order="144">tessler2017warm</bcf:citekey>
+    <bcf:citekey order="144">lassiter2017adjectival</bcf:citekey>
+    <bcf:citekey order="144">roberts2012information</bcf:citekey>
+    <bcf:citekey order="145">roberts2012information</bcf:citekey>
+    <bcf:citekey order="146">kao2014nonliteral</bcf:citekey>
+    <bcf:citekey order="147">kao2014nonliteral</bcf:citekey>
+    <bcf:citekey order="148">roberts2012information</bcf:citekey>
+    <bcf:citekey order="149">roberts2012information</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
