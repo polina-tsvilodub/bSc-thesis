@@ -2033,6 +2033,8 @@
       \field{booktitle}{42th Annual Meeting of the Cognitive Science Society}
       \field{title}{Informational goals, sentence structure, and comparison class inference}
       \field{year}{2020}
+      \field{pages}{537\bibrangedash 543}
+      \range{pages}{7}
     \endentry
     \entry{braun2017}{online}{}
       \name{editor}{1}{}{%
