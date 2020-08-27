@@ -879,11 +879,13 @@
       \strng{authorfullhash}{139bc8155a385cb5c34c2e5392370999}
       \field{sortinit}{I}
       \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Minimal architecture for the generation of portable interactive experiments}
+      \field{year}{2018}
       \verb{urlraw}
       \verb https://magpie-ea.github.io/magpie-site/
       \endverb
