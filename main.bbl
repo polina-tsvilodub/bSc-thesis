@@ -1591,6 +1591,43 @@
       \field{pages}{382\bibrangedash 439}
       \range{pages}{58}
     \endentry
+    \entry{scholler2017semantic}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bedaf659d9a6c619d84733a61948af99}{%
+           family={Sch{ö}ller},
+           familyi={S\bibinitperiod},
+           given={Anthea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa30cd9ac1061ac80fc3bf007cd48a5d}{%
+           family={Franke},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {De Gruyter Mouton}%
+      }
+      \strng{namehash}{1ea75de3fedc18091c1bd4eb7d95f57a}
+      \strng{fullhash}{1ea75de3fedc18091c1bd4eb7d95f57a}
+      \strng{bibnamehash}{1ea75de3fedc18091c1bd4eb7d95f57a}
+      \strng{authorbibnamehash}{1ea75de3fedc18091c1bd4eb7d95f57a}
+      \strng{authornamehash}{1ea75de3fedc18091c1bd4eb7d95f57a}
+      \strng{authorfullhash}{1ea75de3fedc18091c1bd4eb7d95f57a}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Linguistics Vanguard}
+      \field{number}{1}
+      \field{title}{Semantic values as latent parameters: Testing a fixed threshold hypothesis for cardinal readings of few \& many}
+      \field{volume}{3}
+      \field{year}{2017}
+    \endentry
     \entry{problang}{misc}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=223a455b4e0f07bdf6c44573bd406889}{%
@@ -2133,6 +2170,44 @@
       \field{month}{9}
       \field{title}{{Inferring Comparison Classes from Sentence Structure and Informational Goals}}
       \field{year}{2020}
+    \endentry
+    \entry{tessler2019language}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d38fb2182140bfd8126c669e5cada5b8}{%
+           family={Tessler},
+           familyi={T\bibinitperiod},
+           given={Michael\bibnamedelima Henry},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17c6b9edbad988db7d426fba005cecff}{%
+           family={Goodman},
+           familyi={G\bibinitperiod},
+           given={Noah\bibnamedelima D},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{91702c0b5911288a7946c230adff7eab}
+      \strng{fullhash}{91702c0b5911288a7946c230adff7eab}
+      \strng{bibnamehash}{91702c0b5911288a7946c230adff7eab}
+      \strng{authorbibnamehash}{91702c0b5911288a7946c230adff7eab}
+      \strng{authornamehash}{91702c0b5911288a7946c230adff7eab}
+      \strng{authorfullhash}{91702c0b5911288a7946c230adff7eab}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Review}
+      \field{number}{3}
+      \field{title}{The language of generalization.}
+      \field{volume}{126}
+      \field{year}{2019}
+      \field{pages}{395}
+      \range{pages}{1}
     \endentry
     \entry{tessler2017warm}{inproceedings}{}
       \name{author}{3}{}{%

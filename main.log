@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.19)  1 SEP 2020 15:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.19)  1 SEP 2020 19:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1324,13 +1324,13 @@ Package pdftex.def Info: images/vanilla-rsa.png  used on input line 109.
 (pdftex.def)             Requested size: 213.39566pt x 56.52351pt.
  [56 <./images/vanilla-rsa.png>] [57] [58] [59]) [60]
 Chapter 6.
-(./chapter06.tex) [61
+(./chapter06.tex [61
 
-] [62
+] [62]) [63] [64
 
 ]
 Appendix A.
-(./appendix.tex [63
+(./appendix.tex [65
 
 ]
 Overfull \hbox (9.06386pt too wide) in paragraph at lines 19--20
@@ -1344,15 +1344,15 @@ Overfull \hbox (5.5389pt too wide) in paragraph at lines 29--140
  sky", "big dogs", "things",
  []
 
-[64] [65]
+[66] [67]
 Overfull \hbox (30.13545pt too wide) in paragraph at lines 143--143
 \OT1/cmr/m/n/12 guage, 68(3), 10.1016/j.jml.2012.11.001. https://doi.org/10.101
 6/j.jml.2012.11.001.
  []
 
-[66
+[68
 
-] [67] [68]
+] [69] [70]
 Overfull \hbox (34.31743pt too wide) in paragraph at lines 143--143
 \OT1/cmr/m/it/12 man-tics\OT1/cmr/m/n/12 , \OT1/cmr/m/it/12 3\OT1/cmr/m/n/12 (1
 -2), https://academic.oup.com/jos/article-pdf/3/1-2/1/9835673/1.pdf,
@@ -1364,16 +1364,20 @@ Overfull \hbox (4.6486pt too wide) in paragraph at lines 143--143
 . edu / archives / spr2019 / entries / reference/$ 
  []
 
-[69] (./main.aux)
+[71] (./main.aux)
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36534 strings out of 480608
- 891513 string characters out of 5903630
- 1704068 words of memory out of 5000000
- 51824 multiletter control sequences out of 15000+600000
+ 36543 strings out of 480608
+ 891781 string characters out of 5903630
+ 1704229 words of memory out of 5000000
+ 51833 multiletter control sequences out of 15000+600000
  543701 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,11n,102p,2836b,4720s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1397,10 +1401,10 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2020/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/tex
 mf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2020/texmf
 -dist/fonts/type1/public/stmaryrd/stmary10.pfb>
-Output written on main.pdf (70 pages, 2464610 bytes).
+Output written on main.pdf (72 pages, 2469103 bytes).
 PDF statistics:
- 434 PDF objects out of 1000 (max. 8388607)
- 281 compressed objects within 3 object streams
+ 440 PDF objects out of 1000 (max. 8388607)
+ 285 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
