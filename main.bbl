@@ -311,6 +311,38 @@
       \field{pages}{35}
       \range{pages}{1}
     \endentry
+    \entry{bolinger1967adjectives}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f09ef10e1e6d71bd0d123b2d9505959f}{%
+           family={Bolinger},
+           familyi={B\bibinitperiod},
+           given={Dwight},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{f09ef10e1e6d71bd0d123b2d9505959f}
+      \strng{fullhash}{f09ef10e1e6d71bd0d123b2d9505959f}
+      \strng{bibnamehash}{f09ef10e1e6d71bd0d123b2d9505959f}
+      \strng{authorbibnamehash}{f09ef10e1e6d71bd0d123b2d9505959f}
+      \strng{authornamehash}{f09ef10e1e6d71bd0d123b2d9505959f}
+      \strng{authorfullhash}{f09ef10e1e6d71bd0d123b2d9505959f}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Lingua}
+      \field{title}{Adjectives in English: attribution and predication}
+      \field{volume}{18}
+      \field{year}{1967}
+      \field{pages}{1\bibrangedash 34}
+      \range{pages}{34}
+    \endentry
     \entry{burkner2017advanced}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ec69dfaa36b99b02d1d9a3733eae1d23}{%
@@ -1246,11 +1278,13 @@
       \strng{authorfullhash}{9010eb366e00f3c3b7149f047ccf4afb}
       \field{sortinit}{K}
       \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Bayesian power analysis: Part III.b. What about 0/1 data?}
+      \field{year}{2019}
       \verb{urlraw}
       \verb https://solomonkurz.netlify.app/post/bayesian-power-analysis-part-iii-b/
       \endverb
@@ -2034,6 +2068,72 @@
       \field{pages}{1279\bibrangedash 1285}
       \range{pages}{7}
     \endentry
+    \entry{TesslerEtAl2020AMLaP}{inproceedings}{}
+      \name{author}{3}{ul=3}{%
+        {{un=0,uniquepart=base,hash=a9b9318cf44b9bef06bd10183314d86a}{%
+           family={Tessler},
+           familyi={T\bibinitperiod},
+           given={Michael\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3333eb8e78130bb269a0b68521770bc5}{%
+           family={Tsvilodub},
+           familyi={T\bibinitperiod},
+           given={Polina},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e20881923b91d44e8f1ba7e0f38f42c}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=da9726e094ac5dc5f77904819996f3ec}{%
+           family={Malsburg},
+           familyi={M\bibinitperiod},
+           given={Titus},
+           giveni={T\bibinitperiod},
+           prefix={von\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=eb56042649dd26abf6ac80120255ef2d}{%
+           family={Vasishth},
+           familyi={V\bibinitperiod},
+           given={Shravan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=aa54aba8a7ce4062eba17201b6410ead}{%
+           family={Wartenburger},
+           familyi={W\bibinitperiod},
+           given={Isabell},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Potsdam, Germany}%
+      }
+      \list{publisher}{1}{%
+        {Universität Potsdam}%
+      }
+      \strng{namehash}{421de7dc73d0b6863566765194b605fb}
+      \strng{fullhash}{421de7dc73d0b6863566765194b605fb}
+      \strng{bibnamehash}{421de7dc73d0b6863566765194b605fb}
+      \strng{authorbibnamehash}{421de7dc73d0b6863566765194b605fb}
+      \strng{authornamehash}{421de7dc73d0b6863566765194b605fb}
+      \strng{authorfullhash}{421de7dc73d0b6863566765194b605fb}
+      \strng{editorbibnamehash}{f6da881a548263a5da59d92245e10adb}
+      \strng{editornamehash}{e77f06b9e5b4a85e53729c9f4568fceb}
+      \strng{editorfullhash}{f6da881a548263a5da59d92245e10adb}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 26th Architectures and Mechanisms for Language Processing Conference ({AMLaP})}
+      \field{month}{9}
+      \field{title}{{Inferring Comparison Classes from Sentence Structure and Informational Goals}}
+      \field{year}{2020}
+    \endentry
     \entry{tessler2017warm}{inproceedings}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=d38fb2182140bfd8126c669e5cada5b8}{%
@@ -2061,7 +2161,6 @@
       \strng{authorbibnamehash}{249e5dbea3792279be437d1ab631ff5f}
       \strng{authornamehash}{16805950de2455f563e2c7c759021d71}
       \strng{authorfullhash}{249e5dbea3792279be437d1ab631ff5f}
-      \field{extraname}{1}
       \field{sortinit}{T}
       \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
       \field{extradatescope}{labelyear}
@@ -2073,7 +2172,7 @@
       \field{year}{2017}
     \endentry
     \entry{tessler2020}{inproceedings}{}
-      \name{author}{4}{}{%
+      \name{author}{4}{ul=3}{%
         {{un=0,uniquepart=base,hash=d38fb2182140bfd8126c669e5cada5b8}{%
            family={Tessler},
            familyi={T\bibinitperiod},
@@ -2099,13 +2198,12 @@
            giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{16805950de2455f563e2c7c759021d71}
+      \strng{namehash}{11d0efe259959a045054c49ff8a4817e}
       \strng{fullhash}{aac51e23c1a43b2eb1fea79a865192ce}
       \strng{bibnamehash}{aac51e23c1a43b2eb1fea79a865192ce}
       \strng{authorbibnamehash}{aac51e23c1a43b2eb1fea79a865192ce}
-      \strng{authornamehash}{16805950de2455f563e2c7c759021d71}
+      \strng{authornamehash}{11d0efe259959a045054c49ff8a4817e}
       \strng{authorfullhash}{aac51e23c1a43b2eb1fea79a865192ce}
-      \field{extraname}{2}
       \field{sortinit}{T}
       \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
       \field{extradatescope}{labelyear}
