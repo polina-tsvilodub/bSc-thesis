@@ -20,15 +20,15 @@
 \contentsline {subsection}{\numberline {4.3.1}Participants}{44}%
 \contentsline {subsection}{\numberline {4.3.2}Results}{44}%
 \contentsline {section}{\numberline {4.4}Experiment 4: Direct Modification Experiment}{47}%
-\contentsline {subsection}{\numberline {4.4.1}Participants}{49}%
-\contentsline {subsection}{\numberline {4.4.2}Results}{50}%
-\contentsline {chapter}{\numberline {5}A Bayesian Reference-Predication Model}{53}%
-\contentsline {section}{\numberline {5.1}Understanding Rational Speech Act Models}{53}%
-\contentsline {section}{\numberline {5.2}Previous RSA models of gradable adjectives}{58}%
-\contentsline {section}{\numberline {5.3}Refpred-RSA}{61}%
-\contentsline {chapter}{\numberline {6}Discussion}{63}%
-\contentsline {chapter}{\numberline {A}Appendix}{67}%
-\contentsline {section}{\numberline {A.1}Experimental Materials}{67}%
-\contentsline {subsection}{\numberline {A.1.1}Bot-check Trial}{67}%
-\contentsline {subsection}{\numberline {A.1.2}E1 Exclusion Criteria}{67}%
-\contentsline {subsection}{\numberline {A.1.3}E2, E3 Response Classification}{68}%
+\contentsline {subsection}{\numberline {4.4.1}Participants}{51}%
+\contentsline {subsection}{\numberline {4.4.2}Results}{51}%
+\contentsline {chapter}{\numberline {5}A Bayesian Reference-Predication Model}{54}%
+\contentsline {section}{\numberline {5.1}Understanding Rational Speech Act Models}{54}%
+\contentsline {section}{\numberline {5.2}Previous RSA models of gradable adjectives}{59}%
+\contentsline {section}{\numberline {5.3}Refpred-RSA}{62}%
+\contentsline {chapter}{\numberline {6}Discussion}{64}%
+\contentsline {chapter}{\numberline {A}Appendix}{68}%
+\contentsline {section}{\numberline {A.1}Experimental Materials}{68}%
+\contentsline {subsection}{\numberline {A.1.1}Bot-check Trial}{68}%
+\contentsline {subsection}{\numberline {A.1.2}E1 Exclusion Criteria}{68}%
+\contentsline {subsection}{\numberline {A.1.3}E2, E3 Response Classification}{69}%
