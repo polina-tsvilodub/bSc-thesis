@@ -2991,9 +2991,17 @@
     <bcf:citekey order="159">kao2014nonliteral</bcf:citekey>
     <bcf:citekey order="160">kao2014nonliteral</bcf:citekey>
     <bcf:citekey order="161">problang</bcf:citekey>
-    <bcf:citekey order="162">scholler2017semantic</bcf:citekey>
-    <bcf:citekey order="163">tessler2019language</bcf:citekey>
-    <bcf:citekey order="164">krifka2008basic</bcf:citekey>
+    <bcf:citekey order="162">braun2017</bcf:citekey>
+    <bcf:citekey order="163">goldberg2017one</bcf:citekey>
+    <bcf:citekey order="164">scholler2017semantic</bcf:citekey>
+    <bcf:citekey order="165">tessler2019language</bcf:citekey>
+    <bcf:citekey order="166">krifka2008basic</bcf:citekey>
+    <bcf:citekey order="167">Reboul2001</bcf:citekey>
+    <bcf:citekey order="167">tessler2019language</bcf:citekey>
+    <bcf:citekey order="168">Mintz2002</bcf:citekey>
+    <bcf:citekey order="168">ebeling1994children</bcf:citekey>
+    <bcf:citekey order="169">ebeling1994children</bcf:citekey>
+    <bcf:citekey order="170">sinelnikova2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

@@ -1400,6 +1400,48 @@
       \field{title}{Adjectives and adverbs: Syntax, semantics, and discourse}
       \field{year}{2008}
     \endentry
+    \entry{Mintz2002}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e03e490975a2c31f925d9827d263b112}{%
+           family={Mintz},
+           familyi={M\bibinitperiod},
+           given={Toben\bibnamedelima H.},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92ced0adafbcc46d473e036437e4df99}{%
+           family={Gleitman},
+           familyi={G\bibinitperiod},
+           given={Lila\bibnamedelima R.},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{49534c92d1c94b97e5fbc068ab9d80bc}
+      \strng{fullhash}{49534c92d1c94b97e5fbc068ab9d80bc}
+      \strng{bibnamehash}{49534c92d1c94b97e5fbc068ab9d80bc}
+      \strng{authorbibnamehash}{49534c92d1c94b97e5fbc068ab9d80bc}
+      \strng{authornamehash}{49534c92d1c94b97e5fbc068ab9d80bc}
+      \strng{authorfullhash}{49534c92d1c94b97e5fbc068ab9d80bc}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0010-0277}
+      \field{issn}{00100277}
+      \field{journaltitle}{Cognition}
+      \field{number}{3}
+      \field{title}{{Adjectives really do modify nouns: The incremental and restricted nature of early adjective acquisition}}
+      \field{volume}{84}
+      \field{year}{2002}
+      \field{pages}{267\bibrangedash 293}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1016/S0010-0277(02)00047-1
+      \endverb
+      \keyw{Adjectives,Language acquisition,Nouns,Pronouns,Taxonomy,Toddlers}
+    \endentry
     \entry{montague1973proper}{inbook}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7c6ba51ce7aee268ca16ba50bb7f44f2}{%

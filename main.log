@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.19)  2 SEP 2020 20:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.19)  4 SEP 2020 03:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,11 +990,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (./main.aux
-
-LaTeX Warning: Label `double-mod-results' multiply defined.
-
-)
+ (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
@@ -1011,7 +1007,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
 LaTeX Font Info:    ... okay on input line 90.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
 LaTeX Font Info:    ... okay on input line 90.
- (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count456
 \scratchdimen=\dimen294
@@ -1158,62 +1154,68 @@ s/unilogo.jpg>]) [1
  [4] (./main.lof
 [5
 
-])
+]
+Overfull \hbox (3.73296pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/m/n/12 context and read the cor-re-spond-ing cover story. The small-s
+ubordinate 
+ []
+
+[6])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [6] (./main.lot)
+ [7] (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [7
+ [8
 
 ]
 Chapter 1.
-(./chapter01.tex [8
+(./chapter01.tex [9
 
-]) [9]
+]) [10]
 Chapter 2.
-(./chapter02.tex [10
+(./chapter02.tex [11
 
-] [11] [12] [13] [14] [15] [16] [17]
+] [12] [13] [14] [15] [16] [17] [18]
 Overfull \hbox (2.44597pt too wide) in paragraph at lines 95--98
 \OT1/cmr/m/n/12 par-i-son class de-ter-mi-na-tion is the dif-fer-ence be-tween 
 \OT1/cmr/m/it/12 in-ter-sec-tive \OT1/cmr/m/n/12 and \OT1/cmr/m/it/12 non-inter
 sective
  []
 
-[18] [19] [20] [21] [22]) [23]
+[19] [20] [21] [22] [23]) [24]
 Chapter 3.
-(./chapter03.tex [24
+(./chapter03.tex [25
 
-] [25]
-<images/ref-pred-cartoon-w-subscripts2.pdf, id=102, 1317.02635pt x 474.40338pt>
+] [26]
+<images/ref-pred-cartoon-w-subscripts2.pdf, id=105, 1317.02635pt x 474.40338pt>
 
 File: images/ref-pred-cartoon-w-subscripts2.pdf Graphic file (type pdf)
 <use images/ref-pred-cartoon-w-subscripts2.pdf>
 Package pdftex.def Info: images/ref-pred-cartoon-w-subscripts2.pdf  used on inp
 ut line 21.
 (pdftex.def)             Requested size: 384.10959pt x 138.35524pt.
- [26 <./images/ref-pred-cartoon-w-subscripts2.pdf>]
-[27] [28]) [29] [30]
+ [27 <./images/ref-pred-cartoon-w-subscripts2.pdf>]
+[28] [29]) [30] [31]
 Chapter 4.
-(./chapter04.tex [31
+(./chapter04.tex [32
 
 ]
-<images/captcha.png, id=196, 361.35pt x 382.93062pt>
+<images/captcha.png, id=199, 361.35pt x 382.93062pt>
 File: images/captcha.png Graphic file (type png)
 <use images/captcha.png>
 Package pdftex.def Info: images/captcha.png  used on input line 37.
 (pdftex.def)             Requested size: 213.39566pt x 226.1433pt.
- [32]
-<images/warmup_basketball.pdf, id=201, 722.7pt x 406.51875pt>
+ [33]
+<images/warmup_basketball.pdf, id=204, 722.7pt x 406.51875pt>
 File: images/warmup_basketball.pdf Graphic file (type pdf)
 <use images/warmup_basketball.pdf>
 Package pdftex.def Info: images/warmup_basketball.pdf  used on input line 62.
 (pdftex.def)             Requested size: 298.75262pt x 168.05081pt.
- [33 <./images/captcha.png>]
-<images/main_rating_subN_big.png, id=207, 893.3375pt x 690.58pt>
+ [34 <./images/captcha.png>]
+<images/main_rating_subN_big.png, id=210, 893.3375pt x 690.58pt>
 File: images/main_rating_subN_big.png Graphic file (type png)
 <use images/main_rating_subN_big.png>
 Package pdftex.def Info: images/main_rating_subN_big.png  used on input line 71
@@ -1227,8 +1229,8 @@ File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
- [34 <./images/warmup_basketball.pdf>] [35 <./images/main_rating_subN_big.png>]
-<images/expt-syntax-rating-prereg-bars-revised.pdf, id=221, 361.35pt x 252.945p
+ [35 <./images/warmup_basketball.pdf>] [36 <./images/main_rating_subN_big.png>]
+<images/expt-syntax-rating-prereg-bars-revised.pdf, id=225, 361.35pt x 252.945p
 t>
 File: images/expt-syntax-rating-prereg-bars-revised.pdf Graphic file (type pdf)
 
@@ -1236,152 +1238,140 @@ File: images/expt-syntax-rating-prereg-bars-revised.pdf Graphic file (type pdf)
 Package pdftex.def Info: images/expt-syntax-rating-prereg-bars-revised.pdf  use
 d on input line 96.
 (pdftex.def)             Requested size: 298.75262pt x 209.12991pt.
- [36]
-<images/warmup_dogs.png, id=227, 434.12187pt x 523.9575pt>
+ [37]
+<images/warmup_dogs.png, id=230, 434.12187pt x 523.9575pt>
 File: images/warmup_dogs.png Graphic file (type png)
 <use images/warmup_dogs.png>
 Package pdftex.def Info: images/warmup_dogs.png  used on input line 117.
 (pdftex.def)             Requested size: 213.39566pt x 257.5569pt.
- [37 <./images/expt-syntax-rating-prereg-bars-revised.pdf>]
-<images/main_prod_predN_big.png, id=241, 736.25063pt x 726.715pt>
+ [38 <./images/expt-syntax-rating-prereg-bars-revised.pdf>]
+<images/main_prod_predN_big.png, id=244, 736.25063pt x 726.715pt>
 File: images/main_prod_predN_big.png Graphic file (type png)
 <use images/main_prod_predN_big.png>
 Package pdftex.def Info: images/main_prod_predN_big.png  used on input line 126
 .
 (pdftex.def)             Requested size: 298.75262pt x 294.89458pt.
- [38 <./images/warmup_dogs.png>]
-<images/expt-np-prod-prereg-bars-revised.pdf, id=246, 252.945pt x 252.945pt>
+ [39 <./images/warmup_dogs.png>]
+<images/expt-np-prod-prereg-bars-revised.pdf, id=249, 252.945pt x 252.945pt>
 File: images/expt-np-prod-prereg-bars-revised.pdf Graphic file (type pdf)
 <use images/expt-np-prod-prereg-bars-revised.pdf>
 Package pdftex.def Info: images/expt-np-prod-prereg-bars-revised.pdf  used on i
 nput line 142.
 (pdftex.def)             Requested size: 213.39566pt x 213.39865pt.
 
-[39 <./images/main_prod_predN_big.png>] [40 <./images/expt-np-prod-prereg-bars-
+[40 <./images/main_prod_predN_big.png>] [41 <./images/expt-np-prod-prereg-bars-
 revised.pdf>]
-<images/main_cci_basicContext_predSubN_big.png, id=259, 657.45625pt x 677.02937
+<images/main_cci_basicContext_predSubN_big.png, id=262, 657.45625pt x 677.02937
 pt>
 File: images/main_cci_basicContext_predSubN_big.png Graphic file (type png)
 <use images/main_cci_basicContext_predSubN_big.png>
 Package pdftex.def Info: images/main_cci_basicContext_predSubN_big.png  used on
  input line 166.
 (pdftex.def)             Requested size: 298.75262pt x 307.64595pt.
- [41] [42 <./images/main_cci_basicContext_predSubN_big.png>]
-[43]
-<images/expt3-cc-inference-revised.pdf, id=271, 361.35pt x 252.945pt>
+ [42] [43 <./images/main_cci_basicContext_predSubN_big.png>]
+[44]
+<images/expt3-cc-inference-revised.pdf, id=274, 361.35pt x 252.945pt>
 File: images/expt3-cc-inference-revised.pdf Graphic file (type pdf)
 <use images/expt3-cc-inference-revised.pdf>
 Package pdftex.def Info: images/expt3-cc-inference-revised.pdf  used on input l
-ine 192.
+ine 193.
 (pdftex.def)             Requested size: 298.75262pt x 209.12991pt.
- [44] [45 <./images/expt3-cc-inference-revised.pdf>] [46] [47]
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+ [45] [46 <./images/expt3-cc-inference-revised.pdf>] [47] [48]
+Underfull \hbox (badness 10000) in paragraph at lines 243--243
 []|\OT1/cmr/m/n/10 Basic-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 243--243
 []|\OT1/cmr/m/n/10 service-
  []
 
 
-Overfull \hbox (2.17548pt too wide) in paragraph at lines 242--242
+Overfull \hbox (2.17548pt too wide) in paragraph at lines 243--243
 []|\OT1/cmr/m/n/10 Hummingbird| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 242--242
+Underfull \hbox (badness 10000) in alignment at lines 243--243
 [][][][][] 
  []
 
-<images/direct-mod-N2-warmup.png, id=292, 600.74437pt x 624.83438pt>
+<images/direct-mod-N2-warmup.png, id=296, 600.74437pt x 624.83438pt>
 File: images/direct-mod-N2-warmup.png Graphic file (type png)
 <use images/direct-mod-N2-warmup.png>
-Package pdftex.def Info: images/direct-mod-N2-warmup.png  used on input line 24
-9.
+Package pdftex.def Info: images/direct-mod-N2-warmup.png  used on input line 25
+0.
 (pdftex.def)             Requested size: 256.0774pt x 266.35674pt.
-[48]
-<images/double-mod-main.png, id=297, 609.27625pt x 674.01813pt>
+[49]
+<images/double-mod-main.png, id=300, 609.27625pt x 674.01813pt>
 File: images/double-mod-main.png Graphic file (type png)
 <use images/double-mod-main.png>
-Package pdftex.def Info: images/double-mod-main.png  used on input line 259.
+Package pdftex.def Info: images/double-mod-main.png  used on input line 260.
 (pdftex.def)             Requested size: 256.0774pt x 283.29137pt.
- [49 <./images/direct-mod-N2-warmup.png>] [50 <./images/double-mod-main.png>]
-<images/double_mod_resp_counts.pdf, id=306, 505.89pt x 289.08pt>
+ [50] [51 <./images/direct-mod-N2-warmup.png>]
+<images/double_mod_resp_counts.pdf, id=308, 505.89pt x 289.08pt>
 File: images/double_mod_resp_counts.pdf Graphic file (type pdf)
 <use images/double_mod_resp_counts.pdf>
 Package pdftex.def Info: images/double_mod_resp_counts.pdf  used on input line 
-277.
+278.
 (pdftex.def)             Requested size: 341.43436pt x 195.10733pt.
-<images/double_mod.pdf, id=307, 505.89pt x 325.215pt>
+<images/double_mod.pdf, id=309, 505.89pt x 325.215pt>
 File: images/double_mod.pdf Graphic file (type pdf)
 <use images/double_mod.pdf>
-Package pdftex.def Info: images/double_mod.pdf  used on input line 286.
+Package pdftex.def Info: images/double_mod.pdf  used on input line 287.
 (pdftex.def)             Requested size: 298.75262pt x 192.05879pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--296
+Underfull \hbox (badness 10000) in paragraph at lines 297--297
 [][]\OT1/cmr/m/n/10 In brm-style syn-tax: \OT1/cmtt/m/n/10 response[]category $
 \OMS/cmsy/m/n/10 ^^X$ \OT1/cmtt/m/n/10 syntax*trial[]type + (1 +
  []
 
-[51 <./images/double_mod_resp_counts.pdf>] [52 <./images/double_mod.pdf>])
-[53]
+[52 <./images/double-mod-main.png>] [53 <./images/double_mod_resp_counts.pdf>])
+[54 <./images/double_mod.pdf>]
 Chapter 5.
-(./chapter05.tex [54
+(./chapter05.tex [55
 
 ]
-<images/rsa_scene.png, id=337, 63.1158pt x 19.9947pt>
+<images/rsa_scene.png, id=341, 63.1158pt x 19.9947pt>
 File: images/rsa_scene.png Graphic file (type png)
 <use images/rsa_scene.png>
 Package pdftex.def Info: images/rsa_scene.png  used on input line 17.
 (pdftex.def)             Requested size: 213.39566pt x 67.60884pt.
- [55 <./images/rsa_scene.png>] [56] [57]
+ [56] [57 <./images/rsa_scene.png>] [58]
 Overfull \hbox (3.36543pt too wide) in paragraph at lines 85--86
 []\OT1/cmr/m/n/12 Finally the top-level layer, the prag-matic lis-tener $\OML/c
 mm/m/it/12 L[]$\OT1/cmr/m/n/12 , rea-sons about this utterance-
  []
 
-[58]
-<images/vanilla-rsa.png, id=355, 251.0178pt x 66.4884pt>
+[59]
+<images/vanilla-rsa.png, id=359, 251.0178pt x 66.4884pt>
 File: images/vanilla-rsa.png Graphic file (type png)
 <use images/vanilla-rsa.png>
 Package pdftex.def Info: images/vanilla-rsa.png  used on input line 109.
 (pdftex.def)             Requested size: 213.39566pt x 56.52351pt.
- [59 <./images/vanilla-rsa.png>] [60] [61] [62]) [63]
+ [60 <./images/vanilla-rsa.png>] [61] [62] [63]) [64] [65]
 Chapter 6.
-(./chapter06.tex [64
+(./chapter06.tex [66
 
-] [65]) [66] [67
+] [67] [68]) [69] [70] [71
 
 ]
 Appendix A.
-(./appendix.tex [68
+(./appendix.tex [72
 
-]
-Overfull \hbox (9.06386pt too wide) in paragraph at lines 19--20
-\OT1/cmr/m/n/12 num-ber) were clas-si-fied as sub-or-di-nate: "gold-fish", "hum
--ming-bird", "ca-nary", "dober-
- []
-
-)
-Overfull \hbox (5.5389pt too wide) in paragraph at lines 29--140
-\OT1/cmr/m/n/12 basic-level: "birds", "dogs", "fish", "flow-ers", "birds in the
- sky", "big dogs", "things",
- []
-
-[69] [70]
+]) [73]
 Overfull \hbox (30.13545pt too wide) in paragraph at lines 143--143
 \OT1/cmr/m/n/12 guage, 68(3), 10.1016/j.jml.2012.11.001. https://doi.org/10.101
 6/j.jml.2012.11.001.
  []
 
-[71
+[74
 
-] [72] [73]
+] [75] [76]
 Overfull \hbox (34.31743pt too wide) in paragraph at lines 143--143
 \OT1/cmr/m/it/12 man-tics\OT1/cmr/m/n/12 , \OT1/cmr/m/it/12 3\OT1/cmr/m/n/12 (1
 -2), https://academic.oup.com/jos/article-pdf/3/1-2/1/9835673/1.pdf,
@@ -1393,46 +1383,44 @@ Overfull \hbox (4.6486pt too wide) in paragraph at lines 143--143
 . edu / archives / spr2019 / entries / reference/$ 
  []
 
-[74] (./main.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
+[77] [78] (./main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36580 strings out of 480608
- 892767 string characters out of 5903630
- 1704332 words of memory out of 5000000
- 51864 multiletter control sequences out of 15000+600000
+ 36598 strings out of 480608
+ 893107 string characters out of 5903630
+ 1704398 words of memory out of 5000000
+ 51882 multiletter control sequences out of 15000+600000
  543701 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,11n,102p,2836b,4720s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,11n,102p,2872b,4720s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
-exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texl
-ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
-/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
-20/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2020/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/tex
-mf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2020/texmf
--dist/fonts/type1/public/stmaryrd/stmary10.pfb>
-Output written on main.pdf (75 pages, 2884825 bytes).
+/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
+/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
+xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
+ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/202
+0/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2020/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texm
+f-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/public/stmaryrd/stmary10.pfb>
+Output written on main.pdf (79 pages, 2899036 bytes).
 PDF statistics:
- 474 PDF objects out of 1000 (max. 8388607)
- 307 compressed objects within 4 object streams
+ 491 PDF objects out of 1000 (max. 8388607)
+ 319 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  98 words of extra memory for PDF output out of 10000 (max. 10000000)
 
