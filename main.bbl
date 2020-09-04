@@ -1842,6 +1842,35 @@
       \verb https://doi.org/10.1016/s0010-0277(99)00025-6
       \endverb
     \endentry
+    \entry{selkirk1995sentence}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a94d30f07e4679d7fc24e8ef63f30fb4}{%
+           family={Selkirk},
+           familyi={S\bibinitperiod},
+           given={Elisabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a94d30f07e4679d7fc24e8ef63f30fb4}
+      \strng{fullhash}{a94d30f07e4679d7fc24e8ef63f30fb4}
+      \strng{bibnamehash}{a94d30f07e4679d7fc24e8ef63f30fb4}
+      \strng{authorbibnamehash}{a94d30f07e4679d7fc24e8ef63f30fb4}
+      \strng{authornamehash}{a94d30f07e4679d7fc24e8ef63f30fb4}
+      \strng{authorfullhash}{a94d30f07e4679d7fc24e8ef63f30fb4}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The handbook of phonological theory}
+      \field{title}{Sentence prosody: Intonation, stress, and phrasing}
+      \field{volume}{1}
+      \field{year}{1995}
+      \field{pages}{550\bibrangedash 569}
+      \range{pages}{20}
+    \endentry
     \entry{sera1987}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=5562106fd1f235d6711f4e7b04a454d4}{%

@@ -27,7 +27,7 @@
 \contentsline {section}{\numberline {5.2}Previous RSA models of gradable adjectives}{61}%
 \contentsline {section}{\numberline {5.3}Refpred-RSA}{63}%
 \contentsline {chapter}{\numberline {6}Discussion}{66}%
-\contentsline {section}{\numberline {6.1}Conclusion}{69}%
+\contentsline {section}{\numberline {6.1}Conclusion}{70}%
 \contentsline {chapter}{\numberline {A}Appendix}{72}%
 \contentsline {section}{\numberline {A.1}Experimental Materials}{72}%
 \contentsline {subsection}{\numberline {A.1.1}Bot-check Trial}{72}%

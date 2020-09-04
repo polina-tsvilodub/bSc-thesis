@@ -2942,9 +2942,9 @@
     <bcf:citekey order="119">rosch1976</bcf:citekey>
     <bcf:citekey order="119">graf2016animal</bcf:citekey>
     <bcf:citekey order="120">graf2016animal</bcf:citekey>
-    <bcf:citekey order="121">kruschke2014doing</bcf:citekey>
-    <bcf:citekey order="121">powerKurz</bcf:citekey>
-    <bcf:citekey order="122">TesslerEtAl2020AMLaP</bcf:citekey>
+    <bcf:citekey order="121">TesslerEtAl2020AMLaP</bcf:citekey>
+    <bcf:citekey order="122">kruschke2014doing</bcf:citekey>
+    <bcf:citekey order="122">powerKurz</bcf:citekey>
     <bcf:citekey order="123">goodman2016</bcf:citekey>
     <bcf:citekey order="123">lassiter2017adjectival</bcf:citekey>
     <bcf:citekey order="123">tessler2017warm</bcf:citekey>
@@ -2991,17 +2991,21 @@
     <bcf:citekey order="159">kao2014nonliteral</bcf:citekey>
     <bcf:citekey order="160">kao2014nonliteral</bcf:citekey>
     <bcf:citekey order="161">problang</bcf:citekey>
-    <bcf:citekey order="162">braun2017</bcf:citekey>
-    <bcf:citekey order="163">goldberg2017one</bcf:citekey>
-    <bcf:citekey order="164">scholler2017semantic</bcf:citekey>
-    <bcf:citekey order="165">tessler2019language</bcf:citekey>
-    <bcf:citekey order="166">krifka2008basic</bcf:citekey>
-    <bcf:citekey order="167">Reboul2001</bcf:citekey>
-    <bcf:citekey order="167">tessler2019language</bcf:citekey>
-    <bcf:citekey order="168">Mintz2002</bcf:citekey>
-    <bcf:citekey order="168">ebeling1994children</bcf:citekey>
-    <bcf:citekey order="169">ebeling1994children</bcf:citekey>
-    <bcf:citekey order="170">sinelnikova2020</bcf:citekey>
+    <bcf:citekey order="162">Mintz2002</bcf:citekey>
+    <bcf:citekey order="162">ebeling1994children</bcf:citekey>
+    <bcf:citekey order="163">braun2017</bcf:citekey>
+    <bcf:citekey order="164">goldberg2017one</bcf:citekey>
+    <bcf:citekey order="165">scholler2017semantic</bcf:citekey>
+    <bcf:citekey order="166">tessler2019language</bcf:citekey>
+    <bcf:citekey order="167">krifka2008basic</bcf:citekey>
+    <bcf:citekey order="168">krifka2008basic</bcf:citekey>
+    <bcf:citekey order="168">selkirk1995sentence</bcf:citekey>
+    <bcf:citekey order="169">Reboul2001</bcf:citekey>
+    <bcf:citekey order="169">tessler2019language</bcf:citekey>
+    <bcf:citekey order="170">Mintz2002</bcf:citekey>
+    <bcf:citekey order="170">ebeling1994children</bcf:citekey>
+    <bcf:citekey order="171">ebeling1994children</bcf:citekey>
+    <bcf:citekey order="172">sinelnikova2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
