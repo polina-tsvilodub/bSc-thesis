@@ -3000,12 +3000,18 @@
     <bcf:citekey order="167">krifka2008basic</bcf:citekey>
     <bcf:citekey order="168">krifka2008basic</bcf:citekey>
     <bcf:citekey order="168">selkirk1995sentence</bcf:citekey>
-    <bcf:citekey order="169">Reboul2001</bcf:citekey>
-    <bcf:citekey order="169">tessler2019language</bcf:citekey>
-    <bcf:citekey order="170">Mintz2002</bcf:citekey>
-    <bcf:citekey order="170">ebeling1994children</bcf:citekey>
-    <bcf:citekey order="171">ebeling1994children</bcf:citekey>
-    <bcf:citekey order="172">sinelnikova2020</bcf:citekey>
+    <bcf:citekey order="169">krifka2008basic</bcf:citekey>
+    <bcf:citekey order="170">rosch1976</bcf:citekey>
+    <bcf:citekey order="170">tenenbaum2011grow</bcf:citekey>
+    <bcf:citekey order="171">kalish2002gold</bcf:citekey>
+    <bcf:citekey order="172">franke2016does</bcf:citekey>
+    <bcf:citekey order="173">Reboul2001</bcf:citekey>
+    <bcf:citekey order="173">tessler2019language</bcf:citekey>
+    <bcf:citekey order="173">barker2002dynamics</bcf:citekey>
+    <bcf:citekey order="174">Mintz2002</bcf:citekey>
+    <bcf:citekey order="174">ebeling1994children</bcf:citekey>
+    <bcf:citekey order="175">ebeling1994children</bcf:citekey>
+    <bcf:citekey order="176">sinelnikova2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

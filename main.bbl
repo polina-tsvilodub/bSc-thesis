@@ -659,6 +659,74 @@
       \field{pages}{998\bibrangedash 998}
       \range{pages}{1}
     \endentry
+    \entry{franke2016does}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=aa30cd9ac1061ac80fc3bf007cd48a5d}{%
+           family={Franke},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=126851704b9ef96309f7ad2221b80a8b}{%
+           family={Dablander},
+           familyi={D\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bedaf659d9a6c619d84733a61948af99}{%
+           family={Sch{ö}ller},
+           familyi={S\bibinitperiod},
+           given={Anthea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6fddf7e5c225113c40173d711cf2d723}{%
+           family={Bennett},
+           familyi={B\bibinitperiod},
+           given={Erin},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd2ab438d2870d0a198b4047b2d880a4}{%
+           family={Degen},
+           familyi={D\bibinitperiod},
+           given={Judith},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d38fb2182140bfd8126c669e5cada5b8}{%
+           family={Tessler},
+           familyi={T\bibinitperiod},
+           given={Michael\bibnamedelima Henry},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b13a36416d2b5f3c5227141b239f1ffb}{%
+           family={Kao},
+           familyi={K\bibinitperiod},
+           given={Justine\bibnamedelima T},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17c6b9edbad988db7d426fba005cecff}{%
+           family={Goodman},
+           familyi={G\bibinitperiod},
+           given={Noah\bibnamedelima D},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f04e26b0176079ae21b58638d4df3aa6}
+      \strng{fullhash}{e795198e3269b7d0b8a305dc4af2a542}
+      \strng{bibnamehash}{e795198e3269b7d0b8a305dc4af2a542}
+      \strng{authorbibnamehash}{e795198e3269b7d0b8a305dc4af2a542}
+      \strng{authornamehash}{f04e26b0176079ae21b58638d4df3aa6}
+      \strng{authorfullhash}{e795198e3269b7d0b8a305dc4af2a542}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 38th annual meeting of the Cognitive Science Society}
+      \field{title}{What does the crowd believe? A hierarchical approach to estimating subjective beliefs from empirical data.}
+      \field{year}{2016}
+    \endentry
     \entry{goldberg2017one}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=0772cecb57bc92107c7012fed0d13382}{%
@@ -957,6 +1025,39 @@
       \field{title}{Distinguishing Fact from Opinion: Effects of Linguistic Packaging}
       \field{volume}{42}
       \field{year}{2020}
+    \endentry
+    \entry{kalish2002gold}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c4fd2b4e0449e7fbddec0d7db1fd79f7}{%
+           family={Kalish},
+           familyi={K\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Division 24 of the American Psychological Association, the Division of~…}%
+      }
+      \strng{namehash}{c4fd2b4e0449e7fbddec0d7db1fd79f7}
+      \strng{fullhash}{c4fd2b4e0449e7fbddec0d7db1fd79f7}
+      \strng{bibnamehash}{c4fd2b4e0449e7fbddec0d7db1fd79f7}
+      \strng{authorbibnamehash}{c4fd2b4e0449e7fbddec0d7db1fd79f7}
+      \strng{authornamehash}{c4fd2b4e0449e7fbddec0d7db1fd79f7}
+      \strng{authorfullhash}{c4fd2b4e0449e7fbddec0d7db1fd79f7}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Theoretical and Philosophical Psychology}
+      \field{number}{1}
+      \field{title}{Gold, jade, and emeruby: The value of naturalness for theories of concepts and categories.}
+      \field{volume}{22}
+      \field{year}{2002}
+      \field{pages}{45}
+      \range{pages}{1}
     \endentry
     \entry{Kamp1975}{inbook}{}
       \name{author}{1}{}{%
