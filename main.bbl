@@ -343,6 +343,41 @@
       \field{pages}{1\bibrangedash 34}
       \range{pages}{34}
     \endentry
+    \entry{brown1987politeness}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b813054095f6303db2d75a6ea9ffbbcb}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Penelope},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8cabdf8db416e17d05ff9d4d9c41faf}{%
+           family={Levinson},
+           familyi={L\bibinitperiod},
+           given={Stephen\bibnamedelima C},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge university press}%
+      }
+      \strng{namehash}{405e8873bda0445547ad344115b40e92}
+      \strng{fullhash}{405e8873bda0445547ad344115b40e92}
+      \strng{bibnamehash}{405e8873bda0445547ad344115b40e92}
+      \strng{authorbibnamehash}{405e8873bda0445547ad344115b40e92}
+      \strng{authornamehash}{405e8873bda0445547ad344115b40e92}
+      \strng{authorfullhash}{405e8873bda0445547ad344115b40e92}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Politeness: Some universals in language usage}
+      \field{volume}{4}
+      \field{year}{1987}
+    \endentry
     \entry{burkner2017advanced}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ec69dfaa36b99b02d1d9a3733eae1d23}{%
@@ -2462,6 +2497,55 @@
       \field{year}{2020}
       \field{pages}{537\bibrangedash 543}
       \range{pages}{7}
+    \endentry
+    \entry{yoon2016talking}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=688ac5592ca6ca6610555e6bb41c1cdb}{%
+           family={Yoon},
+           familyi={Y\bibinitperiod},
+           given={Erica\bibnamedelima J},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d38fb2182140bfd8126c669e5cada5b8}{%
+           family={Tessler},
+           familyi={T\bibinitperiod},
+           given={Michael\bibnamedelima Henry},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17c6b9edbad988db7d426fba005cecff}{%
+           family={Goodman},
+           familyi={G\bibinitperiod},
+           given={Noah\bibnamedelima D},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34397283b94e67a1618493e4c967cb29}{%
+           family={Frank},
+           familyi={F\bibinitperiod},
+           given={Michael\bibnamedelima C},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Cognitive Science Society}%
+      }
+      \strng{namehash}{e4fb3ccbd9b835251557875323914c3b}
+      \strng{fullhash}{abd81048760ec7c9ffd468b56783968c}
+      \strng{bibnamehash}{abd81048760ec7c9ffd468b56783968c}
+      \strng{authorbibnamehash}{abd81048760ec7c9ffd468b56783968c}
+      \strng{authornamehash}{e4fb3ccbd9b835251557875323914c3b}
+      \strng{authorfullhash}{abd81048760ec7c9ffd468b56783968c}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 38th annual conference of the cognitive science society}
+      \field{title}{Talking with tact: Polite language as a balance between kindness and informativity}
+      \field{year}{2016}
+      \field{pages}{2771\bibrangedash 2776}
+      \range{pages}{6}
     \endentry
     \entry{braun2017}{online}{}
       \name{editor}{1}{}{%
