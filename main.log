@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.19)  8 SEP 2020 02:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.19)  14 SEP 2020 00:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1160,11 +1160,11 @@ Overfull \hbox (3.73296pt too wide) in paragraph at lines 19--19
 ubordinate 
  []
 
-[6])
+)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [7] (./main.lot)
+ [6] [7] (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
@@ -1190,182 +1190,199 @@ Chapter 3.
 (./chapter03.tex [25
 
 ] [26]
-<images/ref-pred-cartoon-w-subscripts2.pdf, id=105, 1317.02635pt x 474.40338pt>
-
-File: images/ref-pred-cartoon-w-subscripts2.pdf Graphic file (type pdf)
-<use images/ref-pred-cartoon-w-subscripts2.pdf>
-Package pdftex.def Info: images/ref-pred-cartoon-w-subscripts2.pdf  used on inp
-ut line 21.
-(pdftex.def)             Requested size: 384.10959pt x 138.35524pt.
- [27 <./images/ref-pred-cartoon-w-subscripts2.pdf>]
-[28] [29]) [30] [31]
+<images/screenshots/model-cartoon.pdf, id=105, 722.7pt x 406.51875pt>
+File: images/screenshots/model-cartoon.pdf Graphic file (type pdf)
+<use images/screenshots/model-cartoon.pdf>
+Package pdftex.def Info: images/screenshots/model-cartoon.pdf  used on input li
+ne 21.
+(pdftex.def)             Requested size: 384.10959pt x 216.0618pt.
+ [27 <./images/screenshots/model-cartoon.pdf>]
+[28] [29] [30]) [31]
 Chapter 4.
 (./chapter04.tex [32
 
 ]
-<images/captcha.png, id=199, 361.35pt x 382.93062pt>
-File: images/captcha.png Graphic file (type png)
-<use images/captcha.png>
-Package pdftex.def Info: images/captcha.png  used on input line 36.
-(pdftex.def)             Requested size: 213.39566pt x 226.1433pt.
+<images/screenshots/captcha.pdf, id=192, 722.7pt x 406.51875pt>
+File: images/screenshots/captcha.pdf Graphic file (type pdf)
+<use images/screenshots/captcha.pdf>
+Package pdftex.def Info: images/screenshots/captcha.pdf  used on input line 45.
+
+(pdftex.def)             Requested size: 426.79134pt x 240.07349pt.
  [33]
-<images/warmup_basketball.pdf, id=204, 722.7pt x 406.51875pt>
-File: images/warmup_basketball.pdf Graphic file (type pdf)
-<use images/warmup_basketball.pdf>
-Package pdftex.def Info: images/warmup_basketball.pdf  used on input line 61.
-(pdftex.def)             Requested size: 298.75262pt x 168.05081pt.
- [34 <./images/captcha.png>]
-<images/main_rating_subN_big.png, id=210, 893.3375pt x 690.58pt>
-File: images/main_rating_subN_big.png Graphic file (type png)
-<use images/main_rating_subN_big.png>
-Package pdftex.def Info: images/main_rating_subN_big.png  used on input line 70
-.
-(pdftex.def)             Requested size: 298.75262pt x 230.94794pt.
+<images/screenshots/basketball.pdf, id=196, 722.7pt x 406.51875pt>
+File: images/screenshots/basketball.pdf Graphic file (type pdf)
+<use images/screenshots/basketball.pdf>
+Package pdftex.def Info: images/screenshots/basketball.pdf  used on input line 
+60.
+(pdftex.def)             Requested size: 426.79134pt x 240.07349pt.
+ [34 <./images/screenshots/captcha.pdf>]
+<images/screenshots/main_rating_subN_big.pdf, id=214, 722.7pt x 406.51875pt>
+File: images/screenshots/main_rating_subN_big.pdf Graphic file (type pdf)
+<use images/screenshots/main_rating_subN_big.pdf>
+Package pdftex.def Info: images/screenshots/main_rating_subN_big.pdf  used on i
+nput line 70.
+(pdftex.def)             Requested size: 426.79134pt x 240.07349pt.
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 7
-7.
+8.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
- [35 <./images/warmup_basketball.pdf>] [36 <./images/main_rating_subN_big.png>]
-<images/expt-syntax-rating-prereg-bars-revised.pdf, id=225, 361.35pt x 252.945p
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
+ [35 <./images/screenshots/basketball.pdf>] [36 <./images/screenshots/main_rati
+ng_subN_big.pdf>]
+<images/expt-syntax-rating-prereg-bars-revised.pdf, id=255, 361.35pt x 252.945p
 t>
 File: images/expt-syntax-rating-prereg-bars-revised.pdf Graphic file (type pdf)
 
 <use images/expt-syntax-rating-prereg-bars-revised.pdf>
 Package pdftex.def Info: images/expt-syntax-rating-prereg-bars-revised.pdf  use
-d on input line 95.
+d on input line 96.
 (pdftex.def)             Requested size: 298.75262pt x 209.12991pt.
- [37]
-<images/warmup_dogs.png, id=230, 434.12187pt x 523.9575pt>
-File: images/warmup_dogs.png Graphic file (type png)
-<use images/warmup_dogs.png>
-Package pdftex.def Info: images/warmup_dogs.png  used on input line 116.
-(pdftex.def)             Requested size: 213.39566pt x 257.5569pt.
+
+[37]
+<images/screenshots/warmup_dogs.pdf, id=260, 722.7pt x 406.51875pt>
+File: images/screenshots/warmup_dogs.pdf Graphic file (type pdf)
+<use images/screenshots/warmup_dogs.pdf>
+Package pdftex.def Info: images/screenshots/warmup_dogs.pdf  used on input line
+ 117.
+(pdftex.def)             Requested size: 426.79134pt x 240.07349pt.
  [38 <./images/expt-syntax-rating-prereg-bars-revised.pdf>]
-<images/main_prod_predN_big.png, id=244, 736.25063pt x 726.715pt>
-File: images/main_prod_predN_big.png Graphic file (type png)
-<use images/main_prod_predN_big.png>
-Package pdftex.def Info: images/main_prod_predN_big.png  used on input line 125
-.
-(pdftex.def)             Requested size: 298.75262pt x 294.89458pt.
- [39 <./images/warmup_dogs.png>]
-<images/expt-np-prod-prereg-bars-revised.pdf, id=249, 252.945pt x 252.945pt>
+<images/screenshots/main_prod_predN_big.pdf, id=274, 722.7pt x 406.51875pt>
+File: images/screenshots/main_prod_predN_big.pdf Graphic file (type pdf)
+<use images/screenshots/main_prod_predN_big.pdf>
+Package pdftex.def Info: images/screenshots/main_prod_predN_big.pdf  used on in
+put line 127.
+(pdftex.def)             Requested size: 426.79134pt x 240.07349pt.
+ [39 <./images/screenshots/warmup_dogs.pdf>]
+<images/expt-np-prod-prereg-bars-revised.pdf, id=291, 252.945pt x 252.945pt>
 File: images/expt-np-prod-prereg-bars-revised.pdf Graphic file (type pdf)
 <use images/expt-np-prod-prereg-bars-revised.pdf>
 Package pdftex.def Info: images/expt-np-prod-prereg-bars-revised.pdf  used on i
-nput line 141.
+nput line 144.
 (pdftex.def)             Requested size: 213.39566pt x 213.39865pt.
-
-[40 <./images/main_prod_predN_big.png>] [41 <./images/expt-np-prod-prereg-bars-
-revised.pdf>]
-<images/main_cci_basicContext_predSubN_big.png, id=262, 657.45625pt x 677.02937
-pt>
-File: images/main_cci_basicContext_predSubN_big.png Graphic file (type png)
-<use images/main_cci_basicContext_predSubN_big.png>
-Package pdftex.def Info: images/main_cci_basicContext_predSubN_big.png  used on
- input line 166.
-(pdftex.def)             Requested size: 298.75262pt x 307.64595pt.
-<images/dog-parade-great-dane.png, id=263, 481.8pt x 150.5625pt>
+ [40 <./images/screenshots/main_prod_predN_big.pdf>] [41 <./images/expt-np-prod
+-prereg-bars-revised.pdf>]
+<images/screenshots/main_cci_basicContext_predSubN_big.pdf, id=311, 722.7pt x 4
+06.51875pt>
+File: images/screenshots/main_cci_basicContext_predSubN_big.pdf Graphic file (t
+ype pdf)
+<use images/screenshots/main_cci_basicContext_predSubN_big.pdf>
+Package pdftex.def Info: images/screenshots/main_cci_basicContext_predSubN_big.
+pdf  used on input line 169.
+(pdftex.def)             Requested size: 426.79134pt x 240.07349pt.
+<images/dog-parade-great-dane.png, id=312, 481.8pt x 150.5625pt>
 File: images/dog-parade-great-dane.png Graphic file (type png)
 <use images/dog-parade-great-dane.png>
 Package pdftex.def Info: images/dog-parade-great-dane.png  used on input line 1
-73.
+77.
 (pdftex.def)             Requested size: 298.75262pt x 93.36156pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[42] [43 <./images/main_cci_basicContext_predSubN_big.png>] [44 <./images/dog-p
-arade-great-dane.png>]
-<images/expt3-cc-inference-wSigLines.pdf, id=275, 361.35pt x 252.945pt>
+[42] [43 <./images/screenshots/main_cci_basicContext_predSubN_big.pdf> <./image
+s/dog-parade-great-dane.png>] [44]
+<images/expt3-cc-inference-wSigLines.pdf, id=332, 505.89pt x 325.215pt>
 File: images/expt3-cc-inference-wSigLines.pdf Graphic file (type pdf)
 <use images/expt3-cc-inference-wSigLines.pdf>
 Package pdftex.def Info: images/expt3-cc-inference-wSigLines.pdf  used on input
- line 200.
-(pdftex.def)             Requested size: 298.75262pt x 209.12991pt.
- [45] [46 <./images/expt3-cc-inference-wSigLines.pdf>]
-[47] [48]
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+ line 204.
+(pdftex.def)             Requested size: 298.75262pt x 192.05879pt.
+ [45]
+
+LaTeX Warning: Reference `cc-results' on page 46 undefined on input line 219.
+
+
+LaTeX Warning: Reference `cc-results' on page 46 undefined on input line 219.
+
+
+Overfull \hbox (2.47087pt too wide) in paragraph at lines 218--221
+\OT1/cmr/m/n/12 facet):participants were ap-pre-cia-bly more likely to in-fer b
+asic-level comaprison classes
+ []
+
+[46 <./images/expt3-cc-inference-wSigLines.pdf>] [47] [48]
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
 []|\OT1/cmr/m/n/10 Basic-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
 []|\OT1/cmr/m/n/10 service-
  []
 
 
-Overfull \hbox (2.17548pt too wide) in paragraph at lines 250--250
+Overfull \hbox (2.17548pt too wide) in paragraph at lines 255--255
 []|\OT1/cmr/m/n/10 Hummingbird| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 250--250
+Underfull \hbox (badness 10000) in alignment at lines 255--255
 [][][][][] 
  []
 
-<images/direct-mod-N2-warmup.png, id=297, 600.74437pt x 624.83438pt>
-File: images/direct-mod-N2-warmup.png Graphic file (type png)
-<use images/direct-mod-N2-warmup.png>
-Package pdftex.def Info: images/direct-mod-N2-warmup.png  used on input line 25
-7.
-(pdftex.def)             Requested size: 256.0774pt x 266.35674pt.
+<images/screenshots/direct-mod-N2-warmup.pdf, id=354, 722.7pt x 406.51875pt>
+File: images/screenshots/direct-mod-N2-warmup.pdf Graphic file (type pdf)
+<use images/screenshots/direct-mod-N2-warmup.pdf>
+Package pdftex.def Info: images/screenshots/direct-mod-N2-warmup.pdf  used on i
+nput line 262.
+(pdftex.def)             Requested size: 426.79134pt x 240.07349pt.
 [49]
-<images/double-mod-main.png, id=301, 609.27625pt x 674.01813pt>
-File: images/double-mod-main.png Graphic file (type png)
-<use images/double-mod-main.png>
-Package pdftex.def Info: images/double-mod-main.png  used on input line 267.
-(pdftex.def)             Requested size: 256.0774pt x 283.29137pt.
- [50] [51 <./images/direct-mod-N2-warmup.png>]
-<images/double_mod_resp_counts.pdf, id=309, 505.89pt x 289.08pt>
+<images/screenshots/double-mod-main.pdf, id=358, 722.7pt x 406.51875pt>
+File: images/screenshots/double-mod-main.pdf Graphic file (type pdf)
+<use images/screenshots/double-mod-main.pdf>
+Package pdftex.def Info: images/screenshots/double-mod-main.pdf  used on input 
+line 272.
+(pdftex.def)             Requested size: 426.79134pt x 240.07349pt.
+ [50 <./images/screenshots/direct-mod-N2-warmup.pdf>] [51 <./images/screenshots
+/double-mod-main.pdf>]
+<images/double_mod_resp_counts.pdf, id=381, 505.89pt x 289.08pt>
 File: images/double_mod_resp_counts.pdf Graphic file (type pdf)
 <use images/double_mod_resp_counts.pdf>
 Package pdftex.def Info: images/double_mod_resp_counts.pdf  used on input line 
-285.
+290.
 (pdftex.def)             Requested size: 341.43436pt x 195.10733pt.
- [52 <./images/double-mod-main.png>]
-<images/double_mod.pdf, id=315, 505.89pt x 325.215pt>
+<images/double_mod.pdf, id=382, 505.89pt x 325.215pt>
 File: images/double_mod.pdf Graphic file (type pdf)
 <use images/double_mod.pdf>
-Package pdftex.def Info: images/double_mod.pdf  used on input line 294.
+Package pdftex.def Info: images/double_mod.pdf  used on input line 299.
 (pdftex.def)             Requested size: 298.75262pt x 192.05879pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
 [][]\OT1/cmr/m/n/10 In brm-style syn-tax: \OT1/cmtt/m/n/10 response[]category $
 \OMS/cmsy/m/n/10 ^^X$ \OT1/cmtt/m/n/10 syntax*trial[]type + (1 +
  []
 
-[53 <./images/double_mod_resp_counts.pdf>] [54 <./images/double_mod.pdf>])
-[55]
+[52] [53 <./images/double_mod_resp_counts.pdf>]) [54 <./images/double_mod.pdf>]
 Chapter 5.
-(./chapter05.tex [56
+(./chapter05.tex [55
 
 ]
-<images/rsa_scene.png, id=345, 63.1158pt x 19.9947pt>
+<images/rsa_scene.png, id=413, 63.1158pt x 19.9947pt>
 File: images/rsa_scene.png Graphic file (type png)
 <use images/rsa_scene.png>
 Package pdftex.def Info: images/rsa_scene.png  used on input line 17.
 (pdftex.def)             Requested size: 213.39566pt x 67.60884pt.
- [57] [58 <./images/rsa_scene.png>] [59]
+ [56] [57 <./images/rsa_scene.png>] [58]
 Overfull \hbox (3.36543pt too wide) in paragraph at lines 98--99
 []\OT1/cmr/m/n/12 Finally the top-level layer, the prag-matic lis-tener $\OML/c
 mm/m/it/12 L[]$\OT1/cmr/m/n/12 , rea-sons about this utterance-
  []
 
-[60]
-<images/vanilla-rsa.png, id=364, 251.0178pt x 66.4884pt>
+[59]
+<images/vanilla-rsa.png, id=432, 251.0178pt x 66.4884pt>
 File: images/vanilla-rsa.png Graphic file (type png)
 <use images/vanilla-rsa.png>
 Package pdftex.def Info: images/vanilla-rsa.png  used on input line 125.
 (pdftex.def)             Requested size: 213.39566pt x 56.52351pt.
- [61 <./images/vanilla-rsa.png>] [62] [63] [64] [65] [66] [67]) [68]
+ [60 <./images/vanilla-rsa.png>] [61] [62] [63] [64] [65] [66] [67])
+[68]
 Chapter 6.
 (./chapter06.tex [69
 
@@ -1396,18 +1413,21 @@ Overfull \hbox (4.6486pt too wide) in paragraph at lines 152--152
  []
 
 [82] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36651 strings out of 480608
- 894255 string characters out of 5903630
- 1704889 words of memory out of 5000000
- 51933 multiletter control sequences out of 15000+600000
+ 36663 strings out of 480608
+ 895059 string characters out of 5903630
+ 1705000 words of memory out of 5000000
+ 51943 multiletter control sequences out of 15000+600000
  544002 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,11n,102p,2872b,4720s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,11n,102p,2890b,4720s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -1430,10 +1450,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2020/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texm
 f-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2020/texmf-
 dist/fonts/type1/public/stmaryrd/stmary10.pfb>
-Output written on main.pdf (83 pages, 3019076 bytes).
+Output written on main.pdf (83 pages, 1924961 bytes).
 PDF statistics:
- 508 PDF objects out of 1000 (max. 8388607)
- 330 compressed objects within 4 object streams
+ 579 PDF objects out of 1000 (max. 8388607)
+ 397 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  103 words of extra memory for PDF output out of 10000 (max. 10000000)
 

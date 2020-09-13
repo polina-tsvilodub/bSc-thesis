@@ -15,17 +15,19 @@
 \contentsline {subsection}{\numberline {4.1.2}Results}{37}%
 \contentsline {section}{\numberline {4.2}Experiment 2: Noun Production Experiment}{38}%
 \contentsline {subsection}{\numberline {4.2.1}Participants}{40}%
-\contentsline {subsection}{\numberline {4.2.2}Results}{41}%
+\contentsline {subsection}{\numberline {4.2.2}Results}{40}%
 \contentsline {section}{\numberline {4.3}Experiment 3: Comparison Class Inference Experiment}{42}%
 \contentsline {subsection}{\numberline {4.3.1}Participants}{45}%
 \contentsline {subsection}{\numberline {4.3.2}Results}{45}%
 \contentsline {section}{\numberline {4.4}Experiment 4: Direct Modification Experiment}{48}%
 \contentsline {subsection}{\numberline {4.4.1}Participants}{52}%
-\contentsline {subsection}{\numberline {4.4.2}Results}{53}%
-\contentsline {chapter}{\numberline {5}A Bayesian Reference-Predication Model}{56}%
-\contentsline {section}{\numberline {5.1}Understanding Rational Speech Act Models}{56}%
-\contentsline {section}{\numberline {5.2}Previous RSA models of gradable adjectives}{62}%
-\contentsline {section}{\numberline {5.3}Reference-predication RSA}{64}%
+\contentsline {subsection}{\numberline {4.4.2}Results}{52}%
+\contentsline {chapter}{\numberline {5}A Bayesian Reference-Predication Model}{55}%
+\contentsline {section}{\numberline {5.1}Understanding Rational Speech Act Models}{55}%
+\contentsline {section}{\numberline {5.2}Previous RSA models of gradable adjectives}{61}%
+\contentsline {section}{\numberline {5.3}Reference-predication RSA}{63}%
+\contentsline {subsection}{\numberline {5.3.1}Questions Under Discussion in RSA}{64}%
+\contentsline {subsection}{\numberline {5.3.2}Refpred-RSA}{65}%
 \contentsline {chapter}{\numberline {6}Discussion}{69}%
 \contentsline {section}{\numberline {6.1}Conclusion}{74}%
 \contentsline {chapter}{\numberline {A}Appendix}{76}%

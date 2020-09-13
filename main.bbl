@@ -433,6 +433,47 @@
       \field{title}{Givenness, contrastiveness, definiteness, subjects, topics, and point of view}
       \field{year}{1976}
     \endentry
+    \entry{chierchia2012grammatical}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=36f119f7eb58f15c6421bda15adde193}{%
+           family={Chierchia},
+           familyi={C\bibinitperiod},
+           given={Gennaro},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07e13302540da458a575f00c26a09f7a}{%
+           family={Fox},
+           familyi={F\bibinitperiod},
+           given={Danny},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6e93da760aa0f33eddf455adecfac53}{%
+           family={Spector},
+           familyi={S\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{af1e362071fdeddaa0818db983dbc433}
+      \strng{fullhash}{544c29b8be94b3aff40f3428b01a5d5a}
+      \strng{bibnamehash}{544c29b8be94b3aff40f3428b01a5d5a}
+      \strng{authorbibnamehash}{544c29b8be94b3aff40f3428b01a5d5a}
+      \strng{authornamehash}{af1e362071fdeddaa0818db983dbc433}
+      \strng{authorfullhash}{544c29b8be94b3aff40f3428b01a5d5a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Semantics: An international handbook of natural language meaning}
+      \field{title}{The grammatical view of scalar implicatures and the relationship between semantics and pragmatics}
+      \field{volume}{3}
+      \field{year}{2012}
+      \field{pages}{2297\bibrangedash 2332}
+      \range{pages}{36}
+    \endentry
     \entry{cinque2010}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=fad706c41d7c2f0ff5d378bd0005202b}{%
