@@ -27,3 +27,20 @@ This exploratory analysis revealed results qualitatively and quantitatively very
 %The following provided responses (corrected for misspellings, capitalization and number) were classified as subordinate: "chihuahuas", "bonsai", "pugs", "great danes", "sunflowers", "dobermen", "swordfish", "dandelions", "goldfish", "eagles", "redwoods", "hummingbirds", "sequoias", "bonsai trees", "redwood trees", "other swordfish", "the other sunflowers".
 
 %The following provided responses (also corrected corrected) were classified as basic-level: "birds", "dogs", "fish", "flowers", "birds in the sky", "big dogs", "things", "objects", "dogs", "dogs that we see", "fish that we see", "birds that we see", "flower", "trees", "animal", "the other birds", "the other dogs", "weeds", "small flowers", "dog", "large dogs", "giant trees", "breeds", "plant", "variety of dogs", "long trees".
+\section{Refpred-RSA Model}
+The main proposed reference-predication RSA model assumes a basic speaker utility function wherein the speaker chooses an utterance such that it jointly optimally communicates a two-dimensional state of the world (i.e., the referent and its size; Model 1):
+\begin{equation*}
+\label{model1}
+U_{S_1} (u; r; s; cc; C) = log \: L_0 (s, r \mid u, C, cc) 
+\end{equation*}
+However, based on previous models dealing with multiple potential questions under discussion, there are other conceivable representations of the speaker utility \parencite[cf.][]{kao2014nonliteral, yoon2016talking}. For instance, another more complex option is to consider a QUD-based model representing the speaker as communicating reference, predication or both goals, inspired by \textcite{kao2014nonliteral}. In that case, the speaker-utility is defined with respect to a certain QUD she has in mind. The $L_1$ would then reasons about the intended goal (Model 2):
+\begin{equation*}
+U_{S_1} (u; r; s; cc; C; QUD) = log \: L_0(QUD(s, r) \mid u, C, cc)
+\end{equation*} 
+where $QUD(.)$ projects the state of the world onto the subspace relevant for the particular question under discussion. That is, if the QUD is reference, the literal listener returns a distribution over referents, marginalizing over possible properties. The versed happens when the QUD is predication. When the QUD is to communicate both aspects, $L_0$ returns a two-dimensional distribution over referents and properties. The latter possibility is equivalent to Model 1 (Eq.~\ref{model1}).  
+
+Yet another possibility is to follow the idea proposed by \textcite{yoon2016talking}, representing the speaker as trying to simulataneously achieve a combination of the two informational goals (reference and predication) weighted by a free parameter $\phi$ representing referential weight of the sentence (Model 3):
+\begin{equation*}
+U_{S_1} (u; r; s; cc; C; \phi) = log(\phi \: L_0(r \mid C) + (1 - \phi) L_0(s \mid cc))
+\end{equation*} 
+where the pragmatic listener then reasons about the value of $\phi$. To compute the utility for one goal, $L_0$ is marginalized over the other aspect of the state of the world (equivalently to the QUD-based Model 2) \pt{formula}.

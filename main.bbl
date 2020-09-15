@@ -869,7 +869,6 @@
       \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Trends in cognitive sciences}
@@ -879,6 +878,38 @@
       \field{year}{2016}
       \field{pages}{818\bibrangedash 829}
       \range{pages}{12}
+    \endentry
+    \entry{dippl}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=17c6b9edbad988db7d426fba005cecff}{%
+           family={Goodman},
+           familyi={G\bibinitperiod},
+           given={Noah\bibnamedelima D},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b5fbd329613471b5b508b01353e8fb4}{%
+           family={Stuhlmüller},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9b6907ab52a654c9f88743448b65166f}
+      \strng{fullhash}{9b6907ab52a654c9f88743448b65166f}
+      \strng{bibnamehash}{9b6907ab52a654c9f88743448b65166f}
+      \strng{authorbibnamehash}{9b6907ab52a654c9f88743448b65166f}
+      \strng{authornamehash}{9b6907ab52a654c9f88743448b65166f}
+      \strng{authorfullhash}{9b6907ab52a654c9f88743448b65166f}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://dippl.org}}
+      \field{note}{Accessed: 2020-9-15}
+      \field{title}{{The Design and Implementation of Probabilistic Programming Languages}}
+      \field{year}{2014}
     \endentry
     \entry{graf2016animal}{inproceedings}{}
       \name{author}{4}{}{%

@@ -22,5 +22,8 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces A simple reference resolution example scenario: the context $C$ consists of three possible referents \parencite {frank2012predicting}}}{57}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces A schematic depiction of a vanilla RSA model \parencite {problang}}}{60}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Hypothetical prior size distributions over a basic-level, a small-subordinate, a medium-subordinate and a large-subordinate category. These distributions were used for qualitative tests of the refpred-RSA model.}}{69}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Qualitative predictions made by the refpred-RSA model: Pragmatic listener inferences are plotted in terms of the probability to use the basic-level comparison class (i.e., "big for a dog"), given utterances differing in the noun and its position, presented in a basic-level context (left)~vs.~subordinate context (right). Qualitatively, the crucial noun$\times $syntax interaction can be observed. Note the different y-axis scaling.}}{70}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Qualitative predictions made by the refpred-RSA model: Given the utterance "That Great Dane is big", the pragmatic listener infers a large-subordinate size distribution (middle) and is certain that the referent is a Great Dane (left). Given the utterance "That's a big Great Dane", the pragmatic listener shifts her size distribution even more towards large size values (right), and is again certain about the referent (left).}}{71}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
