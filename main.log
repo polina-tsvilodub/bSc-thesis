@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.19)  16 SEP 2020 20:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.19)  17 SEP 2020 01:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1182,7 +1182,7 @@ Package pdftex.def Info: images/screenshots/model-cartoon.pdf  used on input li
 ne 21.
 (pdftex.def)             Requested size: 384.10959pt x 216.0618pt.
  [23 <./images/screenshots/model-cartoon.pdf>]
-[24] [25] [26]) [27]
+[24] [25]) [26] [27]
 Chapter 4.
 (./chapter04.tex [28
 
@@ -1289,22 +1289,22 @@ asic-level comaprison classes
  []
 
 [42 <./images/expt3-cc-inference-wSigLines.pdf>] [43] [44]
-Underfull \hbox (badness 10000) in paragraph at lines 255--255
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
 []|\OT1/cmr/m/n/10 Basic-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--255
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
 []|\OT1/cmr/m/n/10 service-
  []
 
 
-Overfull \hbox (2.17548pt too wide) in paragraph at lines 255--255
+Overfull \hbox (2.17548pt too wide) in paragraph at lines 254--254
 []|\OT1/cmr/m/n/10 Hummingbird| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 255--255
+Underfull \hbox (badness 10000) in alignment at lines 254--254
 [][][][][] 
  []
 
@@ -1312,14 +1312,14 @@ Underfull \hbox (badness 10000) in alignment at lines 255--255
 File: images/screenshots/direct-mod-N2-warmup.pdf Graphic file (type pdf)
 <use images/screenshots/direct-mod-N2-warmup.pdf>
 Package pdftex.def Info: images/screenshots/direct-mod-N2-warmup.pdf  used on i
-nput line 262.
+nput line 261.
 (pdftex.def)             Requested size: 426.79134pt x 240.07349pt.
 [45]
 <images/screenshots/double-mod-main.pdf, id=345, 722.7pt x 406.51875pt>
 File: images/screenshots/double-mod-main.pdf Graphic file (type pdf)
 <use images/screenshots/double-mod-main.pdf>
 Package pdftex.def Info: images/screenshots/double-mod-main.pdf  used on input 
-line 272.
+line 271.
 (pdftex.def)             Requested size: 426.79134pt x 240.07349pt.
  [46 <./images/screenshots/direct-mod-N2-warmup.pdf>] [47 <./images/screenshots
 /double-mod-main.pdf>]
@@ -1327,19 +1327,19 @@ line 272.
 File: images/double_mod_resp_counts.pdf Graphic file (type pdf)
 <use images/double_mod_resp_counts.pdf>
 Package pdftex.def Info: images/double_mod_resp_counts.pdf  used on input line 
-290.
+289.
 (pdftex.def)             Requested size: 341.43436pt x 195.10733pt.
 <images/double_mod.pdf, id=369, 505.89pt x 325.215pt>
 File: images/double_mod.pdf Graphic file (type pdf)
 <use images/double_mod.pdf>
-Package pdftex.def Info: images/double_mod.pdf  used on input line 299.
+Package pdftex.def Info: images/double_mod.pdf  used on input line 298.
 (pdftex.def)             Requested size: 298.75262pt x 192.05879pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--309
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
 [][]\OT1/cmr/m/n/10 In brm-style syn-tax: \OT1/cmtt/m/n/10 response[]category $
 \OMS/cmsy/m/n/10 ^^X$ \OT1/cmtt/m/n/10 syntax*trial[]type + (1 +
  []
@@ -1416,7 +1416,13 @@ Chapter 6.
 Appendix A.
 (./appendix.tex [78
 
-] [79]) [80]
+] [79])
+Overfull \hbox (0.18617pt too wide) in paragraph at lines 54--147
+[]\OT1/cmr/m/n/12 These are also con-ceiv-able rep-re-sen-ta-tions of rea-son-i
+ng about in-for-ma-tional goals.
+ []
+
+[80]
 Overfull \hbox (30.13545pt too wide) in paragraph at lines 150--150
 \OT1/cmr/m/n/12 guage, 68(3), 10.1016/j.jml.2012.11.001. https://doi.org/10.101
 6/j.jml.2012.11.001.
@@ -1448,10 +1454,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36706 strings out of 480608
- 896491 string characters out of 5903630
- 1705210 words of memory out of 5000000
- 51987 multiletter control sequences out of 15000+600000
+ 36707 strings out of 480608
+ 896504 string characters out of 5903630
+ 1705222 words of memory out of 5000000
+ 51988 multiletter control sequences out of 15000+600000
  544002 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,12n,102p,2890b,4720s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1477,7 +1483,7 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2020/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texm
 f-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2020/texmf-
 dist/fonts/type1/public/stmaryrd/stmary10.pfb>
-Output written on main.pdf (86 pages, 3229567 bytes).
+Output written on main.pdf (86 pages, 3230705 bytes).
 PDF statistics:
  673 PDF objects out of 1000 (max. 8388607)
  455 compressed objects within 5 object streams
