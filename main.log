@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.19)  17 SEP 2020 01:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.19)  20 SEP 2020 18:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,11 +990,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (./main.aux
-
-LaTeX Warning: Label `model1' multiply defined.
-
-)
+ (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
@@ -1011,7 +1007,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
 LaTeX Font Info:    ... okay on input line 90.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
 LaTeX Font Info:    ... okay on input line 90.
- (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count456
 \scratchdimen=\dimen294
@@ -1446,9 +1442,6 @@ Overfull \hbox (4.6486pt too wide) in paragraph at lines 150--150
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -1456,7 +1449,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  36707 strings out of 480608
  896504 string characters out of 5903630
- 1705222 words of memory out of 5000000
+ 1705185 words of memory out of 5000000
  51988 multiletter control sequences out of 15000+600000
  544002 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1483,7 +1476,7 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2020/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texm
 f-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2020/texmf-
 dist/fonts/type1/public/stmaryrd/stmary10.pfb>
-Output written on main.pdf (86 pages, 3230705 bytes).
+Output written on main.pdf (86 pages, 3232099 bytes).
 PDF statistics:
  673 PDF objects out of 1000 (max. 8388607)
  455 compressed objects within 5 object streams

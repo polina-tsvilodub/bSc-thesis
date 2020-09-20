@@ -4,7 +4,7 @@
 \contentsline {chapter}{\numberline {2}Understanding Gradable Adjectives}{7}%
 \contentsline {section}{\numberline {2.1}Semantic Representation of Gradable Adjectives}{9}%
 \contentsline {section}{\numberline {2.2}Understanding Comparison Classes}{10}%
-\contentsline {section}{\numberline {2.3}Semantic and Syntactic Aspects of Gradable Adjective Interpretation}{13}%
+\contentsline {section}{\numberline {2.3}Syntactic and Semantic Aspects of Gradable Adjective Interpretation}{13}%
 \contentsline {section}{\numberline {2.4}Pragmatic Aspects of Gradable Adjective Interpretation}{17}%
 \contentsline {chapter}{\numberline {3}A Functional Perspective on Comparison Class Inference}{21}%
 \contentsline {section}{\numberline {3.1}Understanding Reference and Predication}{23}%
@@ -24,7 +24,7 @@
 \contentsline {subsection}{\numberline {4.4.2}Results}{48}%
 \contentsline {chapter}{\numberline {5}A Bayesian Reference-Predication Model}{51}%
 \contentsline {section}{\numberline {5.1}Understanding Rational Speech Act Models}{51}%
-\contentsline {section}{\numberline {5.2}Previous RSA models of gradable adjectives}{57}%
+\contentsline {section}{\numberline {5.2}Previous RSA Models of Gradable Adjectives}{57}%
 \contentsline {section}{\numberline {5.3}Reference and Predication in RSA}{59}%
 \contentsline {subsection}{\numberline {5.3.1}Questions Under Discussion in RSA}{60}%
 \contentsline {subsection}{\numberline {5.3.2}Refpred-RSA Model}{61}%
@@ -32,6 +32,6 @@
 \contentsline {section}{\numberline {6.1}Conclusion}{76}%
 \contentsline {chapter}{\numberline {A}Appendix}{78}%
 \contentsline {section}{\numberline {A.1}Experimental Materials}{78}%
-\contentsline {subsection}{\numberline {A.1.1}Bot-check Trial}{78}%
+\contentsline {subsection}{\numberline {A.1.1}Bot-Check Trial}{78}%
 \contentsline {subsection}{\numberline {A.1.2}E1 Exclusion Criteria}{78}%
-\contentsline {section}{\numberline {A.2}Refpred-RSA Model}{79}%
+\contentsline {section}{\numberline {A.2}Refpred-RSA Model Alternatives}{79}%

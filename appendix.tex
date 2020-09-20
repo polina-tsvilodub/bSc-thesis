@@ -1,5 +1,5 @@
 \section{Experimental Materials}
-\subsection{Bot-check Trial}
+\subsection{Bot-Check Trial}
 The names used in the bot-check trials were: 
 \begin{itemize}
 \item Male names: James, John, Robert, Michael, William, David, Richard, Joseph, Thomas, Charles 
@@ -27,17 +27,17 @@ This exploratory analysis revealed results qualitatively and quantitatively very
 %The following provided responses (corrected for misspellings, capitalization and number) were classified as subordinate: "chihuahuas", "bonsai", "pugs", "great danes", "sunflowers", "dobermen", "swordfish", "dandelions", "goldfish", "eagles", "redwoods", "hummingbirds", "sequoias", "bonsai trees", "redwood trees", "other swordfish", "the other sunflowers".
 
 %The following provided responses (also corrected corrected) were classified as basic-level: "birds", "dogs", "fish", "flowers", "birds in the sky", "big dogs", "things", "objects", "dogs", "dogs that we see", "fish that we see", "birds that we see", "flower", "trees", "animal", "the other birds", "the other dogs", "weeds", "small flowers", "dog", "large dogs", "giant trees", "breeds", "plant", "variety of dogs", "long trees".
-\section{Refpred-RSA Model}
+\section{Refpred-RSA Model Alternatives}
 The main proposed reference-predication RSA model assumes a speaker utility function wherein the speaker chooses an utterance such that it optimally communicates a two-dimensional state of the world (i.e., the referent and its size):
 \begin{equation*}
-\label{model1}
+%\label{model1}
 U_{S_1} (u; r; s; cc; C) = log \: L_0 (s, r \mid u, C, cc) 
 \end{equation*}
-However, based on previous models addressing multiple potential questions under discussion, there are other conceivable representations of the speaker utility \parencite[cf.][]{kao2014nonliteral, yoon2016talking}. For instance, another more complex option is to consider a QUD-based model wherein the speaker chooses utterances specifically communicating reference or predication only, or both goals, inspired by \textcite{kao2014nonliteral}. In that case, the speaker-utility is defined with respect to a certain QUD she has in mind:
+However, based on previous models addressing multiple potential questions under discussion, there are other conceivable representations of the speaker utility \parencite[cf.][]{kao2014nonliteral, yoon2016talking}. For instance, another more complex option is to consider a QUD-based model wherein the speaker chooses utterances specifically communicating reference or predication only, or both goals, inspired by \textcite{kao2014nonliteral}. In that case, the speaker-utility is defined with respect to a certain QUD she has in mind: 
 \begin{equation*}
 U_{S_1} (u; r; s; cc; C; QUD) = log \: L_0(QUD(s, r) \mid u, C, cc)
 \end{equation*} 
-where $QUD(.)$ projects the state of the world onto the subspace relevant for the particular question under discussion. That is, if the QUD is reference, the literal listener returns a distribution over referents, marginalizing over possible properties. The versed happens when the QUD is predication. When the QUD is to communicate both aspects, $L_0$ returns a two-dimensional distribution over referents and properties. The latter possibility is equivalent to Model 1 (Eq.~\ref{model1}). The $L_1$ would then jointly reasons about the intended meaning and the intended QUD:
+where $QUD(.)$ projects the state of the world onto the subspace relevant for the particular question under discussion. That is, if the QUD is reference, the literal listener returns a distribution over referents, marginalizing over possible properties. The opposite happens when the QUD is predication. When the QUD is to communicate both aspects, $L_0$ returns a two-dimensional distribution over referents and properties. The latter possibility is equivalent to the main proposed model (Eq.~\ref{model1}). The $L_1$ would then jointly reasons about the intended meaning and the intended QUD: \pt{check if QUD inferred}
 \begin{equation*}
 P_{L_1} (r, s, cc \mid u, C) \propto \sum_{QUD} P_{S_1} (u, cc \mid s, r, C, QUD) \times P(r, s \mid C, cc_{r\_sub}) \times P(QUD)
 \end{equation*} 
@@ -46,9 +46,9 @@ Yet another possibility is to follow the idea proposed by \textcite{yoon2016talk
 \begin{equation*}
 U_{S_1} (u; r; s; cc; C; \phi) = log(\phi \: L_0(r \mid C) + (1 - \phi) L_0(s \mid cc))
 \end{equation*} 
-To compute the utility for one goal, $L_0$ is marginalized over the other aspect of the state of the world (equivalently to the QUD-based). The pragmatic listener then also reasons about the value of $\phi$:
+To compute the utility for one goal, the distribution returned by $L_0$ is marginalized over the other aspect of the state of the world (equivalently to the QUD-based model). The pragmatic listener then also reasons about the value of $\phi$:
 \begin{equation*}
 P_{L_1} (r, s, cc, \phi \mid u, C) \propto P_{S_1} (u, cc \mid s, r, C, \phi) \times P(r, s \mid C, cc_{r\_sub}) \times P(\phi)
 \end{equation*} 
 
-These are also conceivable representations of reasoning about informational goals. Although the speaker utility proposed in the main model in Section \ref{refpred-rsa} posits a priori that both the goals of reference and predication are relevant for any situation, it has clear advantages. First, this model has the simplest, most intuitive structure, avoiding the use of additional layers of inference or free parameters. Second, it implements the reference-predication trade-off hypothesis in a more elegant way: It explains the qualitative inference pattern observed empirically simply based on explaining away alternative states of the world and potential utterances they could have been described by, especially by shifting the noun position, avoiding architectures wherein the speaker would explicitly be biased to use the noun to convey a particular informational goal. Assuming a priori that interlocutors pursue both informational goals also seems to be a reasonable assumption, given the fundamental nature of reference necessarily underlying predication. Therefore, the main proposed model is deemed a more suitable reference-predication hypothesis formalization, but further possible speaker utility representations are left to future research. 
+These are also conceivable representations of reasoning about informational goals. Although the speaker utility proposed in the main model in Section \ref{refpred-rsa} posits a priori that both goals of reference and predication are relevant for any situation, it has clear advantages. First, this model has the simplest, most intuitive structure, avoiding the use of additional layers of inference or free parameters. Second, it implements the reference-predication trade-off hypothesis in a more elegant way: It explains the qualitative inference pattern observed empirically simply based on explaining away alternative states of the world and potential utterances they could have been described by, especially by shifting the noun position, avoiding architectures wherein the speaker would explicitly be biased to use the noun in a specific position to convey a particular informational goal. Assuming a priori that interlocutors pursue both informational goals also seems to be a reasonable assumption, given the fundamental nature of reference necessarily underlying predication. Therefore, it is argued that the main proposed model is a more suitable reference-predication hypothesis formalization, but further possible speaker utility representations are left to future research. 
