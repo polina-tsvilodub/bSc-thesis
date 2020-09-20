@@ -3033,19 +3033,20 @@
     <bcf:citekey order="190">Reboul2001</bcf:citekey>
     <bcf:citekey order="190">tessler2019language</bcf:citekey>
     <bcf:citekey order="190">barker2002dynamics</bcf:citekey>
-    <bcf:citekey order="191">franke2016does</bcf:citekey>
-    <bcf:citekey order="192">tessler2017warm</bcf:citekey>
-    <bcf:citekey order="193">barker2002dynamics</bcf:citekey>
-    <bcf:citekey order="194">tessler2017warm</bcf:citekey>
-    <bcf:citekey order="195">Mintz2002</bcf:citekey>
-    <bcf:citekey order="195">ebeling1994children</bcf:citekey>
+    <bcf:citekey order="191">heller2008</bcf:citekey>
+    <bcf:citekey order="192">franke2016does</bcf:citekey>
+    <bcf:citekey order="193">tessler2017warm</bcf:citekey>
+    <bcf:citekey order="194">barker2002dynamics</bcf:citekey>
+    <bcf:citekey order="195">tessler2017warm</bcf:citekey>
+    <bcf:citekey order="196">Mintz2002</bcf:citekey>
     <bcf:citekey order="196">ebeling1994children</bcf:citekey>
-    <bcf:citekey order="197">sinelnikova2020</bcf:citekey>
+    <bcf:citekey order="197">ebeling1994children</bcf:citekey>
     <bcf:citekey order="198">sinelnikova2020</bcf:citekey>
-    <bcf:citekey order="199">kao2014nonliteral</bcf:citekey>
-    <bcf:citekey order="199">yoon2016talking</bcf:citekey>
+    <bcf:citekey order="199">sinelnikova2020</bcf:citekey>
     <bcf:citekey order="200">kao2014nonliteral</bcf:citekey>
-    <bcf:citekey order="201">yoon2016talking</bcf:citekey>
+    <bcf:citekey order="200">yoon2016talking</bcf:citekey>
+    <bcf:citekey order="201">kao2014nonliteral</bcf:citekey>
+    <bcf:citekey order="202">yoon2016talking</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
