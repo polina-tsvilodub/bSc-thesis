@@ -14,14 +14,14 @@
 \contentsline {subsection}{\numberline {4.1.1}Participants}{38}%
 \contentsline {subsection}{\numberline {4.1.2}Results}{38}%
 \contentsline {section}{\numberline {4.2}Experiment 2: Noun Production Experiment}{40}%
-\contentsline {subsection}{\numberline {4.2.1}Participants}{41}%
+\contentsline {subsection}{\numberline {4.2.1}Participants}{42}%
 \contentsline {subsection}{\numberline {4.2.2}Results}{42}%
 \contentsline {section}{\numberline {4.3}Experiment 3: Comparison Class Inference Experiment}{43}%
 \contentsline {subsection}{\numberline {4.3.1}Participants}{46}%
-\contentsline {subsection}{\numberline {4.3.2}Results}{46}%
-\contentsline {section}{\numberline {4.4}Experiment 4: Direct Modification Experiment}{49}%
+\contentsline {subsection}{\numberline {4.3.2}Results}{47}%
+\contentsline {section}{\numberline {4.4}Experiment 4: Direct Modification Experiment}{50}%
 \contentsline {subsection}{\numberline {4.4.1}Participants}{53}%
-\contentsline {subsection}{\numberline {4.4.2}Results}{53}%
+\contentsline {subsection}{\numberline {4.4.2}Results}{54}%
 \contentsline {chapter}{\numberline {5}A Bayesian Reference-Predication Model}{57}%
 \contentsline {section}{\numberline {5.1}Understanding Rational Speech Act Models}{57}%
 \contentsline {section}{\numberline {5.2}Previous RSA Models of Gradable Adjectives}{63}%
