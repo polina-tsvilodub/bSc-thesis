@@ -205,9 +205,12 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Memory and Language}
       \field{number}{3}
-      \field{title}{Random effects structure for confirmatory hypothesis testing: Keep it maximal. Journal of memory and language, 68(3), 10.1016/j.jml.2012.11.001. https://doi.org/10.1016/j.jml.2012.11.001}
+      \field{title}{Random effects structure for confirmatory hypothesis testing: Keep it maximal.}
       \field{volume}{68}
       \field{year}{2013}
+      \verb{doi}
+      \verb 10.1016/j.jml.2012.11.001
+      \endverb
     \endentry
     \entry{bartsch1972}{article}{}
       \name{author}{2}{}{%
@@ -539,8 +542,8 @@
       \field{title}{Ambiguity in context}
       \field{volume}{4}
       \field{year}{1989}
-      \field{pages}{SI77\bibrangedash SI103}
-      \range{pages}{-1}
+      \field{pages}{77\bibrangedash 103}
+      \range{pages}{27}
     \endentry
     \entry{Cresswell1976}{inbook}{}
       \name{author}{1}{}{%
@@ -951,7 +954,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{38th Annual Meeting of the Cognitive Science Society}
+      \field{booktitle}{Proceedings of the 38th Annual Meeting of the Cognitive Science Society}
       \field{title}{Animal, dog, or dalmatian? Level of abstraction in nominal referring expressions.}
       \field{year}{2016}
     \endentry
@@ -1014,6 +1017,51 @@
       \field{year}{2000}
       \field{pages}{40\bibrangedash 64}
       \range{pages}{25}
+    \endentry
+    \entry{heller2008role}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cd1e12bcdbe24f394d9aedd845e5a3c5}{%
+           family={Heller},
+           familyi={H\bibinitperiod},
+           given={Daphna},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93c37c1e860be87245b6f2b5ae8b1fdd}{%
+           family={Grodner},
+           familyi={G\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37b4aca133ca8fd479bb0c3a83e0fb55}{%
+           family={Tanenhaus},
+           familyi={T\bibinitperiod},
+           given={Michael\bibnamedelima K},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{94d9f8a20998b17018401d2d9af4fe9d}
+      \strng{fullhash}{c312401c634694d5882df83a51f711c1}
+      \strng{bibnamehash}{c312401c634694d5882df83a51f711c1}
+      \strng{authorbibnamehash}{c312401c634694d5882df83a51f711c1}
+      \strng{authornamehash}{94d9f8a20998b17018401d2d9af4fe9d}
+      \strng{authorfullhash}{c312401c634694d5882df83a51f711c1}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognition}
+      \field{number}{3}
+      \field{title}{The role of perspective in identifying domains of reference}
+      \field{volume}{108}
+      \field{year}{2008}
+      \field{pages}{831\bibrangedash 836}
+      \range{pages}{6}
     \endentry
     \entry{hofherr2010adjectives}{book}{}
       \name{author}{2}{}{%
@@ -1091,6 +1139,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2020-09-01}
       \field{title}{Minimal architecture for the generation of portable interactive experiments}
       \field{year}{2018}
       \verb{urlraw}
@@ -1491,6 +1540,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2020-08-01}
       \field{title}{Bayesian power analysis: Part III.b. What about 0/1 data?}
       \field{year}{2019}
       \verb{urlraw}
@@ -1912,6 +1962,7 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2020-09-15}
       \field{title}{Probabilistic language understanding: An introduction to the Rational Speech Act framework.}
       \field{year}{2018}
       \field{dateera}{ce}
@@ -2209,9 +2260,6 @@
       \verb{doi}
       \verb 10.1093/jos/3.1-2.1
       \endverb
-      \verb{eprint}
-      \verb https://academic.oup.com/jos/article-pdf/3/1-2/1/9835673/1.pdf
-      \endverb
       \verb{urlraw}
       \verb https://doi.org/10.1093/jos/3.1-2.1
       \endverb
@@ -2255,8 +2303,8 @@
       \field{title}{Ambiguity in context: A reply}
       \field{volume}{4}
       \field{year}{1989}
-      \field{pages}{SI105\bibrangedash SI122}
-      \range{pages}{-1}
+      \field{pages}{105\bibrangedash 122}
+      \range{pages}{18}
     \endentry
     \entry{syrett2010meaning}{article}{}
       \name{author}{3}{}{%
@@ -2376,7 +2424,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{science}
+      \field{journaltitle}{Science}
       \field{number}{6022}
       \field{title}{How to grow a mind: Statistics, structure, and abstraction}
       \field{volume}{331}
@@ -2521,7 +2569,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{39th Annual Meeting of the Cognitive Science Society}
+      \field{booktitle}{Proceedings of the 39th Annual Meeting of the Cognitive Science Society}
       \field{title}{Warm (for winter): Comparison class understanding in vague language}
       \field{year}{2017}
     \endentry
@@ -2564,7 +2612,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{42th Annual Meeting of the Cognitive Science Society}
+      \field{booktitle}{Proceedings of the 42th Annual Meeting of the Cognitive Science Society}
       \field{title}{Informational goals, sentence structure, and comparison class inference}
       \field{year}{2020}
       \field{pages}{537\bibrangedash 543}

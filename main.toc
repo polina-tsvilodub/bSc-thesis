@@ -1,40 +1,40 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {1}Introduction}{5}%
-\contentsline {chapter}{\numberline {2}Understanding Gradable Adjectives}{7}%
-\contentsline {section}{\numberline {2.1}Semantic Representation of Gradable Adjectives}{9}%
-\contentsline {section}{\numberline {2.2}Understanding Comparison Classes}{10}%
-\contentsline {section}{\numberline {2.3}Syntactic and Semantic Aspects of Gradable Adjective Interpretation}{13}%
-\contentsline {section}{\numberline {2.4}Pragmatic Aspects of Gradable Adjective Interpretation}{17}%
-\contentsline {chapter}{\numberline {3}A Functional Perspective on Comparison Class Inference}{21}%
-\contentsline {section}{\numberline {3.1}Understanding Reference and Predication}{23}%
-\contentsline {section}{\numberline {3.2}Experimental Operationalization}{25}%
-\contentsline {chapter}{\numberline {4}Experiments}{28}%
-\contentsline {section}{\numberline {4.1}Experiment 1: Sentence Rating Experiment}{30}%
-\contentsline {subsection}{\numberline {4.1.1}Participants}{33}%
-\contentsline {subsection}{\numberline {4.1.2}Results}{33}%
-\contentsline {section}{\numberline {4.2}Experiment 2: Noun Production Experiment}{34}%
-\contentsline {subsection}{\numberline {4.2.1}Participants}{36}%
-\contentsline {subsection}{\numberline {4.2.2}Results}{36}%
-\contentsline {section}{\numberline {4.3}Experiment 3: Comparison Class Inference Experiment}{38}%
-\contentsline {subsection}{\numberline {4.3.1}Participants}{41}%
-\contentsline {subsection}{\numberline {4.3.2}Results}{41}%
-\contentsline {section}{\numberline {4.4}Experiment 4: Direct Modification Experiment}{44}%
-\contentsline {subsection}{\numberline {4.4.1}Participants}{48}%
-\contentsline {subsection}{\numberline {4.4.2}Results}{48}%
-\contentsline {chapter}{\numberline {5}A Bayesian Reference-Predication Model}{51}%
-\contentsline {section}{\numberline {5.1}Understanding Rational Speech Act Models}{51}%
-\contentsline {section}{\numberline {5.2}Previous RSA Models of Gradable Adjectives}{57}%
-\contentsline {section}{\numberline {5.3}Reference and Predication in RSA}{59}%
-\contentsline {subsection}{\numberline {5.3.1}Questions Under Discussion in RSA}{60}%
-\contentsline {subsection}{\numberline {5.3.2}Refpred-RSA Model}{61}%
-\contentsline {chapter}{\numberline {6}Discussion}{70}%
-\contentsline {section}{\numberline {6.1}Experiments}{71}%
-\contentsline {section}{\numberline {6.2}RSA Model}{74}%
-\contentsline {section}{\numberline {6.3}Developmental Implications}{76}%
-\contentsline {section}{\numberline {6.4}Conclusion}{77}%
-\contentsline {chapter}{\numberline {A}Appendix}{79}%
-\contentsline {section}{\numberline {A.1}Experimental Materials}{79}%
-\contentsline {subsection}{\numberline {A.1.1}Bot-Check Trial}{79}%
-\contentsline {subsection}{\numberline {A.1.2}E1 Exclusion Criteria}{79}%
-\contentsline {section}{\numberline {A.2}Refpred-RSA Model Alternatives}{80}%
+\contentsline {chapter}{\numberline {1}Introduction}{9}%
+\contentsline {chapter}{\numberline {2}Understanding Gradable Adjectives}{11}%
+\contentsline {section}{\numberline {2.1}Semantic Representation of Gradable Adjectives}{13}%
+\contentsline {section}{\numberline {2.2}Understanding Comparison Classes}{14}%
+\contentsline {section}{\numberline {2.3}Syntactic and Semantic Aspects of Gradable Adjective Interpretation}{17}%
+\contentsline {section}{\numberline {2.4}Pragmatic Aspects of Gradable Adjective Interpretation}{21}%
+\contentsline {chapter}{\numberline {3}A Functional Perspective on Comparison Class Inference}{25}%
+\contentsline {section}{\numberline {3.1}Understanding Reference and Predication}{27}%
+\contentsline {section}{\numberline {3.2}Experimental Operationalization}{29}%
+\contentsline {chapter}{\numberline {4}Experiments}{33}%
+\contentsline {section}{\numberline {4.1}Experiment 1: Sentence Rating Experiment}{35}%
+\contentsline {subsection}{\numberline {4.1.1}Participants}{38}%
+\contentsline {subsection}{\numberline {4.1.2}Results}{38}%
+\contentsline {section}{\numberline {4.2}Experiment 2: Noun Production Experiment}{40}%
+\contentsline {subsection}{\numberline {4.2.1}Participants}{41}%
+\contentsline {subsection}{\numberline {4.2.2}Results}{42}%
+\contentsline {section}{\numberline {4.3}Experiment 3: Comparison Class Inference Experiment}{43}%
+\contentsline {subsection}{\numberline {4.3.1}Participants}{46}%
+\contentsline {subsection}{\numberline {4.3.2}Results}{46}%
+\contentsline {section}{\numberline {4.4}Experiment 4: Direct Modification Experiment}{49}%
+\contentsline {subsection}{\numberline {4.4.1}Participants}{53}%
+\contentsline {subsection}{\numberline {4.4.2}Results}{53}%
+\contentsline {chapter}{\numberline {5}A Bayesian Reference-Predication Model}{57}%
+\contentsline {section}{\numberline {5.1}Understanding Rational Speech Act Models}{57}%
+\contentsline {section}{\numberline {5.2}Previous RSA Models of Gradable Adjectives}{63}%
+\contentsline {section}{\numberline {5.3}Reference and Predication in RSA}{65}%
+\contentsline {subsection}{\numberline {5.3.1}Questions Under Discussion in RSA}{66}%
+\contentsline {subsection}{\numberline {5.3.2}Refpred-RSA Model}{67}%
+\contentsline {chapter}{\numberline {6}Discussion}{77}%
+\contentsline {section}{\numberline {6.1}Experiments}{78}%
+\contentsline {section}{\numberline {6.2}RSA Model}{81}%
+\contentsline {section}{\numberline {6.3}Developmental Perspective}{83}%
+\contentsline {section}{\numberline {6.4}Conclusion}{84}%
+\contentsline {chapter}{\numberline {A}Appendix}{87}%
+\contentsline {section}{\numberline {A.1}Experimental Materials}{87}%
+\contentsline {subsection}{\numberline {A.1.1}Bot-Check Trial}{87}%
+\contentsline {subsection}{\numberline {A.1.2}E1 Exclusion Criteria}{87}%
+\contentsline {section}{\numberline {A.2}Refpred-RSA Model Alternatives}{88}%

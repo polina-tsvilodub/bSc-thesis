@@ -1,21 +1,21 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'main.blg'
-[73] biber-darwin:322> INFO - === Tue Sep 15, 2020, 03:29:08
-[106] Biber.pm:415> INFO - Reading 'main.bcf'
-[242] Biber.pm:943> INFO - Found 70 citekeys in bib section 0
-[254] Biber.pm:4256> INFO - Processing section 0
-[255] Utils.pm:75> INFO - Globbing data source 'references.bib'
-[255] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
-[269] Biber.pm:4455> INFO - Looking for bibtex format file 'references.bib' for section 0
-[272] bibtex.pm:1653> INFO - LaTeX decoding ...
-[348] bibtex.pm:1471> INFO - Found BibTeX data source 'references.bib'
-[628] Utils.pm:304> WARN - ISBN '0010-0277' in entry 'Mintz2002' is invalid - run biber with '--validate_datamodel' for details.
-[650] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/rv/yg2lsl0x5wvbgrpcz2c919z80000gn/T/biber_tmp_12a_/references.bib_44598.utf8, line 150, warning: 1 characters of junk seen at toplevel
-[650] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/rv/yg2lsl0x5wvbgrpcz2c919z80000gn/T/biber_tmp_12a_/references.bib_44598.utf8, line 147, warning: undefined macro "Berlin"
-[746] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[746] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[746] Biber.pm:4084> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[746] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[814] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[853] bbl.pm:755> INFO - Output to main.bbl
-[854] Biber.pm:128> INFO - WARNINGS: 3
+[68] biber-darwin:322> INFO - === Mon Sep 21, 2020, 13:01:36
+[82] Biber.pm:415> INFO - Reading 'main.bcf'
+[226] Biber.pm:943> INFO - Found 71 citekeys in bib section 0
+[239] Biber.pm:4256> INFO - Processing section 0
+[240] Utils.pm:75> INFO - Globbing data source 'references.bib'
+[240] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
+[248] Biber.pm:4455> INFO - Looking for bibtex format file 'references.bib' for section 0
+[251] bibtex.pm:1653> INFO - LaTeX decoding ...
+[327] bibtex.pm:1471> INFO - Found BibTeX data source 'references.bib'
+[619] Utils.pm:304> WARN - ISBN '0010-0277' in entry 'Mintz2002' is invalid - run biber with '--validate_datamodel' for details.
+[644] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/rv/yg2lsl0x5wvbgrpcz2c919z80000gn/T/biber_tmp_XD1q/references.bib_50430.utf8, line 150, warning: 1 characters of junk seen at toplevel
+[644] Utils.pm:304> WARN - BibTeX subsystem: /var/folders/rv/yg2lsl0x5wvbgrpcz2c919z80000gn/T/biber_tmp_XD1q/references.bib_50430.utf8, line 147, warning: undefined macro "Berlin"
+[741] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[741] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[741] Biber.pm:4084> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[741] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[807] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[847] bbl.pm:755> INFO - Output to main.bbl
+[847] Biber.pm:128> INFO - WARNINGS: 3
