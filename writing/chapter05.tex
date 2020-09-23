@@ -1,10 +1,10 @@
-Vagueness and context-dependence of gradable adjectives have been promisingly formalized in computational models within the Rational Speech Act framework -  a suite of game-theoretically oriented recursive models of pragmatic language understanding \parencite[e.g.,][]{goodman2016, lassiter2017adjectival, tessler2017warm}. Introduced by \textcite{frank2012predicting}, the Rational Speech Act framework is well in line with recent insights in Bayesian cognitive modelling, showing a great deal of flexibility to account for various phenomena studied in pragmatics like scalar implicature, hyperbolic language or generics, among many others \parencite[e.g.,][]{tenenbaum2011grow, problang}. This chapter reviews the basics of Rational Speech Act models and specifically prior models of gradable adjectives. While accounting for many aspects of gradable adjectives, many of those models assumed an a priori fixed comparison class. Yet as shown empirically in the previous Chapter \ref{chapter04}, listeners flexibly reason about the intended comparison class by taking into account syntactic and contextual cues. Therefore, this chapter attempts to propose a minimal extension to existing RSA-models which will formalize the reference-predication trade-off hypothesis of comparison class inference.%, allowing to flexibly incorporate reasoning about context and role of the noun in comparison class inference. 
+Vagueness and context-dependence of gradable adjectives have been promisingly formalized in computational models within the Rational Speech Act framework ---  a suite of game-theoretically oriented recursive models of pragmatic language understanding \parencite[e.g.,][]{goodman2016, lassiter2017adjectival, tessler2017warm}. Introduced by \textcite{frank2012predicting}, the Rational Speech Act framework is well in line with recent insights in Bayesian cognitive modelling, showing a great deal of flexibility to account for various phenomena studied in pragmatics like scalar implicature, hyperbolic language or generics, among many others \parencite[e.g.,][]{tenenbaum2011grow, problang}. This chapter reviews the basics of Rational Speech Act models and specifically prior models of gradable adjectives. While accounting for many aspects of gradable adjectives, many of those models assumed an a priori fixed comparison class. Yet as shown empirically in the previous Chapter \ref{chapter04}, listeners flexibly reason about the intended comparison class by taking into account syntactic and contextual cues. Therefore, this chapter attempts to propose a minimal extension to existing RSA-models which will formalize the reference-predication trade-off hypothesis of comparison class inference.%, allowing to flexibly incorporate reasoning about context and role of the noun in comparison class inference. 
   
 \section{Understanding Rational Speech Act Models}
 \label{intro-rsa}
 Language is fascinatingly flexible and efficient, and largely so because interlocutors do not have to explicitly encode all information in utterances they produce, but instead rely on each other's ability to infer many aspects of the message from linguistic and situational context. In particular, pragmatic models of communication posit that given these contextual constrains, speakers and listeners can efficiently \emph{reason about each other's intended meaning of utterances} under one important assumption: speakers are approximately \emph{rational} with respect to their communicative goals \parencite{frank2012predicting}. The Rational Speech Act framework (henceforth: RSA) views this process of establishing the intended meaning as recursive reasoning between speaker and listener: in interpretation-oriented models, a pragmatic listener $L_1$ infers a state of the world intended to be conveyed by a rational speaker $S_1$, by using \emph{Bayesian inference} to reason about likely world states given the observed utterance, given that the speaker $S_1$ chooses utterances according to their most likely semantic interpretation by a literal listener $L_0$ \parencite{problang}.  
 
-The idea of language as rational action produced by \emph{cooperative} interlocutors was formulated by \textcite{grice1975logic}. The core of his proposal are four conversational maxims that speakers are thought to stick to when producing utterances in order to convey particular messages: the \emph{maxims of relation} (contributions made to the conversation are relevant), \emph{quantity} (the contributions are as informative as required, but not more so), \emph{quality} (the speaker believes their contributions to be true) and \emph{manner} (the way the contributions are expressed is perspicuous). Listeners then reason about intended messages in light of these maxims \parencite{grice1975logic}.
+The idea of language as rational action produced by \emph{cooperative} interlocutors was formulated by \textcite{grice1975logic}. The core of his proposal are four conversational maxims that speakers are thought to stick to when producing utterances in order to convey particular messages: the \emph{maxims of relation} (contributions made to the conversation should be relevant), \emph{quantity} (the contributions should be as informative as required, but not more so), \emph{quality} (the speaker is supposed to believe their contributions to be true) and \emph{manner} (the way the contributions are expressed should be perspicuous). Listeners then reason about intended messages in light of these maxims \parencite{grice1975logic}.
 
 Grice’s ideas became particularly influential when precise information-theoretic formalisations of such vague concepts like \emph{informativeness, cooperation} and \emph{relevance} were proposed, and, informed by insights from game-theory, gave rise to RSA \parencite{frank2012predicting}.
 In particular, RSA captures cooperative coordination of intended meaning between interlocutors via recursive application of probabilistic mechanisms; and relevance or informativeness of utterances is captured as the \emph{utility} of the utterance in helping the listener reduce uncertainty in their beliefs about the world, where these beliefs can be represented as a probability distribution over possible states of the world \parencite[as advocated by e.g.][]{tenenbaum2011grow}.  
@@ -34,17 +34,17 @@ P_{L_0}(s \mid u) \propto \llbracket u \rrbracket (s) \; P(s)
 The prior $P(s)$ is the prior belief of $L_0$ about which states are likely to be communicated by the speaker. Typically, a uniform prior is used, indicating that a priori any state is as likely as others, but relevant contextual information like perceptual salience or frequency of some referents might be encoded in this prior \parencite{frank2012predicting}.
 
 The second component of the $L_0$ is the \emph{literal meaning} of the observed utterance $u$ (indicated as $\llbracket u \rrbracket$). In RSA, literal semantics computation is based on a form of Montague’s compositional semantics, typically assuming a mapping from particular states to Boolean truth-values \parencite{montague1973proper} \parencite[but see e.g.][for alternative approaches]{degen2020redundancy}. 
-So, for instance for the context Fig. \ref{rsa-scene}, applying the utterance 'circle' to the blue square would return \texttt{false}, but 'blue' would be \texttt{true}:
+So, for instance for the context in Fig. \ref{rsa-scene}, applying the utterance `circle' to the blue square would return \texttt{false}, but `blue' would return \texttt{true}:
 \begin{align}
 \llbracket circle \rrbracket (blue \: square) = 0 \notag \\
 \llbracket blue \rrbracket (blue\: square) = 1
 \end{align}
   
-So for our example utterance 'blue' the literal listener $L_0$ infers a uniform distribution over the blue circle and the blue square, since the utterance equally applies to both objects (Table \ref{rsa-l0}):
+So for our example utterance `blue' the literal listener $L_0$ infers a uniform distribution over the blue circle and the blue square, since the utterance equally applies to both objects (Table \ref{rsa-l0}):
 
 \begin{table}[h]
 	\begin{center}
-		\caption{The probability distribution over states inferred by $L_0$ when hearing the utterance 'blue' in context $C$.}
+		\caption{The probability distribution over states inferred by $L_0$ when hearing the utterance `blue' in context $C$.}
 		\label{rsa-l0}
 		\vskip 0.12in
 		\begin{tabular}{cc}
@@ -62,12 +62,12 @@ The next RSA layer is the pragmatic speaker $S_1$. $S_1$ is modelled as an agent
 U_{S_1} (u;s) = log L_0(s \mid u) - C(u)
 \end{equation}
 In information-theoretic terms, $L_0$ provides a hook within this utility function to compute the \emph{informativeness} of particular utterances as communicating particular states, 
-where informativeness is quantified by surprisal - a measure of how much uttering a particular $u$ reduces uncertainty about the state of the world, given that $u$ is \emph{true of $s$} (i.e., $\llbracket u \rrbracket (s) = 1$) \parencite{frank2012predicting}: 
+where informativeness is quantified by surprisal --- a measure of how much uttering a particular $u$ reduces uncertainty about the state of the world, given that $u$ is \emph{true of $s$} (i.e., $\llbracket u \rrbracket (s) = 1$) \parencite{frank2012predicting}: 
 \begin{equation}
 I_{ \tilde{u} (s)}(s) = -log(\tilde{u} (s))
 \end{equation}
 $I_{\tilde{u} (s)}(s)$ measures how much information $L_0$ gains when hearing the utterance $u$, assuming a known distribution $\tilde{u} (s)$ over states that are coveyed by the literal interpretation $\llbracket u \rrbracket$ which implies the probability of $s$; i.e., it measures how \emph{surprising} it would be to observe $s$ having observed $u$.
-Intuitively, assuming a uniform $\tilde{u} (s)$, the less states an utterance applies to, the lower is the surprisal of a particular state, and the higher is its informativeness. Here, informativeness is used in a relatively informal way, meaning that a maximally informative utterance conveys the a message maximally unambiguously. For instance, in the context of Fig.~\ref{rsa-scene}, the utterance 'circle' is highly informative, because there is only one object it applies to, while the utterance 'blue' is less informative because it applies to two objects. 
+Intuitively, assuming a uniform $\tilde{u} (s)$, the less states an utterance applies to, the lower is the surprisal of a particular state, and the higher is its informativeness. Here, informativeness is used in a relatively informal way, meaning that a maximally informative utterance conveys a message maximally unambiguously. For instance, in the context of Fig.~\ref{rsa-scene}, the utterance `circle' is highly informative, because there is only one object it applies to, while the utterance `blue' is less informative because it applies to two objects. 
 Therefore, the speaker utility is anti-proportional to the surprisal of the utterance \parencite{frank2012predicting}:
 \begin{equation}
 U_{S_1} (u;s) = -(-log(\tilde{u}(s))) - C(u) = log L_0(s \mid u) - C(u)
@@ -79,11 +79,11 @@ P_{S_1}(u \mid s) = \frac{e^{\alpha \: U_{S_1} (u; s)}}{\sum_{u' \in U s.t. u'(s
 \end{equation}
 The parameter $\alpha$ controls the speaker's \emph{optimality}, assuming $\alpha = 1$ in examples used here; for $\alpha = \infty $ the fully rational decision rule used in game-theory can be recovered \parencite{problang, lassiter2017adjectival}.
 
-For this example, $S_1$ chooses an utterance $u$ maximizing the probability of the state 'blue square' being recovered by $L_0$. So $S_1$ infers a distribution over utterances applicable to the target 'blue square' (Table \ref{rsa-s1}):
+For this example, $S_1$ chooses an utterance $u$ maximizing the probability of the state `blue square' being recovered by $L_0$. So $S_1$ infers a distribution over utterances applicable to the target `blue square' (Table \ref{rsa-s1}):
 
 \begin{table}[h]
 	\begin{center}
-		\caption{The probability distribution over utterance inferred by the pragmatic speaker $S_1$ in order to communicate the referent 'blue square'}
+		\caption{The probability distribution over utterance inferred by the pragmatic speaker $S_1$ in order to communicate the referent `blue square'}
 		\label{rsa-s1}
 		\vskip 0.12in
 		\begin{tabular}{cc}
@@ -95,23 +95,23 @@ For this example, $S_1$ chooses an utterance $u$ maximizing the probability of t
 	\end{center}
 \end{table}
  
-Finally the top-level layer, the pragmatic listener $L_1$, reasons about this utterance-generating speaker behaviour given a particular utterance $u$ ('blue'), using Bayes' rule:\footnote{This recursive depth of three model layers is a common assumption in RSA models, and requires a reasonable amount of computational resources \parencite{lassiter2017adjectival}. Yet this is just a practical approximation, and some models (e.g., production-oriented models) employ additional levels \parencite{problang}.}
+Finally the top-level layer, the pragmatic listener $L_1$, reasons about this utterance-generating speaker behaviour given a particular utterance $u$ (`blue'), using Bayes' rule:\footnote{This recursive depth of three model layers is a common assumption in RSA models, and requires a reasonable amount of computational resources \parencite{lassiter2017adjectival}. Yet this is just a practical approximation, and some models (e.g., production-oriented models) employ additional levels \parencite{problang}.}
 \begin{equation}
 \label{vanilla-l1} 
 P_{L_1}(s \mid u) = \frac{P_{S_1}(u \mid s) \; P(s)}{\sum_{s' \in C} P_{S_1}(u \mid s') \; P(s')}
 \end{equation}
-That is, the probability of a particular state $s$ (i.e., blue square) given the utterance $u$ ('blue') is equal to the probability that the pragmatic speaker $S_1$ would choose $blue$ in order to convey the \textit{blue square}, multiplied by the prior probability $P(s)$ of occurence of state $s = blue \:square$, normalised by a constant sum of probabilities of all possible speaker behaviors for all possible states $s'$. 
+That is, the probability of a particular state $s$ (i.e., blue square) given the utterance $u$ (`blue') is equal to the probability that the pragmatic speaker $S_1$ would choose `blue' in order to convey the \textit{blue square}, multiplied by the prior probability $P(s)$ of occurence of state $s = blue \:square$, normalised by a constant sum of probabilities of all possible speaker behaviors for all possible states $s'$. 
 Equation \ref{vanilla-l1} shows that the posterior over states $s$ given an utterance $u$ is proportional to the speaker production probability $P_{S_1}(u \mid s)$ times the state prior $P(s)$ because the denominator is a constant: 
 \begin{equation}
 P_{L_1}(s \mid u) \propto P_{S_1}(u \mid s) \; P(s)
 \end{equation} 
-Interestingly, the state prior $P(s)$ might differ between $L_0$ and $L_1$, e.g. incorporating prior world knowledge of the pragmatic agent $L_1$, but being uniform for the na\"ive agent $L_0$ \parencite{problang}. 
+Interestingly, the state prior $P(s)$ might differ between $L_0$ and $L_1$, e.g., incorporating prior world knowledge of the pragmatic agent $L_1$, but being uniform for the na\"ive agent $L_0$ \parencite{problang}. 
 
-In this example, upon hearing 'blue', $L_1$ infers that the speaker is more likely to convey the blue square (Table \ref{rsa-l1}):
+In this example, upon hearing `blue', $L_1$ infers that the speaker is more likely to convey the blue square (Table \ref{rsa-l1}):
 
 \begin{table}[h]
 	\begin{center}
-		\caption{The probability distribution over referents inferred by the pragmatic listener $L_1$ upon hearing the utterance 'blue'.}
+		\caption{The probability distribution over referents inferred by the pragmatic listener $L_1$ upon hearing the utterance `blue'.}
 		\label{rsa-l1}
 		\vskip 0.12in
 		\begin{tabular}{cc}
@@ -127,11 +127,11 @@ In this example, upon hearing 'blue', $L_1$ infers that the speaker is more like
 		\includegraphics[width=0.5\linewidth]{vanilla-rsa.png}
 	\end{center}
 	\vspace{-0.3cm}
-	\caption{A schematic depiction of a vanilla RSA model \parencite{problang}}
+	\caption{A schematic depiction of a vanilla RSA model \parencite{problang}.}
 	\label{vanilla-rsa}
 \end{figure*}
 Putting all the elements together results in the vanilla version of an RSA-model (Fig.~\ref{vanilla-rsa}).
-The crucial illustration of the RSA mechanism is the difference between the distributions inferred by $L_0$ and $L_1$ upon observing the same utterance 'blue'. Reasoning about the utterance-generating speaker-model incorporated in $L_1$, while $L_0$ acts according to literal semantics only, is crucial for the pattern of interpretation we observe: $L_1$ infers that the speaker is more likely to mean the blue square, because if she had meant the blue circle, she could have said 'circle', which would have been less ambiguous, and therefore more informative (Table \ref{rsa-l1}). That is, $L_1$ does not only consider what the speaker actually said, but also what the speaker \emph{could have said}. In contrast, $L_0$ infers equal probabilities of 'blue' meaning 'blue square' or 'blue circle' because the utterance is literally true of both referents (Table \ref{rsa-l0}). Crucially, this pattern predicted by the RSA-model is well in line with rational behaviour of humans gathered empirically in such reference game scenarios, confirming that human interlocutors make use of more than just the literal semantics of their words when communicating \parencite{frank2012predicting, problang}.
+The crucial illustration of the RSA mechanism is the difference between the distributions inferred by $L_0$ and $L_1$ upon observing the same utterance `blue'. Reasoning about the utterance-generating speaker-model incorporated in $L_1$, while $L_0$ acts according to literal semantics only, is crucial for the pattern of interpretation we observe: $L_1$ infers that the speaker is more likely to mean the blue square, because if she had meant the blue circle, she could have said `circle', which would have been less ambiguous, and therefore more informative (Table \ref{rsa-l1}). That is, $L_1$ does not only consider what the speaker actually said, but also what the speaker \emph{could have said}. In contrast, $L_0$ infers equal probabilities of `blue' meaning `blue square' or `blue circle' because the utterance is literally true of both referents (Table \ref{rsa-l0}). Crucially, this pattern predicted by the RSA-model is well in line with rational behaviour of humans gathered empirically in such reference game scenarios, confirming that human interlocutors make use of more than just the literal semantics of their words when communicating \parencite{frank2012predicting, problang}.
 
 %Having set the basic building blocks of RSA models, some more sophisticated features of RSA relevant for modelling adjectives should be mentioned. 
 
@@ -148,10 +148,10 @@ P_{L_1} (s, \theta \mid u) \propto P_{S_1} (u \mid s, \theta) \; P (s) \; P(\the
 
 The model formalized literal meaning of gradable adjectives in terms of degree-semantics, assuming that the lexical entry of the adjective specifies the underlying scale and its polarity (cf. Chapter~\ref{chapter02}):
 \begin{equation}
-\llbracket u \rrbracket_{\theta} (s) = s > \theta
+\llbracket u \rrbracket^{\theta} (s) = s > \theta
 \end{equation}
-However, the literal meaning of the adjective by itself is underspecified - it depends on the pragmatically recovered threshold $\theta$, which in turn depends on the comparison class used in the particular context; yet, like vanilla RSA the model is anchored in the literal interpretation of the adjective applied to a referent at the level of $L_0$.  
-So in order to allow specifying the $L_0$ which requires computating the truth-value of an utterance for a given state, the authors proposed $L_1$ consider all possible assignments of the \emph{lifted} latent variable value $\theta$, given a prior over that variable $P(\theta)$. A uniform $P(\theta)$ encoded that a priori any property degree might qualify for being described by the adjective. Crucially, the state prior $P(s)$ encoded prior knowledge about \emph{likely property degrees for a specific comparison class} which the referent might have. For instance, the difference in the meanings of \emph{big} in 'big for a tree' and 'big for a pug' would be encoded in different priors over the likely properties of the respective referents. It is common practice to quantify this prior knowledge empirically via prior elicitation experiments \parencite{problang}.
+However, the literal meaning of the adjective by itself is underspecified --- it depends on the pragmatically recovered threshold $\theta$, which in turn depends on the comparison class used in the particular context; yet, like vanilla RSA the model is anchored in the literal interpretation of the adjective applied to a referent at the level of $L_0$.  
+So in order to allow specifying the $L_0$ which requires computing the truth-value of an utterance for a given state, the authors proposed $L_1$ consider all possible assignments of the \emph{lifted} latent variable value $\theta$, given a prior over that variable $P(\theta)$. A uniform $P(\theta)$ encoded that a priori any property degree might qualify for being described by the adjective. Crucially, the state prior $P(s)$ encoded prior knowledge about \emph{likely property degrees for a specific comparison class} which the referent might have. For instance, the difference in the meanings of \emph{big} in `big for a tree' and `big for a pug' would be encoded in different priors over the likely properties of the respective referents. It is common practice to quantify this prior knowledge empirically via prior elicitation experiments \parencite{problang}.
 
 The assumed $\theta$ values are then iteratively passed down through the model. Given a particular value, the speaker-model can be specified:
 \begin{equation}
@@ -175,17 +175,17 @@ That is, the listener reasoned about how a rational speaker $P_{S_1}$ would beha
 P_{S_1}( u \mid s, \theta, c) \propto exp(\alpha \: log P_{L_0} (s \mid u, \theta, c))
 \end{equation}
 
-The $L_0$ again specifies a literal listener who interprets the adjective $u$ according to its literal semantics, assuming a particular comparison class $c$ and $\theta$:
+The $L_0$ again specified a literal listener who interpreted the adjective $u$ according to its literal semantics, assuming a particular comparison class $c$ and $\theta$:
 \begin{equation}
 P_{L_0}(s \mid u, \theta, c) \propto \llbracket u \rrbracket_{\theta} (s) \; P( s \mid c)
 \end{equation}  
-Importantly, $L_0$ now samples states according to a prior $P(s|c)$ specified by the received comparison class $c$, which integrates the comparison class into the literal semantics. 
+Importantly, $L_0$ sampled states according to a prior $P(s|c)$ specified by the received comparison class $c$, which integrated the comparison class into the literal semantics of the adjective. 
 
-Since the predictions of this model strongly depend on prior world knowledge, it is important how the property priors given different comparison classes are specified. \textcite{tessler2017warm} fixed superordinate property distributions as $\mathcal{N} (0, 1)$ and subordinate property distributions as $\mathcal{N}(\mu_{sub}, \sigma_{sub})$, inferring the paramters of subordinate distributions from experimental data. The comparison class prior $P(c)$ was approxiamted as empirical Google WebGram frequencies of usage of the respective comparison class labels. 
+Since the predictions of this model strongly depend on prior world knowledge, it is important how the property priors given different comparison classes were specified. \textcite{tessler2017warm} fixed superordinate property distributions as $\mathcal{N} (0, 1)$ and subordinate property distributions as $\mathcal{N}(\mu_{sub}, \sigma_{sub})$, inferring the paramters of subordinate distributions from experimental data. The comparison class prior $P(c)$ was approxiamted via empirical Google WebGram frequencies of usage of the respective comparison class labels. 
 
 \textcite{tessler2017warm} showed that the model captures human inferences discussed in Section \ref{2.4.} very well, confirming the role of world knowledge for comparison class inference. 
 % potential spot to integrate Dan Yurovsky's work 
-However, this model only considered the effect of world knowledge on comparison class inference, and focused on interpretation of simple underspecified utterances of the form 'He is tall'. In the following section, a further extension of previous RSA models is proposed, which accounts for more complex sentences containing a noun and integrates more sophisticated reasoning about several effects contributing to comparison class inference.  
+However, this model only considered the effect of world knowledge on comparison class inference, and focused on interpretation of simple underspecified utterances of the form 'He is tall'. In the following section, a further extension of previous RSA models is proposed, which accounts for more complex sentences containing a noun and integrates more sophisticated reasoning about several aspects contributing to comparison class inference.  
 
 \section{Reference and Predication in RSA}
 This section outlines a novel RSA model formalizing the reference-predication trade-off hypothesis.
