@@ -1,6 +1,11 @@
 *.aux
 *.bbl
 *.blg
+*.bcf
+*.dvi
+*.lof
+*.lot
+*.out
 *.fff
 *.ttt
 *.log
