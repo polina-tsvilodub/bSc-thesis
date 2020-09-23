@@ -1,6 +1,11 @@
 *.aux
 *.bbl
 *.blg
+*.bcf
+*.dvi
+*.lof
+*.lot
+*.out
 *.fff
 *.ttt
 *.log
@@ -9,3 +14,8 @@
 main.pdf
 *.run.xml
 *.toc
+experiments/E1-sentence-rating/node_modules/
+experiments/E2-N-production/exp1-subj/node_modules/
+experiments/E2-N-production/exp1-pred/node_modules/
+experiments/E3-cc-inference/node_modules/
+experiments/E4-direct-modification/node_modules/

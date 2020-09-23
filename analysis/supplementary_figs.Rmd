@@ -1,0 +1,28 @@
+---
+title: "Thesis Supplements"
+author: "Polina Tsvilodub"
+date: "9/15/2020"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+```
+
+``` {r}
+data_super <- rnorm(100000, 0, 1)
+data_low <- rnorm(100000, -1, 0.5)
+data_middle <- rnorm(100000, 0, 0.5)
+data_high <- rnorm(100000, 1, 0.5)
+data <- tibble (data_super, data_low, data_middle, data_high) %>% gather(key, val) %>% mutate(key = as.factor(key))
+```
+
+``` {r}
+ggplot(data) +
+  geom_density(aes(x = val, fill = key), alpha = 0.3) +
+  #geom_density(aes(x = data_low), fill = "yellow", alpha = 0.1) +
+  #geom_density(aes(x = data_middle), fill = "green", alpha = 0.1) +
+  #geom_density(aes(x = data_high), fill = "blue", alpha = 0.1) +
+  xlim(-3, 3) +
+  ggthemes::theme_few() 
+```

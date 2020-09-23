@@ -1,0 +1,307 @@
+---
+title: "Double Modification Pilot 6"
+author: "Polina Tsvilodub"
+date: "6/24/2020"
+output: github_document
+---
+
+# Summary
+
+This write-up presents the results of pilot 5 (n = 17) and pilot 6 (n = 36) of the direct modification comparison class studies. 
+
+The key design points of these pilots are:
+
+- there are two blocks, with four warm-up and four main trials each
+
+- in each block, two distinct basic-level contexts are used
+
+- only subordinate nouns and basic-level contexts are used 
+
+  - the four main trials consist of two critical trials (Subject N: That big Great Dane is a prize-winner; Predicate N: That prize-winner is a big Great Dane) 
+  
+  - and two 'filler' trials (Subject N: That pug is small; Predicate N: That's a small pug) (stimuli from CogSci E3)
+  
+  - within one block, for one basic context, one possible target appears in the critical trial (e.g. the Great Dane) and the other then appears in the filler trial (e.g. the pug)
+  
+- in the warm-up trials, participants see:
+
+  - labeled instances from a big and a small subordinate category belonging to different basic categories, which later appear in the contexts of main trials
+  
+  - they label other instances of the same subordinate categories themselves and are provided feedback. In the second pilot only, they also have to provide a common basic-level label. 
+  
+  - they see labeled instances of objects with features described by the second noun used in critical double-modification sentences: e.g., they see dogs with prize bows on them and read: "These dogs are prize-winners. Notice the bow on them."
+  
+  - they complete a comparison class paraphrase warm-up trial (in the first block only)
+  
+- the contexts in the critical main trials include two members of the same subordinate category as the target, and two members with the same additional feature (e.g., being a prize-winner). Crucially, in these contexts the referential utility of both nouns is equivalent.
+
+- the filler contexts have two members of the same subordinate category as the target
+
+We categorize the responses by checking whether they correspond to the critical subordinate noun or not (`match` vs `nonmatch`). That is, we count responses corresponding to the second noun in critical sentences as valid comparison classes (e.g. 'big compared to other prize-winners').  
+
+# Pilot 6 Details
+
+This pilot improves the ordering of warm-up trials (to being as presented above), the text, and the balancing of the trials compared to pilot 5. 
+For each participants, four out of possible five context are sampled randomly (dogs x 2, flowers, trees, birds).
+In one block, two distinct context are used, and the critical and the filler trial use one of the possible targets each (i.e., if the critical sentence describes the Great Dane in the dog context, the filler sentence in the same block describes the pug in the dog context). 
+The trial types (critical vs filler), syntax (subject vs predicate N), and size of the targets (big vs small) are balanced within-participant, resulting in 8 unique trials (4 per block).
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(lmerTest)
+library(brms)
+library(tidybayes)
+library(tidyboot)
+library(jsonlite)
+```
+
+``` {r, message=F, warning=F}
+data_pilot1 <- read_csv('~/Documents/Research/refpred/data/direct-modification/results_35_modXrefUt_pilot1.csv')
+
+data_pilot2 <- read_csv("~/Documents/Research/refpred/data/direct-modification/results_35_double-modXrefUt-pilot2.csv") %>% rename('submission_id' = workerid) %>% select(-startDate, -startTime) # has columns correct3 and response3 in the warmup pilots; they need to be classified separately
+
+```
+
+### Data Exclusion
+
+One participant was excluded for not reporting their native language. One is excluded for failing the comparison class warm-up trial, two are excluded for failing labeling trials (mostly due to typos).
+```{r clean}
+# exclude participants who report glitches
+data_pilot1 %>% select(submission_id, comments, problems) %>% distinct() %>% View()
+d_pilot1_woGlitches <- data_pilot1 
+
+# exclude non-native English speakers
+d_pilot1_woGlitches %>% distinct(languages) %>% View()
+
+d_pilot1_Native <- d_pilot1_woGlitches %>% 
+  filter(grepl("en", languages, ignore.case = T)) 
+
+# cleaning warm-up trials
+# comparison class paraphrase trial
+d_pilot1_failed_cc_warmup <- d_pilot1_Native %>% 
+  filter( trial_name == "comp_class_warmup") %>%
+  group_by(submission_id) %>% count() %>%
+  filter( n > 4 )
+d_pilot1_failed_label_warmup <- d_pilot1_Native %>%
+  filter( (trial_name == "warmup1") | (trial_name == "warmup2")) %>%
+  group_by(submission_id) %>%
+  filter(attempts > 4)
+d_pilot1_label_warmup_more1 <- d_pilot1_Native %>%
+  filter( (trial_name == "warmup1") | (trial_name == "warmup2")) %>%
+  group_by(submission_id) %>%
+  filter(attempts > 1) %>% ungroup() %>% 
+  select(submission_id, picture1, response1, picture2, response2, attempts)
+# check where and why people need more than one attempt 
+# d_Native %>% 
+#filter((trial_name == "warmup1") | (trial_name == "warmup2")) %>% #semi_join(., d_label_warmup_more1, by=c("submission_id")) %>% #select(submission_id, picture1, response1, picture2, response2, attempts) %>% View()
+d_pilot1_filter <- anti_join(d_pilot1_Native, d_pilot1_failed_cc_warmup, by = c("submission_id"))
+d_pilot1_filter <- anti_join(d_pilot1_filter, d_pilot1_failed_label_warmup, by = c("submission_id"))
+```
+
+```{r clean}
+# exclude participants who report glitches
+data_pilot2 %>% select(submission_id, comments, problems) %>% distinct() %>% View()
+d_pilot2_woGlitches <- data_pilot2 
+
+# exclude non-native English speakers
+d_pilot2_woGlitches %>% distinct(languages) %>% View()
+
+d_pilot2_Native <- d_pilot2_woGlitches %>% 
+  filter(grepl("en", languages, ignore.case = T)) 
+
+# cleaning warm-up trials
+# comparison class paraphrase trial
+d_pilot2_failed_cc_warmup <- d_pilot2_Native %>% 
+  filter( trial_name == "comp_class_warmup") %>%
+  group_by(submission_id) %>% count() %>%
+  filter( n > 4 )
+d_pilot2_failed_label_warmup <- d_pilot2_Native %>%
+  filter( (trial_name == "warmup1") | (trial_name == "warmup2")) %>%
+  group_by(submission_id) %>%
+  filter(attempts > 4)
+d_pilot2_label_warmup_more1 <- d_pilot2_Native %>%
+  filter( (trial_name == "warmup1") | (trial_name == "warmup2")) %>%
+  group_by(submission_id) %>%
+  filter(attempts > 1) %>% ungroup() %>% 
+  select(submission_id, picture1, response1, picture2, response2, attempts)
+
+d_pilot2_filter <- anti_join(d_pilot2_Native, d_pilot2_failed_cc_warmup, by = c("submission_id"))
+d_pilot2_filter <- anti_join(d_pilot2_filter, d_pilot2_failed_label_warmup, by = c("submission_id"))
+```
+
+``` {r}
+data <- rbind(
+  d_pilot1_filter %>% select(submission_id, item, syntax, adj, trial_type, trial_name, response, ref_np, target, target_size, trial_number, adj_cond, context_picture),
+  d_pilot2_filter %>% select(submission_id, item, syntax, adj, trial_type, trial_name, response, ref_np, target, target_size, trial_number, adj_cond, context_picture)
+)
+```
+
+``` {r csv vars}
+# write a csv with subject exclusion stats for TeX
+myvars <- list()
+
+myvars["nSubj"] <- (data_pilot1 %>% distinct(submission_id) %>% count() %>% .$n) + (data_pilot2 %>% distinct(submission_id) %>% count() %>% .$n)
+myvars["nExcludedTotal"] <- ((data_pilot1 %>% distinct(submission_id) %>% count() %>% .$n) + (data_pilot2 %>% distinct(submission_id) %>% count() %>% .$n)) -
+  ((d_pilot1_filter %>% distinct(submission_id) %>% count() %>% .$n) + (d_pilot2_filter %>% distinct(submission_id) %>% count() %>% .$n))
+myvars["nBugs"] <- 0 # subject excluded due to glitches
+myvars["nNonEN"] <- ((d_pilot1_woGlitches %>% distinct(submission_id) %>% count() %>% .$n) -
+  (d_pilot1_Native %>% distinct(submission_id) %>% count() %>% .$n)) + ((d_pilot2_woGlitches %>% distinct(submission_id) %>% count() %>% .$n) -
+  (d_pilot2_Native %>% distinct(submission_id) %>% count() %>% .$n))
+myvars["nFailedWarmUp"] <- ((d_pilot1_failed_label_warmup %>% distinct(submission_id) %>% count() %>% .$n %>% sum())) + ((d_pilot2_failed_label_warmup %>% distinct(submission_id) %>% count() %>% .$n %>% sum()))
+myvars["nFailedCCWarmUp"] <- ((d_pilot1_failed_cc_warmup %>% distinct(submission_id) %>% count() %>% .$n %>% sum())) + ((d_pilot2_failed_cc_warmup %>% distinct(submission_id) %>% count() %>% .$n %>% sum()))
+# myvars["nFailedMains"] = d_catch_main_counts %>% distinct(submission_id) %>% count() %>% .$n
+
+myvars <- as_tibble(myvars)
+write_csv(myvars, path = "../data/myvars-direct-mod.csv", col_names = T)
+```
+
+```{r}
+data %>% count(trial_type, syntax, target_size)
+```
+
+### Response Classification
+
+Data from n = 32 subjects is classified into responses *not matching* the critical subordinate N (i.e. basic-level, superordinate or feature-nouns) vs *matching* (i.e. subordinate) nouns. 6 (1 %) invalid responses where participants fail to establish correct reference or produce nonsense are excluded. 
+``` {r}
+d_modRef_main <- data %>% filter((trial_name == "custom_main_text1") |
+                                (trial_name == "custom_main_text2")) %>%
+  select(submission_id, trial_number, context_picture, response, target_size, adj, syntax, target, item, adj_cond, trial_type )
+```
+
+``` {r}
+d_modRef_main %>% distinct(response) %>% View()
+
+d_modRef_valid <- d_modRef_main %>% 
+  subset(., !(tolower(response) %in% c("height", "size", "height and weight", "distance", "wings", "width", "big", "human", "chichu", "everything", "thats a big eagle")))
+
+d_modRef_main_responseCat <- d_modRef_valid %>% 
+  mutate(response_cat = ifelse(
+    tolower(response) %in% 
+      c("flowers", "flower", "trees", "tree", "birds", "bird",  "dogs", "dog", "plants", "other trees", "animal", "other tree", "other birds", "nearby trees.", "animals", "gift flowers", "prize flowers", "prize dogs", "prize winning dogs", "rescue birds", "landmark", "gift", "prize winner", "rescues", "gifts", "prize-winners", "rescues",
+        "landmarks", "prizewinners", "prize-winnders", "egale", "prize winners",
+        "service-animals", "service dogs", "floral gifts", "service animals", "other landmarks", "prize winners"), 
+    "nonmatch", "match"
+  ),
+  response_num = ifelse(response_cat == "nonmatch", 1, 0)
+  )
+
+```
+
+### Proportion of responses not matching critical N by-syntax and by-trial type
+
+The proportion of responses which don't match the critical subordinate Ns is plotted against the syntax by-trial type.
+
+```{r plot, echo=FALSE}
+bar.width = 0.8
+d_modRef_main_responseCat %>%  
+  group_by(syntax, trial_type) %>%
+  tidyboot_mean(column = response_num) -> d_modRef_main_responseCat.bs
+
+d_modRef_main_responseCat.bs %>%
+  ungroup() %>%
+  mutate(syntax = factor(syntax, levels = c("subj", "pred"), 
+                         labels = c("Subject NP", "Predicate NP"))) %>%
+  ggplot(., aes(x=syntax, y = mean, ymin = ci_lower, ymax = ci_upper, fill=syntax)) +
+  geom_col(position = position_dodge(bar.width), width = bar.width,
+           alpha = 0.5, color="black", size = 1) +
+  geom_linerange(position = position_dodge(bar.width), size = 1) +
+  scale_y_continuous(limits = c(0, 1),
+                     breaks = c(0, 0.5, 1))+
+  scale_color_manual(labels = c("Subject NP\n(That big NP\nis a prize-winner)", "Predicate NP\n(That prize-winner\nis a big NP)")) +
+  scale_x_discrete(labels = c("Subject NP\n(That big NP\nis a prize-winner)", "Predicate NP\n(That prize-winner\nis a big NP)")) +
+  ylab("Proportion of non-matching responses") +
+  ggthemes::theme_few()+
+  xlab("") +
+  facet_grid(~trial_type)
+ggsave("../writing/images/double_mod.pdf", width = 7, height = 4.5)
+```
+
+### Comparison class types within critical trials
+
+Within critical trials, among non-matching responses there are basic-level and N2-matching comparison classes. We observe more N2 comparison classes when the N2 appears in the predicate position than in the subject position, consistent with a reference-predication trade-off hypothesis, as indicated by the syntactic position of the noun.
+``` {r}
+d_modRef_main_responseCat_by_Ntype <- d_modRef_main_responseCat %>%
+  mutate(
+    response_cat = ifelse(
+      tolower(response) %in% 
+        c("flowers", "flower", "trees", "tree", "birds", "bird",  "dogs", "dog", "plants", "other trees", "animal", "other tree", "other birds", "nearby trees.", "animals", "gift flowers", "prize flowers", "prize dogs", "prize winning dogs", "rescue birds",  "egale"
+        ), "basic",
+      ifelse( tolower(response) %in% c("landmark", "gift", "prize winner", "rescues", "gifts", "prize-winners", "rescues", "landmarks", "prizewinners", "prize-winnders", "prize winners",
+        "service-animals", "service dogs", "floral gifts", "service animals", "other landmarks", "prize winners"), "N2", "subordinate")
+    )
+  )
+```
+
+```{r}
+d_modRef_main_responseCat_by_Ntype %>% count(response_cat, syntax, trial_type)
+
+d_modRef_main_responseCat_by_Ntype %>% count(response_cat == "N2")
+
+46 / (325 + 46)
+```
+
+```{r}
+d_modRef_main_responseCat_by_Ntype %>%
+  mutate(syntax = factor(syntax, levels = c("subj", "pred"), labels = c("Subject NP", "Predicate NP"))) %>%
+ # filter(trial_type == "critical") %>%
+  ggplot(., aes(x = response_cat, fill = syntax)) +
+  geom_bar(alpha = 0.5, position = position_dodge(bar.width), width = bar.width, color = 'black', size = 1) +
+  facet_wrap(~trial_type) +
+  #ggtitle("Response category counts in critical trials")
+  ggthemes::theme_few()+
+  xlab("Response category counts") +
+  ylab("Response Category")
+ggsave("../writing/images/double_mod_resp_counts.pdf", width = 7, height = 4)
+```
+
+### Stats Pilot 6, critical trials 
+We fit a Bayesian regression model with maximal random effect structure on the *critical trial data* (n = 31), predicting the response type (non-matching vs. matching) by the syntax (subject vs predicate, deviation-coded).
+```{r}
+d_modRef_main_responseCat %>% 
+  mutate(syntax_sum = factor(syntax, levels = c("subj", "pred")),
+         trial_sum = factor(trial_type, levels = c("filler", "critical"))) -> d_modRef_main_responseCat
+
+contrasts(d_modRef_main_responseCat$syntax_sum) <- contr.sum(2)
+contrasts(d_modRef_main_responseCat$trial_sum) <- contr.sum(2)
+
+blm.full <- brm(
+  response_num ~ syntax_sum * trial_sum + (1 + syntax_sum * trial_sum | submission_id) + (1 + syntax_sum * trial_sum | target),
+  data = d_modRef_main_responseCat,
+  family = "bernoulli",
+  cores = 4,
+  iter = 3000, 
+  control = list(adapt_delta = 0.9)
+) 
+
+summary(blm.full)
+```
+``` {r}
+posterior_contrasts <- blm.full %>% 
+  spread_draws(b_Intercept, b_syntax_sum1, b_trial_sum1, `b_syntax_sum1:trial_sum1`) %>%
+    # extract contrasts of interest, especially effect of syntax by-trial
+    mutate(critical_subj = b_Intercept + b_syntax_sum1 - b_trial_sum1 - `b_syntax_sum1:trial_sum1`,
+           critical_pred = b_Intercept - b_syntax_sum1 - b_trial_sum1 + `b_syntax_sum1:trial_sum1`,
+           syntax_subj_v_pred = 2 * b_syntax_sum1,
+           trial_filler_v_critical = 2 * b_trial_sum1,
+           syntax_critical = critical_subj - critical_pred, # subject vs pred syntax
+           filler_subj = b_Intercept + b_syntax_sum1 + b_trial_sum1 + `b_syntax_sum1:trial_sum1`,
+           filler_pred = b_Intercept - b_syntax_sum1 + b_trial_sum1 - `b_syntax_sum1:trial_sum1`,
+           syntax_filler = filler_subj - filler_pred) %>% # subject vs predicate syntax
+    select(b_Intercept, b_syntax_sum1, b_trial_sum1, `b_syntax_sum1:trial_sum1`, critical_subj, critical_pred, syntax_critical, filler_subj, filler_pred, syntax_filler, syntax_subj_v_pred, trial_filler_v_critical) %>%
+    gather(key, val) %>%
+    group_by(key) %>%
+    # compute summary statistics
+    summarise(
+      mean = mean(val),
+      lower = quantile(val, probs = 0.025),
+      upper = quantile(val, probs = 0.975),
+      prob_gt_0 = mean(val > 0)*100,
+      prob_lt_0 = mean(val < 0)*100
+    ) 
+
+write_csv(
+  data.frame(posterior_contrasts) %>% 
+    mutate(Rowname = key), 
+          path = "../data/expt4_contrasts.csv"
+)
+```
