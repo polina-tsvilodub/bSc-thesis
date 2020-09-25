@@ -31,11 +31,11 @@ This exploratory analysis revealed results qualitatively and quantitatively very
 The main proposed reference-predication RSA model assumes a speaker utility function wherein the speaker chooses an utterance such that it optimally communicates a two-dimensional state of the world (i.e., the referent and its size):
 \begin{equation*}
 %\label{model1}
-U_{S_1} (u; r; s; cc; C) = log \: L_0 (s, r \mid u, C, cc) 
+U_{S_1} (u; r; s; cc; C) = log \: P_{L_0} (s, r \mid u, C, cc) 
 \end{equation*}
 However, based on previous models addressing multiple potential questions under discussion, there are other conceivable representations of the speaker utility \parencite[cf.][]{kao2014nonliteral, yoon2016talking}. For instance, another more complex option is to consider a QUD-based model wherein the speaker chooses utterances specifically communicating reference or predication only, or both goals, inspired by \textcite{kao2014nonliteral}. In that case, the speaker-utility is defined with respect to a certain QUD she has in mind: 
 \begin{equation*}
-U_{S_1} (u; r; s; cc; C; QUD) = log \: L_0(QUD(s, r) \mid u, C, cc)
+U_{S_1} (u; r; s; cc; C; QUD) = log \: P_{L_0} (QUD(s, r) \mid u, C, cc)
 \end{equation*} 
 where $QUD(.)$ projects the state of the world onto the subspace relevant for the particular question under discussion. That is, if the QUD is reference, the literal listener returns a distribution over referents, marginalizing over possible properties. The opposite happens when the QUD is predication. When the QUD is to communicate both aspects, $L_0$ returns a two-dimensional distribution over referents and properties. The latter possibility is equivalent to the main proposed model (Eq.~\ref{model1}). The $L_1$ would then jointly reasons about the intended meaning and the intended QUD: 
 \begin{equation*}
@@ -44,7 +44,7 @@ P_{L_1} (r, s, cc \mid u, C) \propto \sum_{QUD} P_{S_1} (u, cc \mid s, r, C, QUD
 
 Yet another possibility is to follow the idea proposed by \textcite{yoon2016talking}, representing the speaker as trying to simulataneously achieve a combination of the two informational goals (reference and predication) weighted by a free parameter $\phi$ representing referential weight of the sentence:
 \begin{equation*}
-U_{S_1} (u; r; s; cc; C; \phi) = log(\phi \: L_0(r \mid C) + (1 - \phi) \: L_0(s \mid cc))
+U_{S_1} (u; r; s; cc; C; \phi) = \phi \: log (P_{L_0}(r \mid C)) + (1 - \phi) \: log( P_{L_0}(s \mid cc))
 \end{equation*} 
 To compute the utility for one goal, the distribution returned by $L_0$ is marginalized over the other aspect of the state of the world (equivalently to the QUD-based model). The pragmatic listener then also reasons about the value of $\phi$:
 \begin{equation*}
