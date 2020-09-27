@@ -45,16 +45,6 @@ var thresholdPrior = cache(function(form){
   });
 });
 
-// a size prior for L1 for easier threshold generation
-var sizePrior = function(cc) {
-  Infer({
-    model: function() {
-      var size = categorical({vs: stateVals, ps: stateProbs(cc)})
-      return size
-    }
-  })
-
-}
 ///
 
 // joint state prior: the referent is sampled from the context
@@ -63,15 +53,14 @@ var sizePrior = function(cc) {
 // corresponding the sampled referent or the passed CC
 
 // the statePrior is different for L1 and L0:
-// while L1 knows the subordinate category of a referent he sampled (and the size is sampled from respective subordinate category)
-// L0 samples the size according to the CC passed (which can be sub OR super)
+// while L1 knows the subordinate category of a referent he sampled
+// and the size is sampled from respective subordinate category,
+// L0 samples the size according to the CC passed (which can be sub or super)
 
 var statePriorL1 = function( context) {
   Infer({
     model: function() {
       var ref = uniformDraw(context);
-      // account for the L0 / L1 distinction
-//       var size = categorical({vs: stateVals, ps: stateProbs(cc)});
       var size = categorical({vs: stateVals, ps: stateProbs(ref["kind"])});
       return {
         referent: ref["kind"],
@@ -85,7 +74,6 @@ var statePriorL1 = function( context) {
 // L0 state prior, relying on the passed CC only
 // aslo used for threshold sampling
 var statePriorL0 = function(cc, cont) {
-
   Infer({
     model: function() {
       var ref = uniformDraw(cont);
@@ -160,11 +148,9 @@ var UtterancePrior = cache(function(form, subordinate_label){
 // one joint L0, who computes the literal meaning of an utterance given a specific
 // context, utterance and comparison class intended by the speaker
 
-// NEW: the comparison class is not mapped deterministically to the predicate N anymore
+// IMPORTANT: the comparison class is not mapped deterministically to the predicate N
 // the listener is uncertain whether the N is the comparison class or whether it is the CC passed from S1
 // this allows to integrate the influence of the inferred CC variable value into predicate N sentences
-// it is *crucial* for getting the expected pattern of inference over the CC by L1 under this model
-// if the mapping is deterministic, L1 is uncertain about the CC (infers 0.5:0.5 distribution)
 var listener0 = function(utt, cc, context) {
   Infer({
     method: "enumerate",
@@ -177,7 +163,7 @@ var listener0 = function(utt, cc, context) {
       var npInPredicate = splitPred.length > 1;
 
       // add a soft constraint on whether the predicate N is the CC instead of hard-coding
-      // for p > 0.5 in the flip(), the size distribution inferred by L1 from pred-N sentences is tighter around N = CC
+      // for p > 0.5 in the flip(), the size distribution inferred by L1 from predicate-N sentences is tighter around N = CC
       var comparisonClass = npInPredicate ? flip(0.5) ? splitPred[1] : cc : cc
       // sample state
       var state = sample(statePriorL0(comparisonClass, context))
@@ -188,28 +174,38 @@ var listener0 = function(utt, cc, context) {
       var m = meaningFn(utt, state, threshold, splitPred[0])
       condition(m)
 
-      return {kind: state.referent.kind, id: state.referent.id, property: state.property} //{qudVal: qudVal}//, cc: c} //
+      return {kind: state.referent.kind, id: state.referent.id, property: state.property}
     }
   })
 }
 
 // display("That great dane is big, cc = greatdane")
 // viz.marginals(listener0(
-// //   {subject: "greatdane", predicate: "big"},
 //   {subject: "that", predicate: "big dog"},
 //   "greatdane", // if no NP in predicate?
 //   context["dog"]
 // ))
 // display("That great dane is big, cc = dog")
 // viz.marginals(listener0(
-// //   {subject: "greatdane", predicate: "big"},
 //   {subject: "that", predicate: "big dog"},
 //   "dog", // if no NP in predicate?
 //   context["dog"]
 // ))
 
+// display("That great dane is big, cc = greatdane")
+// viz.marginals(listener0(
+//   {subject: "greatdane", predicate: "big"},
+//   "greatdane", // if no NP in predicate?
+//   context["dog"]
+// ))
+// display("That great dane is big, cc = dog")
+// viz.marginals(listener0(
+//   {subject: "greatdane", predicate: "big"},
+//   "dog", // if no NP in predicate?
+//   context["dog"]
+// ))
 
-// NEW: in this model, the comparison class to be communicated is a *choice* made
+// in this model, the comparison class to be communicated is a *choice* made
 // by S1, given the target property she wants to bring across,
 // as opposed to CC being a listed variable passed from L1.
 // That is, the speaker *chooses* the bare adjective to mean either "big for a dog" or "big for a great dane"
@@ -218,18 +214,17 @@ var listener0 = function(utt, cc, context) {
 // the speaker chooses to say "That's a big Great Dane" more often when she intends
 // the basic-level relative to the subordinate CC
 // The speaker is assumed to maximize the basic utility of the utterance communicating the
-// joint state (as opposed to a mixture model for the separate goals)
+// joint state (referent and its property)
 var speaker1 = function(state, form, context, priorOnly){
   Infer({
     method: "enumerate",
     model: function() {
       var cc = uniformDraw([state.kind, "dog"]);
-//       print(cc)
       var utterance = sample(UtterancePrior(form, state.kind))
-//       print(utterance)
       var jL0 = listener0(utterance, cc, context)
 
       var full_utility = jL0.score({kind: state.kind, id: state.id, property: state.property})
+      // speaker optimality arbitrarily set to 3
       factor(priorOnly == "runPriorOnly" ? 0 : 3*full_utility)
       // return the utterance and the CC
       return {utterance, cc}
@@ -259,44 +254,27 @@ var speaker1 = function(state, form, context, priorOnly){
 //     context['dog'],
 //     false))
 
-// display("Marginal distributions:")
-// display("normal-sized great dane")
-// viz.marginals(speaker1(
-//     {kind: 'greatdane', id: "gd1", property: 1},
-//     "positive",
-//     context['dog'],
-//     false))
-
-
-// display("large-sized great dane")
-// viz.marginals(speaker1(
-//     {kind: 'greatdane', id: "gd1", property: 1.7},
-//     "positive",
-//     context['dog'],
-//     false))
-
 // the pragmatic listener model is then built following the lexical enrichment
-// model (Problang)
+// model (problang.org)
+// the speaker does not know anything about the target referent: it can be any referent from context
+// its property is sampled according to the respective subordinate category
 var pragmaticListener = function(utterance, form, cont) {
   Infer({
     method: "enumerate",
     model: function(){
-      // uncertainty about the comparison class (super vs. sub)
-//       var cc = uniformDraw([target_kind, "dog"])
-//       print(cc)
       var currentContext = context[cont]
       // L1 doesn't know the referent and its size
-//       var state = sample(statePriorL1( currentContext, target_kind))
       var state = sample(statePriorL1( currentContext))
-//       print(state)
+
+// uncertainty about the comparison class (basic vs. sub category of the sampled referent)
       var cc = uniformDraw([state.referent, "dog"])
-//       var state_obj = {kind: state.referent.kind, id: state.referent.id, property: state.property} // state.property
       var state_obj = {kind: state.referent, id: state.id, property: state.property}
-      //       print(state_obj)
+
       var S1 = speaker1(state_obj, form, currentContext, false);
       // compared the CC the listener is uncertain about to the CC the speaker decided on,
       // following the lexical enrichment model from problang
       factor(S1.score({utterance, cc}));
+
       return { comparisonClass: cc, referent: state.referent, property: state.property}
 
     }})
@@ -305,82 +283,72 @@ var pragmaticListener = function(utterance, form, cont) {
 // display("That greatdane is big")
 // viz.marginals(pragmaticListener(
 //   {subject: "greatdane", predicate: "big"},
-// //   "greatdane",
 //   "positive",
 //   "dog"))
 
 // display("That's a big greatdane")
 // viz.marginals(pragmaticListener(
 //   {subject: "that", predicate: "big greatdane"},
-// //   "greatdane",
 //   "positive",
 //   "dog"))
 
 // display("That dog is big")
 // viz.marginals(pragmaticListener(
 //   {subject: "dog", predicate: "big"},
-// //   "greatdane",
 //   "positive",
 //   "dog"))
 
-// display("that's a big dog")
+// display("That's a big dog")
 // viz.marginals(pragmaticListener(
 //   {subject: "that", predicate: "big dog"},
-// //   "greatdane",
 //   "positive",
 //   "dog"))
 
-// display("sub context")
+// display("subordinate context")
 // display("That dog is big")
 // viz.marginals(pragmaticListener(
 //   {subject: "dog", predicate: "big"},
-// //   "greatdane",
 //   "positive",
 //   "greatdane"))
 
-// display("That's a big great dane")
+// display("That's a big dog")
 // viz.marginals(pragmaticListener(
 //   {subject: "that", predicate: "big dog"},
-// //   "greatdane",
 //   "positive",
 //   "greatdane"))
 
 
+// plot marginal distribution over inferred proportion of basic comparison classes in basic context
 var conditions = [
-  {utt: {subject: "greatdane", predicate: "big"}, sub: "greatdane", form: "positive", context: "dog", text: "That Great Dane is big", noun: "greatdane"},
-  {utt: {subject: "that", predicate: "big greatdane"}, sub: "greatdane", form: "positive", context: "dog", text: "That's a big Great Dane", noun: "greatdane"},
-  {utt: {subject: "dog", predicate: "big"}, sub: "greatdane", form: "positive", context: "dog", text: "That dog is big", noun: "dog"},
-  {utt: {subject: "that", predicate: "big dog"}, sub: "greatdane", form: "positive", context: "dog", text: "That's a big dog", noun: "dog"}
+  {utt: {subject: "greatdane", predicate: "big"}, form: "positive", context: "dog", text: "That Great Dane is big", noun: "greatdane"},
+  {utt: {subject: "that", predicate: "big greatdane"}, form: "positive", context: "dog", text: "That's a big Great Dane", noun: "greatdane"},
+  {utt: {subject: "dog", predicate: "big"}, form: "positive", context: "dog", text: "That dog is big", noun: "dog"},
+  {utt: {subject: "that", predicate: "big dog"}, form: "positive", context: "dog", text: "That's a big dog", noun: "dog"}
 ]
 
 var L1predictions = map(function(stim){
   var L1posterior = pragmaticListener(stim.utt, stim.form, stim.context)
   return {
-//     utterance: JSON.stringify(stim.utt),
     utterance: stim.text,
- //   "noun": stim.noun,
-    "P(superordinate comparison class)": exp(marginalize(L1posterior, "comparisonClass").score("dog")),
- //   model: "L1"
+    "P(superordinate comparison class)": exp(marginalize(L1posterior, "comparisonClass").score("dog"))
   }
 }, conditions)
 
  viz.bar(L1predictions)
 
+// plot marginal distribution over inferred proportion of basic comparison classes in subordinate context
 var conditions_sub = [
-  {utt: {subject: "greatdane", predicate: "big"}, sub: "greatdane", form: "positive", context: "greatdane", text: "That Great Dane is big", noun: "greatdane"},
-  {utt: {subject: "that", predicate: "big greatdane"}, sub: "greatdane", form: "positive", context: "greatdane", text: "That's a big Great Dane", noun: "greatdane"},
-  {utt: {subject: "dog", predicate: "big"}, sub: "greatdane", form: "positive", context: "greatdane", text: "That dog is big", noun: "dog"},
-  {utt: {subject: "that", predicate: "big dog"}, sub: "greatdane", form: "positive", context: "greatdane", text: "That's a big dog", noun: "dog"}
+  {utt: {subject: "greatdane", predicate: "big"}, form: "positive", context: "greatdane", text: "That Great Dane is big", noun: "greatdane"},
+  {utt: {subject: "that", predicate: "big greatdane"}, form: "positive", context: "greatdane", text: "That's a big Great Dane", noun: "greatdane"},
+  {utt: {subject: "dog", predicate: "big"}, form: "positive", context: "greatdane", text: "That dog is big", noun: "dog"},
+  {utt: {subject: "that", predicate: "big dog"}, form: "positive", context: "greatdane", text: "That's a big dog", noun: "dog"}
 ]
 
 var L1predictions_sub = map(function(stim){
   var L1posterior = pragmaticListener(stim.utt, stim.form, stim.context)
   return {
-//     utterance: JSON.stringify(stim.utt),
     utterance: stim.text,
- //   "noun": stim.noun,
-    "P(superordinate comparison class)": exp(marginalize(L1posterior, "comparisonClass").score("dog")),
- //   model: "L1"
+    "P(superordinate comparison class)": exp(marginalize(L1posterior, "comparisonClass").score("dog"))
   }
 }, conditions_sub)
 

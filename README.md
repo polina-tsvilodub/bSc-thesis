@@ -1,15 +1,15 @@
 ### Supporting materials for the B.Sc. thesis "Inferring Comparison Classes of Gradable Adjectives: The Role of Informational Goals and Sentence Structure" by Polina Tsvilodub
 
-This repository contains materials relevant for the thesis; it is a subset of the project repository which can be found under [https://github.com/polina-tsvilodub/refpred](https://github.com/polina-tsvilodub/refpred). Our paper this thesis builds upon can be found [here](https://psyarxiv.com/n8eyj/).
+This repository contains materials relevant for the thesis; it is a subset of the project repository which can be found under [https://github.com/polina-tsvilodub/refpred](https://github.com/polina-tsvilodub/refpred). Our paper which this thesis builds upon can be found [here](https://psyarxiv.com/n8eyj/).
 
 This is how the repository is structured:
 
 ## Analysis
 This directory contains analysis scripts.
-* `prereg-syntax-rating-expt_v2.Rmd`: analysis of [Experiment 1](https://github.com/polina-tsvilodub/bSc-thesis/tree/master/experiments/E1-sentence-rating)
+* `prereg-syntax-rating-expt.Rmd`: analysis of [Experiment 1](https://github.com/polina-tsvilodub/bSc-thesis/tree/master/experiments/E1-sentence-rating)
 * `prereg-np-prod-expt.Rmd`: analysis of [Experiment 2](https://github.com/polina-tsvilodub/bSc-thesis/tree/master/experiments/E2-N-production)
 * `prereg-comp-class-infer-expt.Rmd`: analysis of [Experiment 3](https://github.com/polina-tsvilodub/bSc-thesis/tree/master/experiments/E3-cc-inference)
-* `direct-modification-pilots5-6.Rmd`: analysis of [Experiment 4](https://github.com/polina-tsvilodub/bSc-thesis/tree/master/experiments/E4-direct-modification)
+* `direct-modification-pilots.Rmd`: analysis of [Experiment 4](https://github.com/polina-tsvilodub/bSc-thesis/tree/master/experiments/E4-direct-modification)
 * `supplementary_fig.Rmd`: script used to generate figures for the text
 * `power_analysis.R`: script for the Bayesian power analysis for the main study of Experiment 4
 
@@ -37,7 +37,8 @@ The data is anonymized.
 The directory contains the WebPPL scripts for the *Refpred-RSA Model*
 
 * `main_refpred_model_speaker-CC-choice.wppl`: the main speaker-enrichment based Refpred-RSA model proposed in the thesis
-* `model3_utility_mixture.wppl`: potential alternative model based on utility mixture
+* `qud_refpred_model.wwpl`: potential alternative model based on reasoning about QUDs
+* `mixture_repred_model.wppl`: potential alternative model based on utility mixture
 
 ## Writing
-The directory contains the TeX-files of the thesis. The `images` directory contains the plots, the `R4Tex` directory contains csv-files of statistical analyses results reported in the thesis.  
+The directory contains the TeX-files of the thesis. The `images` directory contains the plots, the `R4Tex` directory contains csv-files with results of statistical analyses reported in the thesis.  
