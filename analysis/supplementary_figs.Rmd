@@ -20,9 +20,6 @@ data <- tibble (data_super, data_low, data_middle, data_high) %>% gather(key, va
 ``` {r}
 ggplot(data) +
   geom_density(aes(x = val, fill = key), alpha = 0.3) +
-  #geom_density(aes(x = data_low), fill = "yellow", alpha = 0.1) +
-  #geom_density(aes(x = data_middle), fill = "green", alpha = 0.1) +
-  #geom_density(aes(x = data_high), fill = "blue", alpha = 0.1) +
   xlim(-3, 3) +
   ggthemes::theme_few() 
 ```

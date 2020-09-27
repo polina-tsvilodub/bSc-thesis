@@ -11,8 +11,8 @@ library(readr)
 
 ``` {r}
 # read the data
-d_rate <- read_csv('./../../data/cogsci2020/results_27_syntax-rating-prereg-80_cleaned.csv')
-d_rate_second <- read_csv('./../../data/cogsci2020/results_27_syntax-rating-prereg-29_cleaned.csv')
+d_rate <- read_csv('./../data/E1_sentence_rating/results_27_syntax-rating-prereg-80_cleaned.csv')
+d_rate_second <- read_csv('./../data/E1_sentence_rating/results_27_syntax-rating-prereg-29_cleaned.csv')
 
 d_rate_second <- d_rate_second[!(names(d_rate_second) %in% c("worker_id", "hit_id", "assignment_id"))]
 #write_csv(d_rate_second, '../data/results_27_syntax-rating-prereg-29_cleaned.csv')
@@ -81,7 +81,7 @@ myvars["nFailedWarmUp"] = d_warmUp_catch_trials %>% distinct(submission_id) %>% 
 myvars["nFailedMains"] = d_catch_main_counts %>% distinct(submission_id) %>% count() %>% .$n
 
 myvars = as_tibble(myvars)
-#write_csv(myvars, path = "R_results_TeX/myvars.csv", col_names = T)
+#write_csv(myvars, path = "./../writing/R4Tex/myvars.csv", col_names = T)
 ```
 
 
@@ -110,8 +110,6 @@ d_rate_main_full <- d_rate_main %>%
   mutate(NP = ifelse(NP == "sub", "subordinate", "basic")) 
 
 #  mutate(order = ifelse(order == "sub_pred", "Subject-Predicate", "Predicate-Subject")) %>%
-
-
 ```
 
 ``` {r}
@@ -183,17 +181,6 @@ ggsave("figs/expt-syntax-rating-prereg-bars-revised.pdf", width = 5, height = 3.
 ```
 
 
-
-##### AMLaP2020 plot
-```{r}
-# to be used with the NP produciton data 
-library(gridExtra)
-grid.arrange(E1.fig, E2.fig, ncol=2)
-
-```
-
-
-
 ``` {r contrasts}
 # contrast coding: explicitly numeric, to avoid strange behavior of random effects estimation
 # subject NP -1, predicate NP 1
@@ -244,35 +231,6 @@ d_rate_main_full %>%
   ggtitle("Mean ratings by syntactic and NP condition in full data set")
 ```
 
-``` {r lmer full}
-# model on the full data set
-lm.fit.full <- lmer(response ~ syntax*NP + 
-                         (1 + syntax*NP | submission_id) + 
-                         (1 + syntax*NP  | item),
-                data = d_rate_main_full,
-                REML = F
-                )
-summary(lm.fit.full)
-```
-
-
-``` {r bootstrap}
-#random-effects parameter estimates: these are parameterized as the relative Cholesky factors of each random effect term
-myFun <- function(.) {c(beta =getME(., "theta"))}
-myFun_fixed <- function(.) {c(beta = getME(., "beta"))} 
-# bootstrap 
-boo1 <- bootMer(lm.fit.full, myFun, nsim = 10)
-head(as.data.frame(boo1))
-boo2 <- bootMer(lm.fit.full, myFun_fixed, 10)
-head(as.data.frame(boo2))
-# index is the position of the effect of interest in boo1$t0
-bCI.subj.Intercept <- boot::boot.ci(boo1, index=1,  type="norm")
-bCI.subj.Intercept
-bCI.item.Intercept <- boot::boot.ci(boo1, index=11,  type="norm")
-bCI.item.Intercept
-
-#lm.rating.boot <- modelr::bootstrap(lm.fit.full, 10)
-```
 
 ``` {r brm}
 # Bayesian model 
@@ -333,6 +291,7 @@ lm.fit.basic <- lmer(response ~ syntax +
                 data = d_rate_basic,
                 REML = F
                 )
+
 lm.fit.basic <- summary(lm.fit.basic)
 write_csv(data.frame(lm.fit.basic[["coefficients"]]) %>% 
             mutate(Rowname = row.names(.)), 
@@ -344,61 +303,4 @@ lm.fit.sub <- lmer(response ~ syntax +
                 REML = F
                 )
 summary(lm.fit.sub)
-```
-
-``` {r}
-# by - item
-d_rate_big <- d_rate_main_full %>% filter(target_size == "big")
-d_rate_small <- d_rate_main_full %>% filter(target_size == "small")
-lm.fit.big <- lmer(response ~ syntax*NP + item + 
-                         (1 + syntax*NP  || submission_id),  
-                        # (1 + syntax*NP || item),
-                data = d_rate_big,
-                REML = F
-                )
-summary(lm.fit.big)
-
-
-```
-
-``` {r plot by-item}
-bar.width = 0.8
-d_rate_main_full %>%
-  group_by(NP, syntax, item) %>% 
-  tidyboot_mean(column = response) -> d_rate_main_full.by.item
-
-d_rate_main_full.by.item %>%
-  ungroup() %>%
-  mutate(syntax = factor(ifelse(syntax == -1, "Subject", "Predicate")),
-         NP = factor(ifelse(NP == -1 , "basic", "subordinate"))) %>%
-  ggplot(., aes(x = syntax, y = mean, fill = NP, ymin = ci_lower, ymax = ci_upper)) +
-  geom_col(position = position_dodge(bar.width), 
-           width = bar.width, alpha = 0.3, color = 'black', size = 1) +
-  geom_linerange(position = position_dodge(bar.width), size = 1.2) +
-  ggthemes::theme_few()+
-  facet_wrap(~item) +
-  xlab("") + 
-  ylab("Sentence rating") +
-  #ggtitle("Experiment 1: Syntax Rating")
- ggsave("figs/expt-syntax-rating-by-item.pdf", width = 6, height = 3.5)
-#
-```
-``` {r}
-# by-size plot 
-d_rate_main_full %>%
-  group_by(syntax, NP, target_size) %>%
-  tidyboot_mean(column = response) %>%
-  ungroup() %>%
-  mutate(syntax = factor(ifelse(syntax == -1, "Subject", "Predicate")),
-         NP = factor(ifelse(NP == -1 , "basic", "subordinate"))) %>%
-  ggplot(., aes(x = syntax, y = mean, fill = NP, ymin = ci_lower, ymax = ci_upper)) +
-  geom_col(position = position_dodge(bar.width), 
-           width = bar.width, alpha = 0.3, color = 'black', size = 1) +
-  geom_linerange(position = position_dodge(bar.width), size = 1.2) +
-  ggthemes::theme_few()+
-  facet_wrap(~target_size) +
-  xlab("") + 
-  ylab("Sentence rating") +
-  #ggtitle("Experiment 1: Syntax Rating")
- ggsave("figs/expt-syntax-rating-by-size.pdf", width = 6, height = 3.5)
 ```

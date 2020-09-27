@@ -11,7 +11,7 @@ This directory contains analysis scripts.
 * `prereg-comp-class-infer-expt.Rmd`: analysis of [Experiment 3](https://github.com/polina-tsvilodub/bSc-thesis/tree/master/experiments/E3-cc-inference)
 * `direct-modification-pilots.Rmd`: analysis of [Experiment 4](https://github.com/polina-tsvilodub/bSc-thesis/tree/master/experiments/E4-direct-modification)
 * `supplementary_fig.Rmd`: script used to generate figures for the text
-* `power_analysis.R`: script for the Bayesian power analysis for the main study of Experiment 4
+* `direct-modification_power_write-up.Rmd`: script for the Bayesian power analysis for the main study of Experiment 4
 
 ## Experiments
 
@@ -30,7 +30,7 @@ The data is anonymized.
 * `E1_sentence_rating`: contains raw data of Experiment 1
 * `E2_N_production`: contains raw data from the subject-N and predicate-N conditions of Experiment 2
 * `E3_cc_inference`: contains raw data of Experiment 3
-* `E4_direct_mod`: contains the raw and cleaned data files from the two pilot studies reported for Experiment 4
+* `E4_direct_mod`: contains the raw and cleaned data files from the two pilot studies reported for Experiment 4. `results_all_pilots_tidy.csv` contains tidy data used for the power analysis.
 
 ## Model
 

@@ -152,7 +152,7 @@ myvars["nFailedCCWarmUp"] <- ((d_pilot1_failed_cc_warmup %>% distinct(submission
 # myvars["nFailedMains"] = d_catch_main_counts %>% distinct(submission_id) %>% count() %>% .$n
 
 myvars <- as_tibble(myvars)
-write_csv(myvars, path = "../data/myvars-direct-mod.csv", col_names = T)
+#write_csv(myvars, path = "../data/R4Tex/myvars-direct-mod.csv", col_names = T)
 ```
 
 ```{r}
@@ -275,6 +275,7 @@ blm.full <- brm(
 
 summary(blm.full)
 ```
+
 ``` {r}
 posterior_contrasts <- blm.full %>% 
   spread_draws(b_Intercept, b_syntax_sum1, b_trial_sum1, `b_syntax_sum1:trial_sum1`) %>%
@@ -302,6 +303,6 @@ posterior_contrasts <- blm.full %>%
 write_csv(
   data.frame(posterior_contrasts) %>% 
     mutate(Rowname = key), 
-          path = "../data/expt4_contrasts.csv"
+          path = "../writing/R4Tex/expt4_contrasts.csv"
 )
 ```
